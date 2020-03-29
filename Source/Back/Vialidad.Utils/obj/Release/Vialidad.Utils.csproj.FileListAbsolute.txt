@@ -1,0 +1,11 @@
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\Vialidad.Utils.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\Vialidad.Utils.pdb
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\NPOI.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\NPOI.OOXML.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\NPOI.OpenXml4Net.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\bin\Release\NPOI.OpenXmlFormats.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\obj\Release\Vialidad.Utils.csprojAssemblyReference.cache
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\obj\Release\Vialidad.Utils.csproj.CopyComplete
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\obj\Release\Vialidad.Utils.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Utils\obj\Release\Vialidad.Utils.pdb

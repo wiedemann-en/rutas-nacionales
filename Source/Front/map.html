@@ -1,0 +1,575 @@
+<html>
+	<head>
+		<title>Estado Rutas Nacionales Argentina</title>
+		<meta name="author" content="Esteban Nicolas Wiedemann">
+		<meta name="description" content="Información sobre el estado general de las rutas nacionales de argentina">
+		<meta name="robots" content="index, follow">
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		
+		<script src="libs/jquery-3.3.1.min.js"></script>
+		<!-- <script src="libs/leaflet-1.3.4/leaflet.js"></script> -->
+		<script src="libs/leaflet-1.4.0/leaflet.js"></script>
+		<script src="libs/mapbox-gl.js"></script>
+		<script src="libs/leaflet-mapbox-gl.js"></script>
+		<script src="libs/leaflet.textpath.js"></script>
+		<script src="libs/leaflet.geometryutil.js"></script>
+		<script src="libs/leaflet-routing-machine-3.1.1/leaflet-routing-machine.js"></script>
+		<!-- <script src="libs/leaflet-routing-machine-3.2.7/leaflet-routing-machine.js"></script> -->
+		<script src="libs/leaflet.multioptionspolyline.js"></script>
+		<script src="libs/popper.min.js"></script>
+		<script src="libs/tooltip.min.js"></script>
+		<script src="libs/bootstrap-3.3.7/bootstrap.min.js"></script>
+		<script src="libs/bootstrap-multiselect.js"></script>
+		<script src="libs/logic.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="css/site.css" />
+		<link rel="stylesheet" type="text/css" href="libs/leaflet-1.3.4/leaflet.css">
+		<link rel="stylesheet" type="text/css" href="css/mapbox-gl.css" />
+		<link rel="stylesheet" type="text/css" href="libs/leaflet-routing-machine-3.2.7/leaflet-routing-machine.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css">
+	</head>
+	<body style="background-color: #F4F8F9;">
+		<div id="modal-segment-info" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Información Tramo</h4>
+					</div>
+					<div class="modal-body">
+						<div class="row">
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Provincia: </span>
+								<span id="segment-provincia"></span>
+							</div>
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Ruta: </span>
+								<span id="segment-ruta"></span>
+							</div>
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Tramo: </span>
+								<span id="segment-tramo"></span>
+							</div>
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Calzada: </span>
+								<span id="segment-calzada"></span>
+							</div>
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Detalle: </span>
+								<span id="segment-detalle"></span>
+							</div>
+							<div class="col-xs-12">
+								<span style="font-weight: bold;">Observaciones: </span>
+								<span id="segment-observaciones"></span>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="row">
+							<div class="col-xs-12">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="loading" id="div-loading"></div>
+		
+		
+		
+		
+		<div class="container-full" id="div-app">
+			<div class="col-md-4">
+				<ul class="nav nav-tabs" style="border-bottom: 1px solid #ddd;">
+					<li id="li-tab-busqueda-provincia" class="active" style="width: 50%;">
+						<a href="#div-tab-busqueda-provincia" data-toggle="tab" style="margin-right: 0px; border-bottom-color: #ddd;">Búsqueda Por Provincia</a>
+					</li>
+					<li id="li-tab-busqueda-ruta" style="width: 50%;">
+						<a href="#div-tab-busqueda-ruta" data-toggle="tab" style="margin-right: 0px; border-bottom-color: #ddd;">Búsqueda Por Ruta</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div id="div-tab-busqueda-provincia" class="tab-pane fade in active">
+						<div class="panel panel-base" style="border-radius: 0px;">
+							<div class="panel-body">
+								<div class="form-group">
+									<select id="busqueda-1-provincia" multiple="multiple" disabled="disabled"></select>
+								</div>
+								<div class="form-group" style="margin-bottom: 0px;">
+									<select id="busqueda-1-ruta" multiple="multiple" disabled="disabled"></select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="div-tab-busqueda-ruta" class="tab-pane fade">
+						<div class="panel panel-base" style="border-radius: 0px;">
+							<div class="panel-body">
+								<div class="form-group">
+									<select id="busqueda-2-ruta" multiple="multiple" disabled="disabled"></select>
+								</div>
+								<div class="form-group" style="margin-bottom: 0px;">
+									<select id="busqueda-2-provincia" multiple="multiple" disabled="disabled"></select>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-base" id="div-map-info">
+					<div class="panel-body">
+						<div class="form-group">
+							<div>
+								<table class="table table-hover">
+									<tbody id="tbody-map-info">
+									</tbody>
+								</table>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8">
+				<div id="div-map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative; outline: none;">
+					<div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, -173px, 0px);">
+						<div class="leaflet-pane leaflet-tile-pane"></div>
+						<div class="leaflet-pane leaflet-shadow-pane"></div>
+						<div class="leaflet-pane leaflet-tooltip-pane"></div>
+						<div class="leaflet-pane leaflet-popup-pane"></div>
+						<div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(5376px, 9600px, 0px) scale(32);"></div>
+					</div>
+					<div class="leaflet-control-container">
+						<div class="leaflet-top leaflet-left">
+							<div class="leaflet-control-zoom leaflet-bar leaflet-control">
+								<a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a>
+								<a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">-</a>
+							</div>
+						</div>
+						<div class="leaflet-top leaflet-right">
+							<div class="leaflet-routing-container leaflet-bar leaflet-control">
+								<div class="leaflet-routing-alternatives-container">
+									<div class="leaflet-routing-alt"></div>
+								</div>
+							</div>
+						</div>
+						<div class="leaflet-bottom leaflet-left"></div>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		<script>
+			$(document).ready(function() {
+			
+				var settings = {
+					urlBase: 'http://localhost:1402/',
+					urlProvincias:  'http://localhost:1402/provincias/',
+					urlRutas: 'http://localhost:1402/rutas/',
+					urlTramos: 'http://localhost:1402/tramos/'
+				};				
+				var dicts = { 
+					'provincias': {}, 
+					'rutas': {} 
+				};
+				var tramosResult = [];
+			
+				function isEmpty (sValue) {
+					if (sValue === undefined) {
+						return true;
+					}
+					if (sValue === null) {
+						return true;
+					}
+					if (sValue === '') {
+						return true;
+					}
+					return false;
+				}
+			
+				function buildOption(sValue, sLabel) {
+					var option = {
+						label: sLabel,
+						value: sValue
+					};
+					return option;
+				}
+			
+				function showSpinner() {
+					$('#div-app').hide();
+					$('#div-loading').show();
+					
+				}
+			
+				function hideSpinner() {
+					$('#div-loading').hide();
+					$('#div-app').show();
+				}
+			
+				function callBackSegmentClick(segmentInfo) {
+					$('#segment-provincia').text(segmentInfo.Provincia);
+					$('#segment-ruta').text(segmentInfo.Ruta);
+					$('#segment-tramo').text(segmentInfo.Tramo);
+					$('#segment-calzada').text(segmentInfo.Calzada);
+					$('#segment-detalle').text(segmentInfo.Detalle);
+					$('#segment-observaciones').text(segmentInfo.Observaciones);
+					$('#modal-segment-info').modal('show');
+				}
+			
+				function getServerLists(sUrl, dictKey) {
+					$.ajax({
+						type: 'GET',
+						url: sUrl,
+						data: {},
+						success: function(response) {
+							if (response.Status === "SUCCESS") {
+								if ($.isArray(response.Data)) {
+									$.each(response.Data, function(index, item) {
+										dicts[dictKey][item.Id] = item;
+									});
+								}
+							}
+						},
+						error: function() {
+							console.log("No se ha podido obtener la información.");
+						}
+					});	
+				}
+			
+				function getServerFilters(sComponentId, sUrl, fnCallbackSuccess) {
+					$('#' + sComponentId).prop('disabled', 'disabled');
+					$.ajax({
+						type: 'GET',
+						url: sUrl,
+						data: {},
+						success: function(response) {
+							if (response.Status === "SUCCESS") {
+								if ($.isArray(response.Data)) {
+									var options = [];
+									$.each(response.Data, function(index, item) {
+										options.push(buildOption(item.Id, item.Nombre));
+									});
+									$('#' + sComponentId).multiselect('dataprovider', options);
+									$('#' + sComponentId).prop('disabled', false);
+								}
+								if (fnCallbackSuccess != null) { 
+									fnCallbackSuccess(); 
+								}
+							}
+						},
+						error: function() {
+							console.log("No se ha podido obtener la información.");
+						}
+					});					
+				}
+			
+				function getTramos() {
+					showSpinner();
+					$.ajax({
+						type: 'GET',
+						url: settings.urlTramos + 'all',
+						data: { },
+						success: function(response) {
+							if (response.Status === "SUCCESS") {
+								tramosResult = response.Data;
+								for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+									MapHelper.addRoutingControl(tramosResult[iPos], callBackSegmentClick);
+									var infoHtml = buildHtmlTramo(tramosResult[iPos]);
+									$('#tbody-map-info').append(infoHtml);
+								}
+							}
+							hideSpinner();
+						},
+						error: function() {
+							console.log("No se ha podido obtener la información.");
+							tramosResult = [];
+							hideSpinner();
+						}
+					});					
+				}
+			
+				function generateMultiselectComponent(sTitle, sComponentId, fnOnChange, fnOnSelectAll, fnOnDeselectAll, includeSelectAllOption) {
+					$('#' + sComponentId).multiselect({
+						enableFiltering: true,
+						//buttonClass: 'btn-primary btn-lg',
+						buttonWidth: '100%',
+						onChange: function(option, checked) {
+							if (fnOnChange != null) { 
+								fnOnChange('onChange', option, checked); 
+							}
+						},
+						onSelectAll: function() {
+							if (fnOnSelectAll != null) { 
+								fnOnSelectAll('onSelectAll', null, null); 
+							}
+						},
+						onDeselectAll: function() {
+							if (fnOnDeselectAll != null) { 
+								fnOnDeselectAll('onDeselectAll', null, null); 
+							}
+						},
+						maxHeight: 400,
+						includeSelectAllOption: includeSelectAllOption,
+						enableCaseInsensitiveFiltering: true,
+						includeFilterClearBtn: false,
+						filterPlaceholder: 'Buscar',
+						nonSelectedText: '[Seleccione ' + sTitle + ']',
+						nSelectedText: 'seleccionadas',
+						allSelectedText: 'Todas seleccionadas',
+						selectAllText: ' Seleccionar todas',
+						disableIfEmpty: true,
+						buttonContainer: '<div class="btn-group"></div>',
+						buttonClass: '',
+						templates: {
+							button: '<button type="button" id="btn-' + sComponentId + '" class="multiselect dropdown-toggle btn btn-default" data-toggle="dropdown" title="None selected" aria-expanded="true"><span class="multiselect-selected-text">None selected</span>'
+						}						
+					});
+				}
+			
+				function buildHtmlTramo(infoTramo) {
+					var referenciasHtml = '';
+					$.each(infoTramo.Referencias, function(index, itemReferencia) {
+						referenciasHtml += '<img src="' + itemReferencia.ImagePath + 
+							'" alt="' + itemReferencia.ImageDesc + 
+							'" title="' + itemReferencia.ImageDesc + 
+							'" width="' + itemReferencia.ImageWidth + 
+							'" height="' + itemReferencia.ImageHeight + 
+							'" border="0" /> '; 
+					});
+					
+					var infoHtml = 
+						'<tr id="tr-map-info-' + infoTramo.IdTramo + '"class="tr-map-info" style="display: none;">' + 
+							'<td>' + 
+								'<div>' +
+									'<span class="span-map-info"><b>Provincia: </b>' + infoTramo.Provincia + ' - <b>Ruta: </b>' + infoTramo.Ruta + '</span>' +
+								'</div>' +
+								'<div>' +
+									'<span class="span-map-info"><b>Tramo: </b>' + infoTramo.Tramo + '</span>' +
+								'</div>' +
+								'<div>' +
+									'<span class="span-map-info" style="font-style: italic;"><b>Calzada: </b>' + infoTramo.Calzada + '</span>' +
+								'</div>' +
+								'<div>' +
+									'<span class="span-map-info" style="color: ' + infoTramo.ColorFechaActualizacion + ';"><b>Fecha Informe: </b>' + infoTramo.FechaActualizacion + '</span>' +
+								'</div>' +
+								'<div>' +
+									referenciasHtml + 
+								'</div>' +
+								'<div class="btn-map-info-more">' +
+									'<button id="btn-info-tramo-' + infoTramo.IdTramo + '" type="button" class="btn btn-info btn-sm collapsed" data-toggle="collapse" data-target="#div-info-tramo-' + infoTramo.IdTramo + '" aria-expanded="false">(+) Información</button>' +
+								'</div>' +
+								'<div id="div-info-tramo-' + infoTramo.IdTramo + '" class="panel-collapse collapse">' +
+									'<span class="span-map-info"><b>Detalle: </b>' + infoTramo.Detalle + '</span>' +
+									'<br />' +
+									'<span class="span-map-info"><b>Observaciones: </b>' + infoTramo.Observaciones + '</span>' +
+								'</div>' +
+							'</td>';
+						'</tr>';
+					return infoHtml;
+				}
+				
+				function printMap(keys, adjustZoom) {
+					$('#div-map-info').hide();
+					MapHelper.showRoutingControls(keys);
+					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+						$('#tr-map-info-' + tramosResult[iPos].IdTramo).hide();
+					}
+					for	(var iPos=0; iPos<keys.length; iPos++) {
+						$('#tr-map-info-' + keys[iPos]).show();
+					}
+					$('#div-map-info').show();
+					if (adjustZoom) {
+						MapHelper.setAutomaticView();
+					}
+				}
+
+				function cleanFilters() {
+					$('#busqueda-1-provincia').multiselect('deselect', $('#busqueda-1-provincia').val());
+					$('#busqueda-1-provincia').multiselect('select', '');
+					$('#busqueda-1-ruta').multiselect('dataprovider', []);
+
+					$('#busqueda-2-ruta').multiselect('deselect', $('#busqueda-2-ruta').val());
+					$('#busqueda-2-ruta').multiselect('select', '');
+					$('#busqueda-2-provincia').multiselect('dataprovider', []);
+					
+					$('#div-map-info').hide();
+					
+					MapHelper.hideRoutingControls();
+					MapHelper.resetView();
+				}
+
+				function initialize() {
+					generateMultiselectComponent('Provincia', 'busqueda-1-provincia', busqueda1ProvinciaOnChange, null, null, false);
+					generateMultiselectComponent('Ruta', 'busqueda-1-ruta', busqueda1RutaOnChange, busqueda1RutaOnChange, busqueda1RutaOnChange, true);
+					generateMultiselectComponent('Ruta', 'busqueda-2-ruta', busqueda2RutaOnChange, null, null, false);
+					generateMultiselectComponent('Provincia', 'busqueda-2-provincia', busqueda2ProvinciaOnChange, busqueda2ProvinciaOnChange, busqueda2ProvinciaOnChange, true);
+					getServerFilters('busqueda-1-provincia', settings.urlProvincias + 'all', null);
+					getServerFilters('busqueda-2-ruta', settings.urlRutas + 'all', null);
+					getServerLists(settings.urlProvincias + 'allinfo', 'provincias');
+					getServerLists(settings.urlRutas + 'allinfo', 'rutas');
+					
+					MapHelper.init('div-map', {});
+					getTramos();
+					hideSpinner();
+				}
+			
+				var busqueda1ProvinciaOnChange = function(event, option, checked) {
+                    var values = [];
+                    $('#busqueda-1-provincia option').each(function() {
+                        if ($(this).val() !== option.val()) {
+                            values.push($(this).val());
+                        }
+                    });
+                    $('#busqueda-1-provincia').multiselect('deselect', values);					
+					var selectedValue = option.val();
+					var url = settings.urlRutas + 'all';
+					url = (!isEmpty(selectedValue)) ? url + '/' + selectedValue : url;
+					getServerFilters('busqueda-1-ruta', url, function () {
+						$('#busqueda-1-ruta').multiselect('selectAll', false);
+					});
+					
+					let keys = [];
+					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+						if (tramosResult[iPos].IdProvincia == selectedValue) {
+							keys.push(tramosResult[iPos].IdTramo);
+						}
+					}
+					if (keys.length > 0) {
+						printMap(keys, true);
+					}
+					else {
+						MapHelper.hideRoutingControls();
+						MapHelper.resetView();
+					}
+
+					$('#btn-busqueda-1-provincia').click();
+				};
+				
+				var busqueda1RutaOnChange = function(event, option, checked) {
+					let keys = [];
+					$('#busqueda-1-ruta option:selected').map(function(a, item) { 
+						let idProvincia = $('#busqueda-1-provincia').val();
+						for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+							if ((tramosResult[iPos].IdProvincia == idProvincia) && (tramosResult[iPos].IdRuta == item.value)) {
+								keys.push(tramosResult[iPos].IdTramo);
+							}
+						}
+					});
+					if (keys.length > 0) {
+						let adjustZoom = (event == 'onSelectAll');
+						printMap(keys, adjustZoom);
+					}
+					else {
+						MapHelper.hideRoutingControls();
+						MapHelper.resetView();
+					}
+				};
+
+				var busqueda2RutaOnChange = function(event, option, checked) {
+                    var values = [];
+                    $('#busqueda-2-ruta option').each(function() {
+                        if ($(this).val() !== option.val()) {
+                            values.push($(this).val());
+                        }
+                    });
+                    $('#busqueda-2-ruta').multiselect('deselect', values);					
+					$('#busqueda-2-ruta').multiselect('refresh')
+					var selectedValue = option.val();
+					var url = settings.urlProvincias + 'all';
+					url = (!isEmpty(selectedValue)) ? url + '/' + selectedValue : url;
+					getServerFilters('busqueda-2-provincia', url, function () {
+						$('#busqueda-2-provincia').multiselect('selectAll', false);
+					});
+					
+					let keys = [];
+					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+						if (tramosResult[iPos].IdRuta == selectedValue) {
+							keys.push(tramosResult[iPos].IdTramo);
+						}
+					}
+					if (keys.length > 0) {
+						printMap(keys, true);
+					}
+					else {
+						MapHelper.hideRoutingControls();
+						MapHelper.resetView();
+					}
+					
+					$('#btn-busqueda-2-ruta').click();
+				};
+				
+				var busqueda2ProvinciaOnChange = function(event, option, checked) {
+					let keys = [];
+					$('#busqueda-2-provincia option:selected').map(function(a, item) { 
+						let idRuta = $('#busqueda-2-ruta').val();
+						for	(var iPos=0; iPos<tramosResult.length; iPos++) {
+							if ((tramosResult[iPos].IdRuta == idRuta) && (tramosResult[iPos].IdProvincia == item.value)) {
+								keys.push(tramosResult[iPos].IdTramo);
+							}
+						}
+					});
+					if (keys.length > 0) {
+						let adjustZoom = (event == 'onSelectAll');
+						printMap(keys, adjustZoom);
+					}
+					else {
+						MapHelper.hideRoutingControls();
+						MapHelper.resetView();
+					}
+				};
+
+				$('#li-tab-busqueda-provincia').click(function(event) {
+					cleanFilters();
+				});
+
+				$('#li-tab-busqueda-ruta').click(function(event) {
+					cleanFilters();
+				});
+				
+				//mouseover
+				$('#tbody-map-info').on('mouseenter', '.tr-map-info', function() {
+					var id =  parseInt($(this).attr('id').split('-').pop());
+					MapHelper.markRoutingControl(id);
+				});
+				
+				//mouseout
+				$('#tbody-map-info').on('mouseleave', '.tr-map-info', function() {
+					var id =  parseInt($(this).attr('id').split('-').pop());
+					MapHelper.unmarkRoutingControl(id);
+				});
+				
+				//click
+				$('#tbody-map-info').on('click', '.tr-map-info', function() {
+					var id =  parseInt($(this).attr('id').split('-').pop());
+					if (!MapHelper.controlIsMarked(id)) {
+						MapHelper.unmarkAllRoutingControl();
+						MapHelper.markRoutingControl(id);
+					}
+				});
+				
+				$('#tbody-map-info').on('click', '.btn-map-info-more', function() {
+					var parentTr = $(this).closest('tr');
+					var parentDiv = $(this).closest('div');
+					var id =  parseInt($(parentTr).attr('id').split('-').pop());
+					var btnElement = $('#btn-info-tramo-' + id);
+					var ariaExpanded = btnElement.attr('aria-expanded');
+					if (ariaExpanded == 'true') {
+						btnElement.text('(+) Información');
+						btnElement.removeClass('btn-success');
+						btnElement.addClass('btn-info');
+						parentDiv.css('padding-bottom', '0px');
+					}
+					else {
+						btnElement.text('(-) Información');
+						btnElement.removeClass('btn-info');
+						btnElement.addClass('btn-success');
+						parentDiv.css('padding-bottom', '5px');
+					}
+				});
+				
+				initialize();
+			});		
+		</script>
+	</body>
+</html>

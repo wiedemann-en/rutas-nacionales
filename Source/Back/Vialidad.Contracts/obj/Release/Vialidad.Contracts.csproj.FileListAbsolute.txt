@@ -1,0 +1,8 @@
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\bin\Release\Vialidad.Contracts.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\bin\Release\Vialidad.Contracts.pdb
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\bin\Release\Newtonsoft.Json.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\bin\Release\Newtonsoft.Json.xml
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\obj\Release\Vialidad.Contracts.csprojAssemblyReference.cache
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\obj\Release\Vialidad.Contracts.csproj.CopyComplete
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\obj\Release\Vialidad.Contracts.dll
+C:\Source\PoC\Process\Vialidad\Vialidad.Contracts\obj\Release\Vialidad.Contracts.pdb

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78996B74-5EF7-4017-8D6C-8702BC3DAA75}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vialidad.Model</RootNamespace>
+    <AssemblyName>Vialidad.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DbMapping\CalzadaEntityMap.cs" />
+    <Compile Include="DbMapping\LogEntityMap.cs" />
+    <Compile Include="DbMapping\ProvinciaEntityMap.cs" />
+    <Compile Include="DbMapping\ReferenciaEntityMap.cs" />
+    <Compile Include="DbMapping\RutaEntityMap.cs" />
+    <Compile Include="DbMapping\TramoEntityMap.cs" />
+    <Compile Include="DbModel\CalzadaEntity.cs" />
+    <Compile Include="DbModel\LogEntity.cs" />
+    <Compile Include="DbModel\ProvinciaEntity.cs" />
+    <Compile Include="DbModel\ReferenciaEntity.cs" />
+    <Compile Include="DbModel\RutaEntity.cs" />
+    <Compile Include="DbModel\TramoEntity.cs" />
+    <Compile Include="Migrations\201811231256442_V01.cs" />
+    <Compile Include="Migrations\201811231256442_V01.Designer.cs">
+      <DependentUpon>201811231256442_V01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811292035320_V02.cs" />
+    <Compile Include="Migrations\201811292035320_V02.Designer.cs">
+      <DependentUpon>201811292035320_V02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812041531502_V03_Log.cs" />
+    <Compile Include="Migrations\201812041531502_V03_Log.Designer.cs">
+      <DependentUpon>201812041531502_V03_Log.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812061925026_V03_Referencia.cs" />
+    <Compile Include="Migrations\201812061925026_V03_Referencia.Designer.cs">
+      <DependentUpon>201812061925026_V03_Referencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812071940550_V05_Referencia_Fixs.cs" />
+    <Compile Include="Migrations\201812071940550_V05_Referencia_Fixs.Designer.cs">
+      <DependentUpon>201812071940550_V05_Referencia_Fixs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812111825378_V06_Tramo_FixDateTime.cs" />
+    <Compile Include="Migrations\201812111825378_V06_Tramo_FixDateTime.Designer.cs">
+      <DependentUpon>201812111825378_V06_Tramo_FixDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902221535561_201812111825378_V07_Tramo_JsonRouting.cs" />
+    <Compile Include="Migrations\201902221535561_201812111825378_V07_Tramo_JsonRouting.Designer.cs">
+      <DependentUpon>201902221535561_201812111825378_V07_Tramo_JsonRouting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VialidadContext.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201811231256442_V01.resx">
+      <DependentUpon>201811231256442_V01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811292035320_V02.resx">
+      <DependentUpon>201811292035320_V02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812041531502_V03_Log.resx">
+      <DependentUpon>201812041531502_V03_Log.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812061925026_V03_Referencia.resx">
+      <DependentUpon>201812061925026_V03_Referencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812071940550_V05_Referencia_Fixs.resx">
+      <DependentUpon>201812071940550_V05_Referencia_Fixs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812111825378_V06_Tramo_FixDateTime.resx">
+      <DependentUpon>201812111825378_V06_Tramo_FixDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902221535561_201812111825378_V07_Tramo_JsonRouting.resx">
+      <DependentUpon>201902221535561_201812111825378_V07_Tramo_JsonRouting.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
