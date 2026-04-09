@@ -26,16 +26,14 @@ jobs:
 
       - name: Correr scraper
         run: |
-          cd Jobs
-          python scraper_rutas.py --output rutas_estado.json
+          python Jobs/scraper_rutas.py --output Jobs/rutas_estado.json
 
       - name: Generar tramos.json
         run: |
-          cd Jobs
-          python generar_tramos.py \
-            --db ../Source/Front/json/tramos_db.json \
-            --estado rutas_estado.json \
-            --output ../Source/Front/json/tramos.json \
+          python Jobs/generar_tramos.py \
+            --db Source/Front/json/tramos_db.json \
+            --estado Jobs/rutas_estado.json \
+            --output Source/Front/json/tramos.json \
             --sin-osrm
 
       - name: Commit y push
