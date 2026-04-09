@@ -14,5 +14,7 @@ namespace Vialidad.Contracts.Services
         TramoDto GetByCoordinates(string coordinates);
         long CreateOrUpdate(TramoDto dto);
         long UpdateRouting(TramoDto dto);
+        long UpdateTramoNormalizado(TramoDto dto);
+        void SaveChanges();
     }
 }

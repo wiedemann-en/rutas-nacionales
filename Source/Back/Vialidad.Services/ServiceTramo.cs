@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Entity;
 using System.Data.Entity.Validation;
+using System.Data.SqlClient;
 using System.Globalization;
 using System.Linq;
 using System.Text;
@@ -27,9 +29,13 @@ namespace Vialidad.Services
             IEnumerable<TramoDto> result = new List<TramoDto>();
             try
             {
-                IEnumerable<TramoEntity> tramos = _dbContext.TramoDataSet.AsEnumerable();
+                //IEnumerable<TramoEntity> tramos = _dbContext.TramoDataSet.AsEnumerable();
+                //var tramos = _dbContext.TramoDataSet.ToList();
+                //var tramos = _dbContext.Database.SqlQuery<TramoEntity>("SELECT * FROM dbo.Tramo WITH (NOLOCK) WHERE JsonRouting IS NULL").ToList();
+                var tramos = _dbContext.Database.SqlQuery<TramoEntity>("SELECT * FROM dbo.Tramo WITH (NOLOCK)").ToList();
+
                 if (onlyActives)
-                    tramos = tramos.Where(x => x.Activo);
+                    tramos = tramos.Where(x => x.Activo).ToList();
 
                 result = MapEntityToDto.Map(tramos);
 
@@ -152,6 +158,11 @@ namespace Vialidad.Services
             return result;
         }
 
+        public void SaveChanges()
+        {
+            _dbContext.SaveChanges();
+        }
+
         public long UpdateRouting(TramoDto dto)
         {
             long result = default(long);
@@ -161,7 +172,6 @@ namespace Vialidad.Services
                 if (tramoDb != null)
                 {
                     tramoDb.JsonRouting = dto.JsonRouting;
-                    _dbContext.SaveChanges();
                 }
                 result = tramoDb.IdTramo;
             }
@@ -173,7 +183,32 @@ namespace Vialidad.Services
             }
             catch (Exception ex)
             {
-                _logger.Error("ServiceTramo.CreateOrUpdate", ex.Message, ex);
+                _logger.Error("ServiceTramo.UpdateRouting", ex.Message, ex);
+            }
+            return result;
+        }
+
+        public long UpdateTramoNormalizado(TramoDto dto)
+        {
+            long result = default(long);
+            try
+            {
+                TramoEntity tramoDb = _dbContext.TramoDataSet.FirstOrDefault(x => x.IdTramo == dto.IdTramo);
+                if (tramoDb != null)
+                {
+                    tramoDb.TramoNormalizado = dto.TramoNormalizado;
+                }
+                result = tramoDb.IdTramo;
+            }
+            catch (DbEntityValidationException ex)
+            {
+                foreach (var eve in ex.EntityValidationErrors)
+                    foreach (var ve in eve.ValidationErrors)
+                        _logger.Error("ServiceTramo.UpdateTramoNormalizado", $"PropertyName: {ve.PropertyName} - ErrorMessage: {ve.ErrorMessage}", ex);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("ServiceTramo.UpdateTramoNormalizado", ex.Message, ex);
             }
             return result;
         }

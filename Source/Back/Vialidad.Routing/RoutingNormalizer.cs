@@ -1,0 +1,23 @@
+﻿using System.Collections.Generic;
+using Vialidad.Contracts.Models;
+using Vialidad.Contracts.Services;
+using Vialidad.Services;
+using Vialidad.Services.Normalizer;
+
+namespace Vialidad.Routing
+{
+    public class RoutingNormalizer
+    {
+        public void NormalizeDb()
+        {
+            IServiceTramo serviceTramo = new ServiceTramo();
+            IEnumerable<TramoDto> tramos = serviceTramo.GetAll();
+            foreach (var itemTramo in tramos)
+            {
+                itemTramo.TramoNormalizado = NormalizerTramo.Normalize(itemTramo.TramoNormalizado);
+                serviceTramo.UpdateTramoNormalizado(itemTramo);
+            }
+            serviceTramo.SaveChanges();
+        }
+    }
+}

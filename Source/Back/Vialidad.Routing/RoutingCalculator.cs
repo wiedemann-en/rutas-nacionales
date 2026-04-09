@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -27,9 +28,19 @@ namespace Vialidad.Routing
         }
         #endregion
 
+        static RoutingCalculator()
+        {
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
+            ServicePointManager.ServerCertificateValidationCallback +=
+                (sender, cert, chain, sslPolicyErrors) => true;
+        }
+
         #region Public Methods
         public void CalculatePendingRoutes(string profile, bool overview = false, bool alternatives = false, bool steps = false)
         {
+            //var urlTest = @"https://router.project-osrm.org/route/v1/driving/-58.51845247691521,-34.66250892873649;-58.59302218953386,-34.71521833939614;-58.70131246959419,-34.906246724083914;-58.73529205702289,-35.033556752201775?overview=false&alternatives=false&steps=false";
+            //var resultTest = DownloadWithPython(urlTest);
+
             //Obtenemos todos los tramos disponibles
             IEnumerable<TramoDto> tramos = _serviceTramo.GetAll(false);
 
@@ -56,18 +67,20 @@ namespace Vialidad.Routing
                     }
 
                     //Contruimos la url de consulta
-                    string url = string.Format("https://s.ruta0.net/ruteo3.aspx?/{0}/{1}?overview={2}&alternatives={3}&steps={4}",
-                        profile, 
-                        string.Join(";", coordenadas), 
-                        overview, 
-                        alternatives, 
-                        steps);
+                    //string url = string.Format("https://s.ruta0.net/ruteo3.aspx?/{0}/{1}?overview={2}&alternatives={3}&steps={4}",
+                    //    profile, 
+                    //    string.Join(";", coordenadas), 
+                    //    overview, 
+                    //    alternatives, 
+                    //    steps);
+                    string url = string.Format("https://router.project-osrm.org/route/v1/{0}/{1}?overview={2}&alternatives={3}&steps={4}",
+                        profile,
+                        string.Join(";", coordenadas),
+                        overview.ToString().ToLower(),
+                        alternatives.ToString().ToLower(),
+                        steps.ToString().ToLower());
 
-                    //Obtenemos los datos de ruteo. Por el momento se toman de ruta0
-                    WebClient wc = new WebClient();
-                    byte[] response = wc.DownloadData(url);
-
-                    string jsonContent = Encoding.UTF8.GetString(response);
+                    string jsonContent = DownloadWithPython(url);
                     if (string.IsNullOrEmpty(jsonContent))
                         continue;
 
@@ -82,7 +95,39 @@ namespace Vialidad.Routing
                 }
             }
 
+            if (updatedRows > 0)
+                _serviceTramo.SaveChanges();
+
             _logger.Info("RoutingCalculator.CalculateAllPendingRoutes", $"{updatedRows} registros actualizados.");
+        }
+        private string DownloadWithPython(string url)
+        {
+            string script = $"import urllib.request; r=urllib.request.urlopen('{url}'); print(r.read().decode('utf-8'))";
+
+            using (var process = new Process())
+            {
+                process.StartInfo = new ProcessStartInfo
+                {
+                    FileName = "python.exe",
+                    Arguments = $"-c \"{script}\"",
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true,
+                    StandardOutputEncoding = Encoding.UTF8
+                };
+                process.Start();
+                string output = process.StandardOutput.ReadToEnd();
+                process.WaitForExit();
+
+                if (process.ExitCode != 0)
+                {
+                    string error = process.StandardError.ReadToEnd();
+                    throw new Exception($"Python error (exit {process.ExitCode}): {error}");
+                }
+
+                return output;
+            }
         }
         #endregion
     }

@@ -1,575 +1,592 @@
-<html>
-	<head>
-		<title>Estado Rutas Nacionales Argentina</title>
-		<meta name="author" content="Esteban Nicolas Wiedemann">
-		<meta name="description" content="Información sobre el estado general de las rutas nacionales de argentina">
-		<meta name="robots" content="index, follow">
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-		
-		<script src="libs/jquery-3.3.1.min.js"></script>
-		<!-- <script src="libs/leaflet-1.3.4/leaflet.js"></script> -->
-		<script src="libs/leaflet-1.4.0/leaflet.js"></script>
-		<script src="libs/mapbox-gl.js"></script>
-		<script src="libs/leaflet-mapbox-gl.js"></script>
-		<script src="libs/leaflet.textpath.js"></script>
-		<script src="libs/leaflet.geometryutil.js"></script>
-		<script src="libs/leaflet-routing-machine-3.1.1/leaflet-routing-machine.js"></script>
-		<!-- <script src="libs/leaflet-routing-machine-3.2.7/leaflet-routing-machine.js"></script> -->
-		<script src="libs/leaflet.multioptionspolyline.js"></script>
-		<script src="libs/popper.min.js"></script>
-		<script src="libs/tooltip.min.js"></script>
-		<script src="libs/bootstrap-3.3.7/bootstrap.min.js"></script>
-		<script src="libs/bootstrap-multiselect.js"></script>
-		<script src="libs/logic.js"></script>
-		
-		<link rel="stylesheet" type="text/css" href="css/site.css" />
-		<link rel="stylesheet" type="text/css" href="libs/leaflet-1.3.4/leaflet.css">
-		<link rel="stylesheet" type="text/css" href="css/mapbox-gl.css" />
-		<link rel="stylesheet" type="text/css" href="libs/leaflet-routing-machine-3.2.7/leaflet-routing-machine.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.7/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-multiselect.css">
-	</head>
-	<body style="background-color: #F4F8F9;">
-		<div id="modal-segment-info" class="modal fade" data-backdrop="static" data-keyboard="false" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h4 class="modal-title">Información Tramo</h4>
-					</div>
-					<div class="modal-body">
-						<div class="row">
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Provincia: </span>
-								<span id="segment-provincia"></span>
-							</div>
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Ruta: </span>
-								<span id="segment-ruta"></span>
-							</div>
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Tramo: </span>
-								<span id="segment-tramo"></span>
-							</div>
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Calzada: </span>
-								<span id="segment-calzada"></span>
-							</div>
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Detalle: </span>
-								<span id="segment-detalle"></span>
-							</div>
-							<div class="col-xs-12">
-								<span style="font-weight: bold;">Observaciones: </span>
-								<span id="segment-observaciones"></span>
-							</div>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<div class="row">
-							<div class="col-xs-12">
-								<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="loading" id="div-loading"></div>
-		
-		
-		
-		
-		<div class="container-full" id="div-app">
-			<div class="col-md-4">
-				<ul class="nav nav-tabs" style="border-bottom: 1px solid #ddd;">
-					<li id="li-tab-busqueda-provincia" class="active" style="width: 50%;">
-						<a href="#div-tab-busqueda-provincia" data-toggle="tab" style="margin-right: 0px; border-bottom-color: #ddd;">Búsqueda Por Provincia</a>
-					</li>
-					<li id="li-tab-busqueda-ruta" style="width: 50%;">
-						<a href="#div-tab-busqueda-ruta" data-toggle="tab" style="margin-right: 0px; border-bottom-color: #ddd;">Búsqueda Por Ruta</a>
-					</li>
-				</ul>
-				<div class="tab-content">
-					<div id="div-tab-busqueda-provincia" class="tab-pane fade in active">
-						<div class="panel panel-base" style="border-radius: 0px;">
-							<div class="panel-body">
-								<div class="form-group">
-									<select id="busqueda-1-provincia" multiple="multiple" disabled="disabled"></select>
-								</div>
-								<div class="form-group" style="margin-bottom: 0px;">
-									<select id="busqueda-1-ruta" multiple="multiple" disabled="disabled"></select>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div id="div-tab-busqueda-ruta" class="tab-pane fade">
-						<div class="panel panel-base" style="border-radius: 0px;">
-							<div class="panel-body">
-								<div class="form-group">
-									<select id="busqueda-2-ruta" multiple="multiple" disabled="disabled"></select>
-								</div>
-								<div class="form-group" style="margin-bottom: 0px;">
-									<select id="busqueda-2-provincia" multiple="multiple" disabled="disabled"></select>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="panel panel-base" id="div-map-info">
-					<div class="panel-body">
-						<div class="form-group">
-							<div>
-								<table class="table table-hover">
-									<tbody id="tbody-map-info">
-									</tbody>
-								</table>							
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-8">
-				<div id="div-map" class="leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" tabindex="0" style="position: relative; outline: none;">
-					<div class="leaflet-pane leaflet-map-pane" style="transform: translate3d(0px, -173px, 0px);">
-						<div class="leaflet-pane leaflet-tile-pane"></div>
-						<div class="leaflet-pane leaflet-shadow-pane"></div>
-						<div class="leaflet-pane leaflet-tooltip-pane"></div>
-						<div class="leaflet-pane leaflet-popup-pane"></div>
-						<div class="leaflet-proxy leaflet-zoom-animated" style="transform: translate3d(5376px, 9600px, 0px) scale(32);"></div>
-					</div>
-					<div class="leaflet-control-container">
-						<div class="leaflet-top leaflet-left">
-							<div class="leaflet-control-zoom leaflet-bar leaflet-control">
-								<a class="leaflet-control-zoom-in" href="#" title="Zoom in" role="button" aria-label="Zoom in">+</a>
-								<a class="leaflet-control-zoom-out" href="#" title="Zoom out" role="button" aria-label="Zoom out">-</a>
-							</div>
-						</div>
-						<div class="leaflet-top leaflet-right">
-							<div class="leaflet-routing-container leaflet-bar leaflet-control">
-								<div class="leaflet-routing-alternatives-container">
-									<div class="leaflet-routing-alt"></div>
-								</div>
-							</div>
-						</div>
-						<div class="leaflet-bottom leaflet-left"></div>
-					</div>
-				</div>
-			</div>
-		</div>	
-		
-		<script>
-			$(document).ready(function() {
-			
-				var settings = {
-					urlBase: 'http://localhost:1402/',
-					urlProvincias:  'http://localhost:1402/provincias/',
-					urlRutas: 'http://localhost:1402/rutas/',
-					urlTramos: 'http://localhost:1402/tramos/'
-				};				
-				var dicts = { 
-					'provincias': {}, 
-					'rutas': {} 
-				};
-				var tramosResult = [];
-			
-				function isEmpty (sValue) {
-					if (sValue === undefined) {
-						return true;
-					}
-					if (sValue === null) {
-						return true;
-					}
-					if (sValue === '') {
-						return true;
-					}
-					return false;
-				}
-			
-				function buildOption(sValue, sLabel) {
-					var option = {
-						label: sLabel,
-						value: sValue
-					};
-					return option;
-				}
-			
-				function showSpinner() {
-					$('#div-app').hide();
-					$('#div-loading').show();
-					
-				}
-			
-				function hideSpinner() {
-					$('#div-loading').hide();
-					$('#div-app').show();
-				}
-			
-				function callBackSegmentClick(segmentInfo) {
-					$('#segment-provincia').text(segmentInfo.Provincia);
-					$('#segment-ruta').text(segmentInfo.Ruta);
-					$('#segment-tramo').text(segmentInfo.Tramo);
-					$('#segment-calzada').text(segmentInfo.Calzada);
-					$('#segment-detalle').text(segmentInfo.Detalle);
-					$('#segment-observaciones').text(segmentInfo.Observaciones);
-					$('#modal-segment-info').modal('show');
-				}
-			
-				function getServerLists(sUrl, dictKey) {
-					$.ajax({
-						type: 'GET',
-						url: sUrl,
-						data: {},
-						success: function(response) {
-							if (response.Status === "SUCCESS") {
-								if ($.isArray(response.Data)) {
-									$.each(response.Data, function(index, item) {
-										dicts[dictKey][item.Id] = item;
-									});
-								}
-							}
-						},
-						error: function() {
-							console.log("No se ha podido obtener la información.");
-						}
-					});	
-				}
-			
-				function getServerFilters(sComponentId, sUrl, fnCallbackSuccess) {
-					$('#' + sComponentId).prop('disabled', 'disabled');
-					$.ajax({
-						type: 'GET',
-						url: sUrl,
-						data: {},
-						success: function(response) {
-							if (response.Status === "SUCCESS") {
-								if ($.isArray(response.Data)) {
-									var options = [];
-									$.each(response.Data, function(index, item) {
-										options.push(buildOption(item.Id, item.Nombre));
-									});
-									$('#' + sComponentId).multiselect('dataprovider', options);
-									$('#' + sComponentId).prop('disabled', false);
-								}
-								if (fnCallbackSuccess != null) { 
-									fnCallbackSuccess(); 
-								}
-							}
-						},
-						error: function() {
-							console.log("No se ha podido obtener la información.");
-						}
-					});					
-				}
-			
-				function getTramos() {
-					showSpinner();
-					$.ajax({
-						type: 'GET',
-						url: settings.urlTramos + 'all',
-						data: { },
-						success: function(response) {
-							if (response.Status === "SUCCESS") {
-								tramosResult = response.Data;
-								for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-									MapHelper.addRoutingControl(tramosResult[iPos], callBackSegmentClick);
-									var infoHtml = buildHtmlTramo(tramosResult[iPos]);
-									$('#tbody-map-info').append(infoHtml);
-								}
-							}
-							hideSpinner();
-						},
-						error: function() {
-							console.log("No se ha podido obtener la información.");
-							tramosResult = [];
-							hideSpinner();
-						}
-					});					
-				}
-			
-				function generateMultiselectComponent(sTitle, sComponentId, fnOnChange, fnOnSelectAll, fnOnDeselectAll, includeSelectAllOption) {
-					$('#' + sComponentId).multiselect({
-						enableFiltering: true,
-						//buttonClass: 'btn-primary btn-lg',
-						buttonWidth: '100%',
-						onChange: function(option, checked) {
-							if (fnOnChange != null) { 
-								fnOnChange('onChange', option, checked); 
-							}
-						},
-						onSelectAll: function() {
-							if (fnOnSelectAll != null) { 
-								fnOnSelectAll('onSelectAll', null, null); 
-							}
-						},
-						onDeselectAll: function() {
-							if (fnOnDeselectAll != null) { 
-								fnOnDeselectAll('onDeselectAll', null, null); 
-							}
-						},
-						maxHeight: 400,
-						includeSelectAllOption: includeSelectAllOption,
-						enableCaseInsensitiveFiltering: true,
-						includeFilterClearBtn: false,
-						filterPlaceholder: 'Buscar',
-						nonSelectedText: '[Seleccione ' + sTitle + ']',
-						nSelectedText: 'seleccionadas',
-						allSelectedText: 'Todas seleccionadas',
-						selectAllText: ' Seleccionar todas',
-						disableIfEmpty: true,
-						buttonContainer: '<div class="btn-group"></div>',
-						buttonClass: '',
-						templates: {
-							button: '<button type="button" id="btn-' + sComponentId + '" class="multiselect dropdown-toggle btn btn-default" data-toggle="dropdown" title="None selected" aria-expanded="true"><span class="multiselect-selected-text">None selected</span>'
-						}						
-					});
-				}
-			
-				function buildHtmlTramo(infoTramo) {
-					var referenciasHtml = '';
-					$.each(infoTramo.Referencias, function(index, itemReferencia) {
-						referenciasHtml += '<img src="' + itemReferencia.ImagePath + 
-							'" alt="' + itemReferencia.ImageDesc + 
-							'" title="' + itemReferencia.ImageDesc + 
-							'" width="' + itemReferencia.ImageWidth + 
-							'" height="' + itemReferencia.ImageHeight + 
-							'" border="0" /> '; 
-					});
-					
-					var infoHtml = 
-						'<tr id="tr-map-info-' + infoTramo.IdTramo + '"class="tr-map-info" style="display: none;">' + 
-							'<td>' + 
-								'<div>' +
-									'<span class="span-map-info"><b>Provincia: </b>' + infoTramo.Provincia + ' - <b>Ruta: </b>' + infoTramo.Ruta + '</span>' +
-								'</div>' +
-								'<div>' +
-									'<span class="span-map-info"><b>Tramo: </b>' + infoTramo.Tramo + '</span>' +
-								'</div>' +
-								'<div>' +
-									'<span class="span-map-info" style="font-style: italic;"><b>Calzada: </b>' + infoTramo.Calzada + '</span>' +
-								'</div>' +
-								'<div>' +
-									'<span class="span-map-info" style="color: ' + infoTramo.ColorFechaActualizacion + ';"><b>Fecha Informe: </b>' + infoTramo.FechaActualizacion + '</span>' +
-								'</div>' +
-								'<div>' +
-									referenciasHtml + 
-								'</div>' +
-								'<div class="btn-map-info-more">' +
-									'<button id="btn-info-tramo-' + infoTramo.IdTramo + '" type="button" class="btn btn-info btn-sm collapsed" data-toggle="collapse" data-target="#div-info-tramo-' + infoTramo.IdTramo + '" aria-expanded="false">(+) Información</button>' +
-								'</div>' +
-								'<div id="div-info-tramo-' + infoTramo.IdTramo + '" class="panel-collapse collapse">' +
-									'<span class="span-map-info"><b>Detalle: </b>' + infoTramo.Detalle + '</span>' +
-									'<br />' +
-									'<span class="span-map-info"><b>Observaciones: </b>' + infoTramo.Observaciones + '</span>' +
-								'</div>' +
-							'</td>';
-						'</tr>';
-					return infoHtml;
-				}
-				
-				function printMap(keys, adjustZoom) {
-					$('#div-map-info').hide();
-					MapHelper.showRoutingControls(keys);
-					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-						$('#tr-map-info-' + tramosResult[iPos].IdTramo).hide();
-					}
-					for	(var iPos=0; iPos<keys.length; iPos++) {
-						$('#tr-map-info-' + keys[iPos]).show();
-					}
-					$('#div-map-info').show();
-					if (adjustZoom) {
-						MapHelper.setAutomaticView();
-					}
-				}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estado de Rutas Nacionales</title>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="b3fdee8b-5646-4e8e-86b2-b64df274b08c"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.13.3/mapbox-gl.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.13.3/mapbox-gl.min.js"></script>
+<script src="libs/leaflet-mapbox-gl.js"></script>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html, body { height:100%; overflow:hidden; font-family:'Segoe UI',sans-serif; background:#0f172a; color:#e2e8f0; }
 
-				function cleanFilters() {
-					$('#busqueda-1-provincia').multiselect('deselect', $('#busqueda-1-provincia').val());
-					$('#busqueda-1-provincia').multiselect('select', '');
-					$('#busqueda-1-ruta').multiselect('dataprovider', []);
+  #header {
+    height:48px;
+    background:linear-gradient(135deg,#1e3a5f,#0f2744);
+    padding:0 18px; display:flex; align-items:center; justify-content:space-between;
+    border-bottom:2px solid #3b82f6; z-index:1000; position:relative;
+  }
+  #header h1 { font-size:.95rem; font-weight:700; color:#fff; }
+  #header h1 span { color:#60a5fa; }
+  .badge { background:#1d4ed8; color:#bfdbfe; font-size:.7rem; padding:2px 8px; border-radius:9px; font-weight:600; }
 
-					$('#busqueda-2-ruta').multiselect('deselect', $('#busqueda-2-ruta').val());
-					$('#busqueda-2-ruta').multiselect('select', '');
-					$('#busqueda-2-provincia').multiselect('dataprovider', []);
-					
-					$('#div-map-info').hide();
-					
-					MapHelper.hideRoutingControls();
-					MapHelper.resetView();
-				}
+  #main {
+    position:absolute;
+    top:48px; left:0; right:0; bottom:0;
+    display:flex;
+  }
 
-				function initialize() {
-					generateMultiselectComponent('Provincia', 'busqueda-1-provincia', busqueda1ProvinciaOnChange, null, null, false);
-					generateMultiselectComponent('Ruta', 'busqueda-1-ruta', busqueda1RutaOnChange, busqueda1RutaOnChange, busqueda1RutaOnChange, true);
-					generateMultiselectComponent('Ruta', 'busqueda-2-ruta', busqueda2RutaOnChange, null, null, false);
-					generateMultiselectComponent('Provincia', 'busqueda-2-provincia', busqueda2ProvinciaOnChange, busqueda2ProvinciaOnChange, busqueda2ProvinciaOnChange, true);
-					getServerFilters('busqueda-1-provincia', settings.urlProvincias + 'all', null);
-					getServerFilters('busqueda-2-ruta', settings.urlRutas + 'all', null);
-					getServerLists(settings.urlProvincias + 'allinfo', 'provincias');
-					getServerLists(settings.urlRutas + 'allinfo', 'rutas');
-					
-					MapHelper.init('div-map', {});
-					getTramos();
-					hideSpinner();
-				}
-			
-				var busqueda1ProvinciaOnChange = function(event, option, checked) {
-                    var values = [];
-                    $('#busqueda-1-provincia option').each(function() {
-                        if ($(this).val() !== option.val()) {
-                            values.push($(this).val());
-                        }
-                    });
-                    $('#busqueda-1-provincia').multiselect('deselect', values);					
-					var selectedValue = option.val();
-					var url = settings.urlRutas + 'all';
-					url = (!isEmpty(selectedValue)) ? url + '/' + selectedValue : url;
-					getServerFilters('busqueda-1-ruta', url, function () {
-						$('#busqueda-1-ruta').multiselect('selectAll', false);
-					});
-					
-					let keys = [];
-					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-						if (tramosResult[iPos].IdProvincia == selectedValue) {
-							keys.push(tramosResult[iPos].IdTramo);
-						}
-					}
-					if (keys.length > 0) {
-						printMap(keys, true);
-					}
-					else {
-						MapHelper.hideRoutingControls();
-						MapHelper.resetView();
-					}
+  /* SIDEBAR */
+  #sidebar {
+    width:260px; flex-shrink:0;
+    background:#1e293b; border-right:1px solid #334155;
+    display:flex; flex-direction:column;
+    overflow:hidden; z-index:900;
+  }
+  #sidebar-body { flex:1; overflow-y:auto; padding:12px; }
+  #sidebar-body::-webkit-scrollbar { width:4px; }
+  #sidebar-body::-webkit-scrollbar-track { background:#0f172a; }
+  #sidebar-body::-webkit-scrollbar-thumb { background:#334155; border-radius:2px; }
 
-					$('#btn-busqueda-1-provincia').click();
-				};
-				
-				var busqueda1RutaOnChange = function(event, option, checked) {
-					let keys = [];
-					$('#busqueda-1-ruta option:selected').map(function(a, item) { 
-						let idProvincia = $('#busqueda-1-provincia').val();
-						for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-							if ((tramosResult[iPos].IdProvincia == idProvincia) && (tramosResult[iPos].IdRuta == item.value)) {
-								keys.push(tramosResult[iPos].IdTramo);
-							}
-						}
-					});
-					if (keys.length > 0) {
-						let adjustZoom = (event == 'onSelectAll');
-						printMap(keys, adjustZoom);
-					}
-					else {
-						MapHelper.hideRoutingControls();
-						MapHelper.resetView();
-					}
-				};
+  .filter-section { margin-bottom:16px; }
+  .filter-section h4 {
+    font-size:.7rem; color:#94a3b8; font-weight:700;
+    text-transform:uppercase; letter-spacing:.8px;
+    margin-bottom:8px; padding-bottom:5px;
+    border-bottom:1px solid #334155;
+  }
 
-				var busqueda2RutaOnChange = function(event, option, checked) {
-                    var values = [];
-                    $('#busqueda-2-ruta option').each(function() {
-                        if ($(this).val() !== option.val()) {
-                            values.push($(this).val());
-                        }
-                    });
-                    $('#busqueda-2-ruta').multiselect('deselect', values);					
-					$('#busqueda-2-ruta').multiselect('refresh')
-					var selectedValue = option.val();
-					var url = settings.urlProvincias + 'all';
-					url = (!isEmpty(selectedValue)) ? url + '/' + selectedValue : url;
-					getServerFilters('busqueda-2-provincia', url, function () {
-						$('#busqueda-2-provincia').multiselect('selectAll', false);
-					});
-					
-					let keys = [];
-					for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-						if (tramosResult[iPos].IdRuta == selectedValue) {
-							keys.push(tramosResult[iPos].IdTramo);
-						}
-					}
-					if (keys.length > 0) {
-						printMap(keys, true);
-					}
-					else {
-						MapHelper.hideRoutingControls();
-						MapHelper.resetView();
-					}
-					
-					$('#btn-busqueda-2-ruta').click();
-				};
-				
-				var busqueda2ProvinciaOnChange = function(event, option, checked) {
-					let keys = [];
-					$('#busqueda-2-provincia option:selected').map(function(a, item) { 
-						let idRuta = $('#busqueda-2-ruta').val();
-						for	(var iPos=0; iPos<tramosResult.length; iPos++) {
-							if ((tramosResult[iPos].IdRuta == idRuta) && (tramosResult[iPos].IdProvincia == item.value)) {
-								keys.push(tramosResult[iPos].IdTramo);
-							}
-						}
-					});
-					if (keys.length > 0) {
-						let adjustZoom = (event == 'onSelectAll');
-						printMap(keys, adjustZoom);
-					}
-					else {
-						MapHelper.hideRoutingControls();
-						MapHelper.resetView();
-					}
-				};
+  .btn-group { display:flex; flex-wrap:wrap; gap:5px; }
+  .fbtn {
+    padding:3px 10px; border-radius:20px; border:1.5px solid transparent;
+    font-size:.72rem; font-weight:600; cursor:pointer; background:#0f172a;
+    transition:all .15s; white-space:nowrap;
+  }
+  .fbtn.activo { opacity:1; }
+  .fbtn:not(.activo) { opacity:.4; }
+  .fbtn.all      { border-color:#64748b; color:#cbd5e1; }
+  .fbtn.trans    { border-color:#22c55e; color:#22c55e; }
+  .fbtn.prec     { border-color:#f59e0b; color:#f59e0b; }
+  .fbtn.cort     { border-color:#ef4444; color:#ef4444; }
+  .fbtn.def      { border-color:#3b82f6; color:#3b82f6; }
+  .fbtn.pav      { border-color:#818cf8; color:#818cf8; }
+  .fbtn.rip      { border-color:#fb923c; color:#fb923c; }
+  .fbtn.tier     { border-color:#a78bfa; color:#a78bfa; }
+  .fbtn.cal-all  { border-color:#64748b; color:#cbd5e1; }
+  .fbtn.all.activo, .fbtn.cal-all.activo { background:#334155; }
+  .fbtn.trans.activo  { background:#14532d; }
+  .fbtn.prec.activo   { background:#78350f; }
+  .fbtn.cort.activo   { background:#7f1d1d; }
+  .fbtn.def.activo    { background:#1e3a5f; }
+  .fbtn.pav.activo    { background:#1e1b4b; }
+  .fbtn.rip.activo    { background:#431407; }
+  .fbtn.tier.activo   { background:#2e1065; }
 
-				$('#li-tab-busqueda-provincia').click(function(event) {
-					cleanFilters();
-				});
+  #search {
+    width:100%; background:#0f172a; border:1px solid #334155;
+    border-radius:8px; padding:6px 10px; color:#e2e8f0;
+    font-size:.78rem; outline:none;
+  }
+  #search:focus { border-color:#3b82f6; }
 
-				$('#li-tab-busqueda-ruta').click(function(event) {
-					cleanFilters();
-				});
-				
-				//mouseover
-				$('#tbody-map-info').on('mouseenter', '.tr-map-info', function() {
-					var id =  parseInt($(this).attr('id').split('-').pop());
-					MapHelper.markRoutingControl(id);
-				});
-				
-				//mouseout
-				$('#tbody-map-info').on('mouseleave', '.tr-map-info', function() {
-					var id =  parseInt($(this).attr('id').split('-').pop());
-					MapHelper.unmarkRoutingControl(id);
-				});
-				
-				//click
-				$('#tbody-map-info').on('click', '.tr-map-info', function() {
-					var id =  parseInt($(this).attr('id').split('-').pop());
-					if (!MapHelper.controlIsMarked(id)) {
-						MapHelper.unmarkAllRoutingControl();
-						MapHelper.markRoutingControl(id);
-					}
-				});
-				
-				$('#tbody-map-info').on('click', '.btn-map-info-more', function() {
-					var parentTr = $(this).closest('tr');
-					var parentDiv = $(this).closest('div');
-					var id =  parseInt($(parentTr).attr('id').split('-').pop());
-					var btnElement = $('#btn-info-tramo-' + id);
-					var ariaExpanded = btnElement.attr('aria-expanded');
-					if (ariaExpanded == 'true') {
-						btnElement.text('(+) Información');
-						btnElement.removeClass('btn-success');
-						btnElement.addClass('btn-info');
-						parentDiv.css('padding-bottom', '0px');
-					}
-					else {
-						btnElement.text('(-) Información');
-						btnElement.removeClass('btn-info');
-						btnElement.addClass('btn-success');
-						parentDiv.css('padding-bottom', '5px');
-					}
-				});
-				
-				initialize();
-			});		
-		</script>
-	</body>
+  /* Multiselect */
+  .multi-select-wrap { position:relative; }
+  .multi-select-trigger {
+    width:100%; background:#0f172a; border:1px solid #334155;
+    border-radius:8px; padding:6px 10px; color:#e2e8f0;
+    font-size:.75rem; cursor:pointer; display:flex;
+    justify-content:space-between; align-items:center; user-select:none;
+  }
+  .multi-select-trigger:hover { border-color:#3b82f6; }
+  .multi-select-trigger .arrow { font-size:.6rem; color:#64748b; transition:transform .2s; }
+  .multi-select-trigger.open .arrow { transform:rotate(180deg); }
+  .multi-select-dropdown {
+    position:fixed; z-index:9999;
+    background:#1e293b; border:1px solid #334155; border-radius:8px;
+    max-height:200px; overflow-y:auto; display:none;
+    box-shadow:0 8px 24px #0008; width:236px;
+  }
+  .multi-select-dropdown.open { display:block; }
+  .ms-search {
+    width:100%; background:#0f172a; border:none; border-bottom:1px solid #334155;
+    padding:6px 10px; color:#e2e8f0; font-size:.73rem; outline:none;
+  }
+  .ms-option {
+    padding:6px 10px; font-size:.75rem; cursor:pointer;
+    display:flex; align-items:center; gap:8px; color:#cbd5e1;
+  }
+  .ms-option:hover { background:#334155; }
+  .ms-option.selected { color:#fff; }
+  .ms-checkbox {
+    width:13px; height:13px; border:1.5px solid #475569;
+    border-radius:3px; flex-shrink:0; display:flex;
+    align-items:center; justify-content:center; font-size:.6rem;
+  }
+  .ms-option.selected .ms-checkbox { background:#3b82f6; border-color:#3b82f6; color:#fff; }
+  .ms-select-all {
+    padding:5px 10px; font-size:.7rem; color:#3b82f6;
+    cursor:pointer; border-bottom:1px solid #334155; display:flex; gap:8px;
+  }
+  .ms-select-all:hover { background:#334155; }
+  .ms-tag-list { display:flex; flex-wrap:wrap; gap:3px; margin-top:5px; }
+  .ms-tag {
+    background:#1e3a5f; color:#93c5fd; border-radius:4px;
+    padding:1px 6px; font-size:.65rem; display:flex; align-items:center; gap:3px;
+  }
+  .ms-tag .rm { cursor:pointer; color:#64748b; font-size:.7rem; }
+  .ms-tag .rm:hover { color:#f87171; }
+
+  #sidebar-stats {
+    border-top:1px solid #334155; padding:10px 12px;
+    display:grid; grid-template-columns:1fr 1fr; gap:6px; flex-shrink:0;
+  }
+  .st { text-align:center; background:#0f172a; border-radius:8px; padding:6px; }
+  .sn { font-size:1.1rem; font-weight:800; }
+  .sl { font-size:.58rem; color:#64748b; text-transform:uppercase; }
+  .ct { color:#4ade80; } .cp { color:#fbbf24; } .cc { color:#f87171; } .ca { color:#93c5fd; }
+
+  /* MAP */
+  #map {
+    position:absolute;
+    top:0; left:260px; right:0; bottom:0;
+  }
+
+  /* Panel detalle */
+  #panel {
+    position:absolute; top:12px; right:12px; z-index:800;
+    background:#1e293bee; backdrop-filter:blur(6px);
+    border:1px solid #334155; border-radius:12px;
+    padding:14px; width:290px; display:none;
+    max-height:calc(100% - 24px); overflow-y:auto;
+  }
+  #panel.on { display:block; }
+  #panel h3 { font-size:.88rem; color:#fff; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
+  .cls { margin-left:auto; cursor:pointer; color:#64748b; font-size:1.1rem; }
+  .cls:hover { color:#e2e8f0; }
+  .irow { display:flex; gap:8px; margin-bottom:6px; }
+  .ikey { font-size:.68rem; color:#94a3b8; font-weight:700; text-transform:uppercase; letter-spacing:.5px; min-width:76px; padding-top:1px; }
+  .ival { font-size:.76rem; color:#cbd5e1; flex:1; }
+  .ebadge { display:inline-block; padding:2px 9px; border-radius:10px; font-size:.68rem; font-weight:700; }
+  .e-trans { background:#14532d; color:#4ade80; }
+  .e-prec  { background:#78350f; color:#fbbf24; }
+  .e-cort  { background:#7f1d1d; color:#f87171; }
+  .e-def   { background:#1e3a5f; color:#93c5fd; }
+  .cbadge  { display:inline-block; padding:2px 8px; border-radius:10px; font-size:.67rem; font-weight:600; }
+  .c-pav   { background:#1e1b4b; color:#a5b4fc; }
+  .c-rip   { background:#431407; color:#fdba74; }
+  .c-tier  { background:#2e1065; color:#c4b5fd; }
+  .c-otro  { background:#1e293b; color:#94a3b8; }
+  .det-box { margin-top:8px; padding:8px; background:#0f172a; border-radius:7px; font-size:.72rem; color:#94a3b8; line-height:1.5; }
+
+  #legend {
+    position:absolute; bottom:24px; right:12px; z-index:800;
+    background:#1e293bee; backdrop-filter:blur(6px);
+    border:1px solid #334155; border-radius:10px; padding:10px 14px;
+  }
+  #legend h4 { font-size:.65rem; color:#64748b; text-transform:uppercase; letter-spacing:.4px; margin-bottom:6px; }
+  .lr { display:flex; align-items:center; gap:8px; margin-bottom:3px; font-size:.71rem; color:#cbd5e1; }
+  .ll { height:4px; border-radius:2px; width:26px; }
+  .leg-sep { border-top:1px solid #334155; margin:6px 0; }
+
+  #loading, #error-box {
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    z-index:900; background:#1e293b; border-radius:12px; padding:24px 36px; text-align:center;
+  }
+  #loading { border:1px solid #334155; }
+  #error-box { border:1px solid #ef4444; max-width:400px; display:none; }
+  .spin { width:34px; height:34px; border:3px solid #334155; border-top-color:#3b82f6; border-radius:50%; animation:sp .8s linear infinite; margin:0 auto 10px; }
+  @keyframes sp { to { transform:rotate(360deg); } }
+  #loading p { font-size:.82rem; color:#94a3b8; }
+  #loading .sub { font-size:.7rem; color:#475569; margin-top:3px; }
+  #error-box h3 { color:#f87171; margin-bottom:8px; font-size:.9rem; }
+  #error-box p  { font-size:.75rem; color:#94a3b8; line-height:1.6; }
+  code { background:#0f172a; padding:2px 5px; border-radius:4px; font-size:.71rem; color:#60a5fa; }
+
+  .leaflet-popup-content-wrapper { background:#1e293b; border:1px solid #334155; border-radius:10px; }
+  .leaflet-popup-tip { background:#1e293b; }
+  .leaflet-popup-content { color:#e2e8f0; margin:10px 14px; font-size:.8rem; }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>🗺️ Estado de Rutas Nacionales <span>Argentina</span></h1>
+  <span class="badge" id="badge">Cargando…</span>
+</div>
+
+<div id="main">
+
+  <div id="sidebar">
+    <div id="sidebar-body">
+
+      <div class="filter-section">
+        <h4>Buscar</h4>
+        <input id="search" type="text" placeholder="🔍 Tramo o localidad…"/>
+      </div>
+
+      <div class="filter-section">
+        <h4>Estado</h4>
+        <div class="btn-group">
+          <button class="fbtn all activo"  data-estado="all">Todas</button>
+          <button class="fbtn trans"       data-estado="transitable">✅ Transitable</button>
+          <button class="fbtn prec"        data-estado="precaucion">⚠️ Precaución</button>
+          <button class="fbtn cort"        data-estado="cortada">🚫 Cortada</button>
+          <button class="fbtn def"         data-estado="default">ℹ️ Sin datos</button>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h4>Calzada</h4>
+        <div class="btn-group">
+          <button class="fbtn cal-all activo" data-calzada="all">Todas</button>
+          <button class="fbtn pav"            data-calzada="PAVIMENTO">🛣️ Pavimento</button>
+          <button class="fbtn rip"            data-calzada="RIPIO">🪨 Ripio</button>
+          <button class="fbtn tier"           data-calzada="TIERRA">🟫 Tierra</button>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h4>Provincia</h4>
+        <div class="multi-select-wrap" id="wrap-provincia">
+          <div class="multi-select-trigger" id="trigger-provincia">
+            <span id="label-provincia">Todas las provincias</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="multi-select-dropdown" id="dropdown-provincia">
+            <input class="ms-search" type="text" placeholder="Buscar provincia…" id="search-provincia"/>
+            <div class="ms-select-all" id="selall-provincia">
+              <span class="ms-checkbox">✓</span> Seleccionar todas
+            </div>
+            <div id="options-provincia"></div>
+          </div>
+          <div class="ms-tag-list" id="tags-provincia"></div>
+        </div>
+      </div>
+
+      <div class="filter-section">
+        <h4>Ruta</h4>
+        <div class="multi-select-wrap" id="wrap-ruta">
+          <div class="multi-select-trigger" id="trigger-ruta">
+            <span id="label-ruta">Todas las rutas</span>
+            <span class="arrow">▼</span>
+          </div>
+          <div class="multi-select-dropdown" id="dropdown-ruta">
+            <input class="ms-search" type="text" placeholder="Buscar ruta…" id="search-ruta"/>
+            <div class="ms-select-all" id="selall-ruta">
+              <span class="ms-checkbox">✓</span> Seleccionar todas
+            </div>
+            <div id="options-ruta"></div>
+          </div>
+          <div class="ms-tag-list" id="tags-ruta"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="sidebar-stats">
+      <div class="st"><div class="sn ct" id="s-t">–</div><div class="sl">Transitables</div></div>
+      <div class="st"><div class="sn cp" id="s-p">–</div><div class="sl">Precaución</div></div>
+      <div class="st"><div class="sn cc" id="s-c">–</div><div class="sl">Cortadas</div></div>
+      <div class="st"><div class="sn ca" id="s-a">–</div><div class="sl">Visibles</div></div>
+    </div>
+  </div>
+
+  <div id="map"></div>
+
+  <div id="loading">
+    <div class="spin"></div>
+    <p>Cargando tramos…</p>
+    <p class="sub" id="loading-sub">Leyendo tramos.json</p>
+  </div>
+
+  <div id="error-box">
+    <h3>⚠️ Error al cargar datos</h3>
+    <p id="error-msg"></p>
+  </div>
+
+  <div id="panel">
+    <h3 id="panel-title">Tramo <span class="cls" id="pcls">✕</span></h3>
+    <div id="panel-body"></div>
+  </div>
+
+  <div id="legend">
+    <h4>Estado</h4>
+    <div class="lr"><div class="ll" style="background:#22c55e"></div>Transitable</div>
+    <div class="lr"><div class="ll" style="background:#f59e0b"></div>Precaución</div>
+    <div class="lr"><div class="ll" style="background:#ef4444"></div>Cortada</div>
+    <div class="lr"><div class="ll" style="background:#3b82f6"></div>Sin datos</div>
+    <div class="leg-sep"></div>
+    <h4>Calzada</h4>
+    <div class="lr"><div class="ll" style="background:#818cf8"></div>Pavimento</div>
+    <div class="lr"><div class="ll" style="background:repeating-linear-gradient(90deg,#fb923c 0,#fb923c 5px,transparent 5px,transparent 9px)"></div>Ripio</div>
+    <div class="lr"><div class="ll" style="background:repeating-linear-gradient(90deg,#a78bfa 0,#a78bfa 3px,transparent 3px,transparent 7px)"></div>Tierra</div>
+  </div>
+
+</div>
+
+<script>
+const COLOR = { transitable:'#22c55e', precaucion:'#f59e0b', cortada:'#ef4444', default:'#3b82f6' };
+const PESO  = { transitable:3, precaucion:3.5, cortada:4.5, default:2.5 };
+const ECLS  = { transitable:'e-trans', precaucion:'e-prec', cortada:'e-cort', default:'e-def' };
+const ELBL  = { transitable:'Transitable', precaucion:'Precaución', cortada:'Cortada', default:'Sin datos' };
+const CCLS  = { PAVIMENTO:'c-pav', RIPIO:'c-rip', TIERRA:'c-tier' };
+
+const MAPTILER_KEY   = 'dLbzt96PKK6rA56B4jaU';
+const MAPTILER_STYLE = 'https://api.maptiler.com/maps/e460f1aa-a9b8-4af3-a521-861098543088/style.json?key=' + MAPTILER_KEY;
+
+const ARG_BOUNDS = L.latLngBounds(L.latLng(-58.0,-80.0), L.latLng(-19.0,-48.0));
+
+const map = L.map('map', {
+  zoomControl:false, maxBounds:ARG_BOUNDS,
+  maxBoundsViscosity:1.0, minZoom:4, maxZoom:16
+}).setView([-38.5,-65], 5);
+
+L.control.zoom({ position:'bottomright' }).addTo(map);
+L.mapboxGL({
+  accessToken: 'no-token',
+  style: MAPTILER_STYLE,
+  attribution: '© <a href="https://www.maptiler.com/copyright/">MapTiler</a> © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+
+let allLayers = [];
+let filtroEstado  = 'all', filtroCalzada = 'all';
+let filtroProvincias = new Set(), filtroRutas = new Set();
+let busqueda = '';
+const layerGroup = L.layerGroup().addTo(map);
+
+// ── Multiselect ───────────────────────────────────────────────────────────────
+function buildMultiSelect(id, items, onChangeFn) {
+  const trigger  = $('#trigger-' + id);
+  const dropdown = $('#dropdown-' + id);
+  const optsDiv  = $('#options-' + id);
+  const searchIn = $('#search-' + id);
+  const tagsDiv  = $('#tags-' + id);
+  const label    = $('#label-' + id);
+  const selAll   = $('#selall-' + id);
+  let selected   = new Set();
+
+  function getDropdownPos() {
+    const rect = trigger[0].getBoundingClientRect();
+    dropdown.css({ top: rect.bottom + 2, left: rect.left, width: rect.width });
+  }
+
+  function renderOptions(filter) {
+    filter = filter || '';
+    optsDiv.empty();
+    items.filter(function(v) { return v.toLowerCase().includes(filter.toLowerCase()); })
+      .forEach(function(v) {
+        const isSel = selected.has(v);
+        const opt = $('<div class="ms-option ' + (isSel?'selected':'') + '">' +
+          '<div class="ms-checkbox">' + (isSel?'✓':'') + '</div>' +
+          '<span>' + v + '</span></div>');
+        opt.on('click', function() { toggle(v); });
+        optsDiv.append(opt);
+      });
+  }
+
+  function toggle(v) {
+    if (selected.has(v)) selected.delete(v);
+    else selected.add(v);
+    renderOptions(searchIn.val());
+    renderTags();
+    updateLabel();
+    onChangeFn(selected);
+  }
+
+  function renderTags() {
+    tagsDiv.empty();
+    selected.forEach(function(v) {
+      const tag = $('<div class="ms-tag"><span>' + v + '</span><span class="rm">✕</span></div>');
+      tag.find('.rm').on('click', function() { toggle(v); });
+      tagsDiv.append(tag);
+    });
+  }
+
+  function updateLabel() {
+    if (selected.size === 0) label.text('Todas las ' + (id === 'provincia' ? 'provincias' : 'rutas'));
+    else if (selected.size === 1) label.text([...selected][0]);
+    else label.text(selected.size + ' seleccionadas');
+  }
+
+  trigger.on('click', function(e) {
+    e.stopPropagation();
+    const isOpen = dropdown.hasClass('open');
+    $('.multi-select-dropdown').removeClass('open');
+    $('.multi-select-trigger').removeClass('open');
+    if (!isOpen) {
+      getDropdownPos();
+      dropdown.addClass('open');
+      trigger.addClass('open');
+      searchIn.focus();
+    }
+  });
+
+  searchIn.on('input', function() { renderOptions($(this).val()); });
+
+  selAll.on('click', function() {
+    if (selected.size === items.length) selected.clear();
+    else items.forEach(function(v) { selected.add(v); });
+    renderOptions(searchIn.val());
+    renderTags();
+    updateLabel();
+    onChangeFn(selected);
+  });
+
+  $(document).on('click', function(e) {
+    if (!$('#wrap-' + id).is(e.target) && $('#wrap-' + id).has(e.target).length === 0) {
+      dropdown.removeClass('open');
+      trigger.removeClass('open');
+    }
+  });
+
+  renderOptions();
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+function dashArray(calzada) {
+  const c = (calzada||'').toUpperCase();
+  if (c==='RIPIO')  return '8 5';
+  if (c==='TIERRA') return '3 5';
+  return null;
+}
+
+function calzadaBadge(calzada) {
+  const c   = (calzada||'SIN ESPECIFICAR').toUpperCase();
+  const key = Object.keys(CCLS).find(function(k) { return c.includes(k); }) || 'OTRO';
+  return '<span class="cbadge ' + (CCLS[key]||'c-otro') + '">' + (calzada||'Sin datos') + '</span>';
+}
+
+function abrirPanel(t) {
+  const ec = ECLS[t.estado]||ECLS.default;
+  const el = ELBL[t.estado]||t.estado;
+  $('#panel-title').html('🛣️ RN ' + t.ruta + ' <span class="cls" id="pcls">✕</span>');
+  $('#panel-body').html(
+    '<div class="irow"><span class="ikey">Ruta</span><span class="ival">RN ' + t.ruta + '</span></div>' +
+    '<div class="irow"><span class="ikey">Provincia</span><span class="ival">' + (t.provincia||'–') + '</span></div>' +
+    '<div class="irow"><span class="ikey">Tramo</span><span class="ival">' + t.tramo + '</span></div>' +
+    '<div class="irow"><span class="ikey">Estado</span><span class="ival">' +
+      '<span class="ebadge ' + ec + '">' + el + '</span>' +
+      (t.estado_raw ? '<br><span style="font-size:.65rem;color:#64748b;margin-top:3px;display:inline-block">' + t.estado_raw + '</span>' : '') +
+    '</span></div>' +
+    '<div class="irow"><span class="ikey">Calzada</span><span class="ival">' + calzadaBadge(t.calzada) + '</span></div>' +
+    (t.actualizado ? '<div class="irow"><span class="ikey">Actualizado</span><span class="ival">' + t.actualizado + '</span></div>' : '') +
+    (t.obs ? '<div class="det-box">📝 ' + t.obs + '</div>' : '')
+  );
+  $('#panel').addClass('on');
+  $('#pcls').on('click', function() { $('#panel').removeClass('on'); });
+}
+
+// ── Render ────────────────────────────────────────────────────────────────────
+function renderLayers() {
+  layerGroup.clearLayers();
+  var cnt = {transitable:0, precaucion:0, cortada:0};
+  var vis = 0;
+
+  $.each(allLayers, function(_, item) {
+    const okE = filtroEstado  === 'all' || item.estado === filtroEstado;
+    const okC = filtroCalzada === 'all' || item.calzada.toUpperCase().includes(filtroCalzada);
+    const okP = filtroProvincias.size === 0 || filtroProvincias.has(item.provinciaOrig);
+    const okR = filtroRutas.size === 0      || filtroRutas.has(item.rutaOrig);
+    const okB = !busqueda
+      || item.ruta.toLowerCase().includes(busqueda)
+      || item.tramo.toLowerCase().includes(busqueda)
+      || item.provincia.toLowerCase().includes(busqueda);
+
+    if (okE && okC && okP && okR && okB) { layerGroup.addLayer(item.layer); vis++; }
+    if (cnt[item.estado] !== undefined) cnt[item.estado]++;
+  });
+
+  $('#s-t').text(cnt.transitable);
+  $('#s-p').text(cnt.precaucion);
+  $('#s-c').text(cnt.cortada);
+  $('#s-a').text(vis);
+}
+
+function agregarTramo(t) {
+  if (!t.geo || t.geo.length < 2) return;
+  const estado  = t.estado || 'default';
+  const calzada = t.calzada || '';
+  const layer = L.polyline(t.geo, {
+    color:COLOR[estado], weight:PESO[estado],
+    opacity:.85, dashArray:dashArray(calzada),
+    lineCap:'round', lineJoin:'round'
+  });
+  layer.bindTooltip(
+    '<b>RN ' + t.ruta + '</b> — ' + t.tramo + '<br>' +
+    '<span style="font-size:.72rem;color:#94a3b8">' + (t.provincia||'') + ' · ' + calzada + '</span>',
+    { sticky:false, permanent:false, direction:'top' }
+  );
+  layer.on('mouseover', function(e) {
+    e.target.setStyle({color:'#22d3ee', weight:PESO[estado]+3, opacity:1});
+    e.target.openTooltip(e.latlng);
+  });
+  layer.on('mouseout', function(e) {
+    e.target.setStyle({color:COLOR[estado], weight:PESO[estado], opacity:.85});
+    e.target.closeTooltip();
+  });
+  layer.on('mousemove', function(e) { e.target.getTooltip().setLatLng(e.latlng); });
+  layer.on('click', function() { abrirPanel(t); });
+
+  allLayers.push({
+    layer, estado, calzada,
+    rutaOrig:     t.ruta,
+    provinciaOrig:(t.provincia||''),
+    ruta:         t.ruta.toLowerCase(),
+    tramo:        (t.tramo||'').toLowerCase(),
+    provincia:    (t.provincia||'').toLowerCase(),
+  });
+}
+
+// ── Carga ─────────────────────────────────────────────────────────────────────
+$(function() {
+  $.getJSON('json/tramos.json')
+    .done(function(data) {
+      const tramos = data.tramos || [];
+      const meta   = data.metadata || {};
+      const fecha  = meta.fecha_generacion
+        ? new Date(meta.fecha_generacion).toLocaleString('es-AR') : '–';
+      $('#badge').text((meta.total_tramos||0) + ' tramos · ' + fecha);
+      $('#loading-sub').text('Dibujando ' + tramos.length + ' tramos…');
+
+      const provincias = [...new Set(tramos.map(function(t){return t.provincia||'';}).filter(Boolean))].sort();
+      const rutas = [...new Set(tramos.map(function(t){return t.ruta||'';}).filter(Boolean))]
+        .sort(function(a,b){ return isNaN(a)&&isNaN(b)?a.localeCompare(b):isNaN(a)?1:isNaN(b)?-1:+a-+b; });
+
+      buildMultiSelect('provincia', provincias, function(sel){ filtroProvincias=sel; renderLayers(); });
+      buildMultiSelect('ruta',      rutas,      function(sel){ filtroRutas=sel;      renderLayers(); });
+
+      let i = 0;
+      function chunk() {
+        const fin = Math.min(i+50, tramos.length);
+        for (; i<fin; i++) agregarTramo(tramos[i]);
+        $('#loading-sub').text('Dibujando tramos… ' + i + '/' + tramos.length);
+        if (i < tramos.length) setTimeout(chunk, 0);
+        else { $('#loading').hide(); renderLayers(); }
+      }
+      chunk();
+    })
+    .fail(function() {
+      $('#loading').hide();
+      $('#error-msg').html('No se pudo leer <code>tramos.json</code>.<br><br>Ejecutá <code>python generar_tramos.py</code> y luego <code>python -m http.server 3000</code>');
+      $('#error-box').show();
+    });
+
+  $('[data-estado]').on('click', function() {
+    $('[data-estado]').removeClass('activo');
+    $(this).addClass('activo');
+    filtroEstado = $(this).data('estado');
+    renderLayers();
+  });
+
+  $('[data-calzada]').on('click', function() {
+    $('[data-calzada]').removeClass('activo');
+    $(this).addClass('activo');
+    filtroCalzada = $(this).data('calzada');
+    renderLayers();
+  });
+
+  $('#search').on('input', function() {
+    busqueda = $(this).val().trim().toLowerCase();
+    renderLayers();
+  });
+
+  $('#pcls').on('click', function(){ $('#panel').removeClass('on'); });
+});
+</script>
+</body>
 </html>
