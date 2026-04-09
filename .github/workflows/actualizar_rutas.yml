@@ -1,0 +1,47 @@
+name: Actualizar Estado de Rutas
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # Todos los dias a las 6am Argentina (UTC-3)
+  workflow_dispatch:       # Permite correrlo manualmente desde GitHub
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: |
+          pip install playwright beautifulsoup4 requests
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Correr scraper
+        run: |
+          cd Jobs
+          python scraper_rutas.py --output rutas_estado.json
+
+      - name: Generar tramos.json
+        run: |
+          cd Jobs
+          python generar_tramos.py \
+            --db ../Source/Front/json/tramos_db.json \
+            --estado rutas_estado.json \
+            --output ../Source/Front/json/tramos.json \
+            --sin-osrm
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Source/Front/json/tramos.json Jobs/rutas_estado.json
+          git diff --staged --quiet || git commit -m "Actualizar estado de rutas $(date +'%Y-%m-%d')"
+          git push
