@@ -1,12 +1,12 @@
 {
   "metadata": {
     "fuente": "https://www.argentina.gob.ar/transporte/vialidad-nacional/estado-de-rutas",
-    "fecha_scrape": "2026-05-01T10:27:27.467642",
+    "fecha_scrape": "2026-05-02T10:02:58.269202",
     "total_rutas": 134,
     "total_tramos": 654,
-    "transitables": 644,
+    "transitables": 645,
     "precaucion": 4,
-    "cortadas": 4,
+    "cortadas": 3,
     "sin_estado": 2
   },
   "rutas": {
@@ -618,7 +618,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -629,7 +629,7 @@
         "km": "46,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -640,7 +640,7 @@
         "km": "50,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -651,7 +651,7 @@
         "km": "40,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -662,7 +662,7 @@
         "km": "51,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -673,7 +673,7 @@
         "km": "26,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -684,7 +684,7 @@
         "km": "13,80",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -698,7 +698,7 @@
           "Tarifa del peaje",
           "Estado del paso internacional"
         ],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "San Luis",
@@ -722,7 +722,7 @@
         "km": "56,13",
         "obs": "Precaución en el alteo por la laguna La Picasa, paso a velocidad reducida (80km/h vehículos livianos - 60 km/h pesados y colectivos). Tareas de bacheo y repavimentación entre La Picasa y Rufino (paso alternado de a una mano por vez en zonas de trabajos) - Transito con precaución en paso por alcantarilla en Km 414 entre Aarón Castellanos y Rufino",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "8": [
@@ -807,7 +807,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "9": [
@@ -1067,7 +1067,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1078,7 +1078,7 @@
         "km": "9,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1089,7 +1089,7 @@
         "km": "39,63",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1102,7 +1102,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -1608,7 +1608,7 @@
         "km": "23,52",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -1619,7 +1619,7 @@
         "km": "136,40",
         "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Río Negro",
@@ -1753,7 +1753,7 @@
         "km": "22,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1766,7 +1766,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1777,7 +1777,7 @@
         "km": "19,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "35": [
@@ -2058,7 +2058,7 @@
         "km": "111,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2069,7 +2069,7 @@
         "km": "230,00",
         "obs": "Transitable con Precaución. Sólo vehículos con tracción integral (4x4) por erosiones aluvionales y afectaciones en calzada de suelo natural.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "San Luis",
@@ -2806,7 +2806,7 @@
         "km": "35,70",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2817,7 +2817,7 @@
         "km": "49,40",
         "obs": "Lluvias y anegamientos, equipos trabajando, sectores con calzada de ripio / suelo natural.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2828,7 +2828,7 @@
         "km": "56,70",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2839,7 +2839,7 @@
         "km": "62,70",
         "obs": "Transitable con Precaución. Posibilidad de desprendimiento de rocas en zona de Cuesta del Chiuido.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2850,7 +2850,7 @@
         "km": "58,30",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2861,7 +2861,7 @@
         "km": "96,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2872,7 +2872,7 @@
         "km": "67,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2883,7 +2883,7 @@
         "km": "37,80",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2894,7 +2894,7 @@
         "km": "87,00",
         "obs": "Transitable con precaució  . Bypass de 500 mts sobre puentes en Arroyo Chañares Sur y Arroyo Los Pozos.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -2905,7 +2905,7 @@
         "km": "76,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2916,7 +2916,7 @@
         "km": "68,46",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras en el km 2.095. Zona con animales sueltos. Equipos operando",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2925,11 +2925,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "43,77",
-        "obs": "Transitable con precaución. Calzada mojada. Pronóstico de lluvia y nieve ligera en cotas altas. Baja adherencia. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria.",
+        "obs": "Transitable con precaución. Calzada mojada. Pronóstico de lluvia y nieve ligera en cotas altas. Baja adherencia. Posible formación de hielo en sectores. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria.",
         "iconos": [
           "Ruta escénica"
         ],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2938,11 +2938,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "43,16",
-        "obs": "Transitable con extrema precaución. Calzada reducida de 10 a 12 hs por evento deportivo. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando.",
+        "obs": "Transitable con extrema precaución. Calzada húmeda. Posible formación de hielo en sectores.Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando.",
         "iconos": [
           "Ruta escénica"
         ],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2951,9 +2951,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "66,01",
-        "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando.",
+        "obs": "Transitable con precaución. Calzada húmedo . Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2964,7 +2964,7 @@
         "km": "35,45",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2975,7 +2975,7 @@
         "km": "120,32",
         "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2986,7 +2986,7 @@
         "km": "49,01",
         "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -2995,9 +2995,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "142,27",
-        "obs": "Transitable con precaución. Calzada húmeda. Zona con animales sueltos.",
+        "obs": "Transitable con precaución. Calzada despejada. Viento fuerte, polvo en suspensión. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -3006,9 +3006,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "116,21",
-        "obs": "Transitable con precaución. Calzada húmeda. Zona con animales sueltos.",
+        "obs": "Transitable con precaución. Calzada despejada. Viento fuerte, polvo en suspensión. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Río Negro",
@@ -3131,7 +3131,7 @@
         "km": "33,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3142,7 +3142,7 @@
         "km": "51,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3153,7 +3153,7 @@
         "km": "16,00",
         "obs": "Transitable MAXIMA PRECAUCIONE NE ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3164,7 +3164,7 @@
         "km": "35,00",
         "obs": "Transitable, MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3175,7 +3175,7 @@
         "km": "57,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3186,7 +3186,7 @@
         "km": "34,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3197,7 +3197,7 @@
         "km": "40,00",
         "obs": "Transitable MAXIMA PRECAUCION",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3208,7 +3208,7 @@
         "km": "62,00",
         "obs": "Transitable, maxima PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3751,7 +3751,7 @@
         "km": "17,26",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general -",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3762,7 +3762,7 @@
         "km": "86,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general  - Trabajos en calzada con reducción de carril y paso alternado de lunes a viernes, de 7 a18, en Timbúes, entre calle Mangoré y puente  río Carcarañá.",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3773,7 +3773,7 @@
         "km": "52,00",
         "obs": "ATENCION: Puente Carretero habilitado para todo tipo de vehículos incluidos colectivos de doble piso - camiones limitados a la configuración de un solo eje trasero - PROHIBIDO el cruce de: camiones con balancín (doble eje trasero), semirremolques, camiones con acoplado, bateas, y toda configuración que supere un solo eje trasero - Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3786,7 +3786,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "16": [
@@ -4038,7 +4038,7 @@
         "km": "81,28",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -4049,7 +4049,7 @@
         "km": "71,30",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -4060,7 +4060,7 @@
         "km": "164,50",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "25": [
@@ -4737,7 +4737,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "20": [
@@ -4783,7 +4783,7 @@
         "km": "56,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4794,7 +4794,7 @@
         "km": "60,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4805,7 +4805,7 @@
         "km": "26,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4816,7 +4816,7 @@
         "km": "22,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4827,7 +4827,7 @@
         "km": "4,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -5066,7 +5066,7 @@
         "km": "2,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "A015": [
@@ -5408,7 +5408,7 @@
         "km": "16,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -5419,7 +5419,7 @@
         "km": "206,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -5432,7 +5432,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -5644,7 +5644,7 @@
         "km": "106,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -5655,7 +5655,7 @@
         "km": "114,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -5666,7 +5666,7 @@
         "km": "104,00",
         "obs": "Transitable con precaución  RN 143, En el tramo comprendido entre la calle Guillermo Rawson y el Chañaral del Toledano  se realizarán desvíos por calles 20 de junio y, Santiago Germanó,",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       }
     ],
     "1V143": [
@@ -6207,7 +6207,7 @@
         "km": "58,00",
         "obs": "Habilitada solo de 7 a 19hs",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       }
     ],
     "150": [
@@ -6233,7 +6233,7 @@
         "iconos": [
           "Ruta escénica"
         ],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6246,7 +6246,7 @@
         "iconos": [
           "Ruta escénica"
         ],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6257,7 +6257,7 @@
         "km": "13,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6268,7 +6268,7 @@
         "km": "40,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6279,7 +6279,7 @@
         "km": "23,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6290,7 +6290,7 @@
         "km": "37,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6303,7 +6303,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       }
     ],
     "142": [
@@ -6316,7 +6316,7 @@
         "km": "35,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       }
     ],
     "144": [
@@ -6329,7 +6329,7 @@
         "km": "70,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -6340,7 +6340,7 @@
         "km": "56,00",
         "obs": "Transitable con Precaución. Posibilidad de arrastre de material aluvional.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       }
     ],
     "145": [
@@ -6353,7 +6353,7 @@
         "km": "35,00",
         "obs": ". Posibilidad de animales sueltos sobre calzada (trashumancia).",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -6364,7 +6364,7 @@
         "km": "30,00",
         "obs": ". Posibilidad de animales sueltos sobre calzada (trashumancia).",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -6377,20 +6377,20 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
         "tramo": "Paso Internacional El Pehuenche",
-        "estado": "cortada",
-        "estado_raw": "CORTE TOTAL",
+        "estado": "transitable",
+        "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "5,00",
         "obs": "",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       }
     ],
     "146": [
@@ -6403,7 +6403,7 @@
         "km": "124,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "Mendoza",
@@ -6414,7 +6414,7 @@
         "km": "57,51",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "San Luis",
@@ -6449,7 +6449,7 @@
         "km": "54,5",
         "obs": "",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "San Juan",
@@ -6460,7 +6460,7 @@
         "km": "38,00",
         "obs": "transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6471,7 +6471,7 @@
         "km": "20,00",
         "obs": "Transitable precaucion ZONA BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6482,7 +6482,7 @@
         "km": "42.00",
         "obs": "A Barreal, departamento Calingasta, únicamente por RN 149.",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       }
     ],
     "149": [
@@ -6495,7 +6495,7 @@
         "km": "60,00",
         "obs": "Transitable con Precaución. lluvias ( Equipos trabajando en la zona) Sectores con calzada de ripio / suelo natural.",
         "iconos": [],
-        "actualizado": "29/4/2026 07:30"
+        "actualizado": "1/5/2026 07:30"
       },
       {
         "provincia": "San Juan",
@@ -6506,7 +6506,7 @@
         "km": "91,00",
         "obs": "Transitable, maxima PRECAUCION POR LLUVIAS Y AGUA EN CALZADA",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6517,7 +6517,7 @@
         "km": "42,00",
         "obs": "Transitable MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6528,7 +6528,7 @@
         "km": "50,00",
         "obs": "Transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6539,7 +6539,7 @@
         "km": "102,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       }
     ],
     "101": [
@@ -6646,9 +6646,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "14,94",
-        "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria.",
+        "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -6661,7 +6661,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       }
     ],
     "234": [
@@ -6674,7 +6674,7 @@
         "km": "57,44",
         "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       }
     ],
     "237": [
@@ -6687,7 +6687,7 @@
         "km": "174,43",
         "obs": "Transitable con precaucion. Calzada despejada. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -6698,7 +6698,7 @@
         "km": "118,79",
         "obs": "Transitable con precaucion. Calzada despejada. Zona con animales sueltos. Posibles caidas de piedras en KM 1441 y km 1550.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -6707,9 +6707,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "67,36",
-        "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos. Equipos operando",
+        "obs": "Transitable con precaución. Calzada despejada.Visibilidad reducida por neblina en sectores. Posible caída de piedras. Zona con animales sueltos. Equipos operando",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       }
     ],
     "242": [
@@ -6720,9 +6720,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "51,63",
-        "obs": "Transitable con precaución. Calzada despejada, sectores con hielo. Zona con animales sueltos.",
+        "obs": "Transitable con precaución. Calzada despejada, sectores con hielo. Sectores con niebla. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -6731,11 +6731,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "7,21",
-        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada despejada. Viento moderador. Zona con animales sueltos. Posible caída de rocas en el km 48.",
+        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada mojada, sectores con hielo. Visibilidad reducida por niebla espesa. Viento fuerte. Zona con animales sueltos. Posible caída de rocas en el km 48.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       }
     ],
     "Vº RN 22": [
@@ -6748,7 +6748,7 @@
         "km": "6,86",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       },
       {
         "provincia": "Neuquén",
@@ -6759,7 +6759,7 @@
         "km": "23,67",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso.",
         "iconos": [],
-        "actualizado": "30/4/2026 07:45"
+        "actualizado": "1/5/2026 08:00"
       }
     ],
     "23": [
@@ -7049,7 +7049,7 @@
         "km": "15,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "1/5/2026 07:00"
+        "actualizado": "2/5/2026 07:00"
       }
     ],
     "147": [
@@ -7149,7 +7149,7 @@
         "km": "155,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7160,7 +7160,7 @@
         "km": "70,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -7195,7 +7195,7 @@
         "km": "17,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "173": [
@@ -7208,7 +7208,7 @@
         "km": "5,68",
         "obs": "ALERTA: (INTRANSITABLE DÍAS DE LLUVIA E INMEDIATOS POSTERIORES)",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "175": [
@@ -7221,7 +7221,7 @@
         "km": "3,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "178": [
@@ -7234,7 +7234,7 @@
         "km": "69,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7245,7 +7245,7 @@
         "km": "30,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7256,7 +7256,7 @@
         "km": "58,00",
         "obs": "Trabajos de mantenimiento - TRABAJOS DE BACHEO: Tareas sobre calzada con reparaciones entre Villa Eloísa y RN 9 y entre RN 9 y Las Rosas. Reducciones de carril durante las intevenciones, con paso alternado. Circulación con precaución por calzada en reparación en el tramo Acceso Villa Eloísa - RN 1V09. Entre Villa Eloísa (Km 146) y Las Rosas (Km 205) la velocidad máxima recomendada por tareas de reparación de la ruta es de 80 KM/H en los tramos no urbanizados.",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "1v09": [
@@ -7269,7 +7269,7 @@
         "km": "16,00",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7280,7 +7280,7 @@
         "km": "69,00",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada -ATENCION: Corte total entre Carcarañá y Correa, para todo tipo de vehículos y peatones. Se realizan desvíos hacia Autopista Rosario - Córdoba en Carcarañá y en Correa.",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7291,7 +7291,7 @@
         "km": "22,50",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "A007": [
@@ -7304,7 +7304,7 @@
         "km": "4,50",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7315,7 +7315,7 @@
         "km": "2,70",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "A008": [
@@ -7328,7 +7328,7 @@
         "km": "21,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7339,7 +7339,7 @@
         "km": "8,19",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "A009": [
@@ -7352,7 +7352,7 @@
         "km": "12,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "A012": [
@@ -7365,7 +7365,7 @@
         "km": "42,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7376,7 +7376,7 @@
         "km": "25,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "30/4/2026 09:00"
+        "actualizado": "1/5/2026 09:00"
       }
     ],
     "Compl A": [
