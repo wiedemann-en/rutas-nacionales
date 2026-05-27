@@ -3,7 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Estado de Rutas Nacionales</title>
+<title>Estado de Rutas Nacionales Argentina | Mapa de tránsito en tiempo real</title>
+
+<!-- SEO básico -->
+<meta name="description" content="Mapa interactivo del estado de las rutas nacionales de Argentina. Consultá si las rutas están transitables, con precaución o cortadas. Información actualizada de Vialidad Nacional.">
+<meta name="keywords" content="rutas nacionales argentina, estado rutas, vialidad nacional, mapa rutas, corte de rutas, rutas cortadas, estado de ruta, tránsito argentina, ruta nacional">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Esteban Wiedemann">
+<link rel="canonical" href="https://rutasnacionales.com.ar/">
+
+<!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://rutasnacionales.com.ar/">
+<meta property="og:title" content="Estado de Rutas Nacionales Argentina">
+<meta property="og:description" content="Mapa interactivo del estado de las rutas nacionales. Transitables, con precaución o cortadas. Fuente: Vialidad Nacional.">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Rutas Nacionales Argentina">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Estado de Rutas Nacionales Argentina">
+<meta name="twitter:description" content="Mapa interactivo del estado de las rutas nacionales. Transitables, con precaución o cortadas. Fuente: Vialidad Nacional.">
+
+<!-- Datos estructurados (Google Rich Results) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Estado de Rutas Nacionales Argentina",
+  "description": "Mapa interactivo del estado de las rutas nacionales de Argentina, con información actualizada de Vialidad Nacional.",
+  "url": "https://rutasnacionales.com.ar/",
+  "applicationCategory": "TravelApplication",
+  "operatingSystem": "Web",
+  "inLanguage": "es-AR",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "ARS" },
+  "author": { "@type": "Person", "name": "Esteban Wiedemann" }
+}
+</script>
+
 <script defer src="https://cloud.umami.is/script.js" data-website-id="b3fdee8b-5646-4e8e-86b2-b64df274b08c"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.13.3/mapbox-gl.min.css"/>
@@ -77,12 +114,33 @@
   .fbtn.rip.activo    { background:#431407; }
   .fbtn.tier.activo   { background:#2e1065; }
 
+  /* Search con botón clear */
+  .search-wrap { position:relative; }
+  .search-wrap #search { width:100%; padding-right:28px; }
+  #search-clear {
+    position:absolute; right:7px; top:50%; transform:translateY(-50%);
+    background:none; border:none; color:#64748b; cursor:pointer;
+    font-size:.75rem; line-height:1; padding:2px 3px; display:none;
+  }
+  #search-clear:hover { color:#f87171; }
+  #search-clear.on { display:block; }
+
   #search {
-    width:100%; background:#0f172a; border:1px solid #334155;
+    background:#0f172a; border:1px solid #334155;
     border-radius:8px; padding:6px 10px; color:#e2e8f0;
     font-size:.78rem; outline:none;
   }
   #search:focus { border-color:#3b82f6; }
+
+  /* Botón limpiar filtros */
+  #btn-reset {
+    display:none; width:100%; padding:7px; border-radius:8px;
+    border:1px solid #334155; background:#0f172a;
+    color:#94a3b8; font-size:.72rem; cursor:pointer;
+    margin-top:4px; transition:all .15s; text-align:center;
+  }
+  #btn-reset:hover { background:#1e293b; color:#e2e8f0; border-color:#3b82f6; }
+  #btn-reset.on { display:block; }
 
   /* Multiselect */
   .multi-select-wrap { position:relative; }
@@ -151,12 +209,16 @@
     position:absolute; top:12px; right:12px; z-index:800;
     background:#1e293bee; backdrop-filter:blur(6px);
     border:1px solid #334155; border-radius:12px;
-    padding:14px; width:290px; display:none;
+    padding:14px; width:290px;
     max-height:calc(100% - 24px); overflow-y:auto;
+    /* Fade in/out */
+    opacity:0; pointer-events:none;
+    transform:translateY(6px);
+    transition:opacity .2s ease, transform .2s ease;
   }
-  #panel.on { display:block; }
+  #panel.on { opacity:1; pointer-events:all; transform:translateY(0); }
   #panel h3 { font-size:.88rem; color:#fff; margin-bottom:10px; display:flex; align-items:center; gap:6px; }
-  .cls { margin-left:auto; cursor:pointer; color:#64748b; font-size:1.1rem; }
+  .cls { margin-left:auto; cursor:pointer; color:#64748b; font-size:1.1rem; flex-shrink:0; }
   .cls:hover { color:#e2e8f0; }
   .irow { display:flex; gap:8px; margin-bottom:6px; }
   .ikey { font-size:.68rem; color:#94a3b8; font-weight:700; text-transform:uppercase; letter-spacing:.5px; min-width:76px; padding-top:1px; }
@@ -173,6 +235,14 @@
   .c-otro  { background:#1e293b; color:#94a3b8; }
   .det-box { margin-top:8px; padding:8px; background:#0f172a; border-radius:7px; font-size:.72rem; color:#94a3b8; line-height:1.5; }
 
+  /* Botón "Ver en mapa" dentro del panel */
+  #btn-ver-mapa {
+    width:100%; padding:7px; border-radius:8px; margin-top:10px;
+    background:#1e3a5f; border:1px solid #3b82f6;
+    color:#60a5fa; font-size:.73rem; cursor:pointer; transition:background .15s;
+  }
+  #btn-ver-mapa:hover { background:#1d4ed8; color:#fff; }
+
   #legend {
     position:absolute; bottom:24px; right:12px; z-index:800;
     background:#1e293bee; backdrop-filter:blur(6px);
@@ -182,6 +252,17 @@
   .lr { display:flex; align-items:center; gap:8px; margin-bottom:3px; font-size:.71rem; color:#cbd5e1; }
   .ll { height:4px; border-radius:2px; width:26px; }
   .leg-sep { border-top:1px solid #334155; margin:6px 0; }
+
+  /* Sin resultados */
+  #no-results {
+    position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+    z-index:700; background:#1e293bee; backdrop-filter:blur(6px);
+    border:1px solid #334155; border-radius:12px;
+    padding:16px 28px; font-size:.82rem; color:#94a3b8;
+    display:none; text-align:center; pointer-events:none;
+    white-space:nowrap;
+  }
+  #no-results.on { display:block; }
 
   #loading, #error-box {
     position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
@@ -200,14 +281,84 @@
   .leaflet-popup-content-wrapper { background:#1e293b; border:1px solid #334155; border-radius:10px; }
   .leaflet-popup-tip { background:#1e293b; }
   .leaflet-popup-content { color:#e2e8f0; margin:10px 14px; font-size:.8rem; }
+
+  /* ── Hamburger ───────────────────────────────────────────────────────────── */
+  #hamburger {
+    display:none; background:none; border:none; cursor:pointer;
+    color:#e2e8f0; font-size:1.4rem; line-height:1;
+    padding:4px 10px 4px 0; flex-shrink:0; position:relative;
+  }
+  #hamburger:hover { color:#60a5fa; }
+
+  /* Dot indicador de filtros activos */
+  #ham-dot {
+    display:none; width:8px; height:8px; background:#f59e0b;
+    border-radius:50%; position:absolute; top:6px; right:6px;
+    border:1.5px solid #0f2744;
+  }
+  #ham-dot.on { display:block; }
+
+  /* Overlay oscuro al abrir sidebar en mobile */
+  #sidebar-overlay {
+    display:none; position:fixed; inset:0;
+    background:#00000066; z-index:850;
+  }
+  #sidebar-overlay.on { display:block; }
+
+  /* ── Tablet y mobile (< 900px) ───────────────────────────────────────────── */
+  @media (max-width:899px) {
+    #hamburger { display:block; }
+
+    /* Sidebar como drawer deslizante */
+    #sidebar {
+      position:fixed;
+      top:48px; left:0; bottom:0;
+      transform:translateX(-100%);
+      transition:transform .25s ease;
+      z-index:900;
+    }
+    #sidebar.open { transform:translateX(0); }
+
+    /* Mapa ocupa toda la pantalla */
+    #map { left:0 !important; }
+
+    /* Panel detalle más angosto */
+    #panel { width:calc(100vw - 24px); max-width:340px; }
+  }
+
+  /* ── Mobile chico (< 480px) ──────────────────────────────────────────────── */
+  @media (max-width:479px) {
+    #header h1 { font-size:.78rem; }
+    .badge { display:none; }
+
+    /* Panel como bottom sheet */
+    #panel {
+      top:auto; bottom:0; left:0; right:0;
+      width:100%; max-width:100%;
+      border-radius:12px 12px 0 0;
+      max-height:55vh;
+      /* override transition origin para bottom sheet */
+      transform:translateY(12px);
+    }
+    #panel.on { transform:translateY(0); }
+
+    /* Leyenda más compacta */
+    #legend { bottom:10px; right:8px; padding:8px 10px; }
+    #legend h4 { font-size:.6rem; }
+    .lr { font-size:.67rem; }
+    .ll { width:20px; }
+  }
 </style>
 </head>
 <body>
 
 <div id="header">
+  <button id="hamburger" aria-label="Abrir filtros">☰<span id="ham-dot"></span></button>
   <h1>🗺️ Estado de Rutas Nacionales <span>Argentina</span></h1>
   <span class="badge" id="badge">Cargando…</span>
 </div>
+
+<div id="sidebar-overlay"></div>
 
 <div id="main">
 
@@ -216,7 +367,10 @@
 
       <div class="filter-section">
         <h4>Buscar</h4>
-        <input id="search" type="text" placeholder="🔍 Tramo o localidad…"/>
+        <div class="search-wrap">
+          <input id="search" type="text" placeholder="🔍 Tramo o localidad…"/>
+          <button id="search-clear" aria-label="Limpiar búsqueda">✕</button>
+        </div>
       </div>
 
       <div class="filter-section">
@@ -276,6 +430,8 @@
         </div>
       </div>
 
+      <button id="btn-reset">↺ Limpiar todos los filtros</button>
+
     </div>
 
     <div id="sidebar-stats">
@@ -287,6 +443,8 @@
   </div>
 
   <div id="map"></div>
+
+  <div id="no-results">🔍 Sin tramos visibles con los filtros actuales</div>
 
   <div id="loading">
     <div class="spin"></div>
@@ -347,6 +505,8 @@ let allLayers = [];
 let filtroEstado  = 'all', filtroCalzada = 'all';
 let filtroProvincias = new Set(), filtroRutas = new Set();
 let busqueda = '';
+let activeLayerItem = null;   // { layer, estado } del tramo resaltado actualmente
+let msProvince, msRuta;        // referencias a los multiselects para poder resetearlos
 const layerGroup = L.layerGroup().addTo(map);
 
 // ── Multiselect ───────────────────────────────────────────────────────────────
@@ -403,6 +563,15 @@ function buildMultiSelect(id, items, onChangeFn) {
     else label.text(selected.size + ' seleccionadas');
   }
 
+  function reset() {
+    selected.clear();
+    searchIn.val('');
+    renderOptions('');
+    renderTags();
+    updateLabel();
+    onChangeFn(selected);
+  }
+
   trigger.on('click', function(e) {
     e.stopPropagation();
     const isOpen = dropdown.hasClass('open');
@@ -435,6 +604,7 @@ function buildMultiSelect(id, items, onChangeFn) {
   });
 
   renderOptions();
+  return { reset: reset };
 }
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
@@ -451,7 +621,33 @@ function calzadaBadge(calzada) {
   return '<span class="cbadge ' + (CCLS[key]||'c-otro') + '">' + (calzada||'Sin datos') + '</span>';
 }
 
-function abrirPanel(t) {
+// ── Estado de filtros ─────────────────────────────────────────────────────────
+function hayFiltrosActivos() {
+  return filtroEstado !== 'all' || filtroCalzada !== 'all'
+    || filtroProvincias.size > 0 || filtroRutas.size > 0 || busqueda.length > 0;
+}
+
+function actualizarIndicadorFiltros() {
+  const activos = hayFiltrosActivos();
+  $('#btn-reset').toggleClass('on', activos);
+  $('#ham-dot').toggleClass('on', activos);
+}
+
+// ── Panel ─────────────────────────────────────────────────────────────────────
+function closePanel() {
+  $('#panel').removeClass('on');
+  // quitar highlight del tramo activo
+  if (activeLayerItem) {
+    activeLayerItem.layer.setStyle({
+      color: COLOR[activeLayerItem.estado],
+      weight: PESO[activeLayerItem.estado],
+      opacity: .85
+    });
+    activeLayerItem = null;
+  }
+}
+
+function abrirPanel(t, layer) {
   const ec = ECLS[t.estado]||ECLS.default;
   const el = ELBL[t.estado]||t.estado;
   $('#panel-title').html('🛣️ RN ' + t.ruta + ' <span class="cls" id="pcls">✕</span>');
@@ -465,10 +661,14 @@ function abrirPanel(t) {
     '</span></div>' +
     '<div class="irow"><span class="ikey">Calzada</span><span class="ival">' + calzadaBadge(t.calzada) + '</span></div>' +
     (t.actualizado ? '<div class="irow"><span class="ikey">Actualizado</span><span class="ival">' + t.actualizado + '</span></div>' : '') +
-    (t.obs ? '<div class="det-box">📝 ' + t.obs + '</div>' : '')
+    (t.obs ? '<div class="det-box">📝 ' + t.obs + '</div>' : '') +
+    '<button id="btn-ver-mapa">🎯 Ver en mapa</button>'
   );
+  $('#btn-ver-mapa').on('click', function() {
+    map.fitBounds(layer.getBounds(), { padding:[40,40], maxZoom:13 });
+    if ($(window).width() < 900) closeSidebar();
+  });
   $('#panel').addClass('on');
-  $('#pcls').on('click', function() { $('#panel').removeClass('on'); });
 }
 
 // ── Render ────────────────────────────────────────────────────────────────────
@@ -495,6 +695,11 @@ function renderLayers() {
   $('#s-p').text(cnt.precaucion);
   $('#s-c').text(cnt.cortada);
   $('#s-a').text(vis);
+
+  // Mensaje "sin resultados" solo cuando ya cargó todo
+  if (allLayers.length > 0) {
+    $('#no-results').toggleClass('on', vis === 0);
+  }
 }
 
 function agregarTramo(t) {
@@ -512,15 +717,32 @@ function agregarTramo(t) {
     { sticky:false, permanent:false, direction:'top' }
   );
   layer.on('mouseover', function(e) {
+    // no sobreescribir el highlight del tramo activo
+    if (activeLayerItem && activeLayerItem.layer === layer) return;
     e.target.setStyle({color:'#22d3ee', weight:PESO[estado]+3, opacity:1});
     e.target.openTooltip(e.latlng);
   });
   layer.on('mouseout', function(e) {
+    if (activeLayerItem && activeLayerItem.layer === layer) return;
     e.target.setStyle({color:COLOR[estado], weight:PESO[estado], opacity:.85});
     e.target.closeTooltip();
   });
   layer.on('mousemove', function(e) { e.target.getTooltip().setLatLng(e.latlng); });
-  layer.on('click', function() { abrirPanel(t); });
+  layer.on('click', function() {
+    // quitar highlight del tramo anterior
+    if (activeLayerItem && activeLayerItem.layer !== layer) {
+      activeLayerItem.layer.setStyle({
+        color: COLOR[activeLayerItem.estado],
+        weight: PESO[activeLayerItem.estado],
+        opacity: .85
+      });
+    }
+    // resaltar el tramo clickeado
+    layer.setStyle({color:'#22d3ee', weight:PESO[estado]+3, opacity:1});
+    layer.closeTooltip();
+    activeLayerItem = { layer, estado };
+    abrirPanel(t, layer);
+  });
 
   allLayers.push({
     layer, estado, calzada,
@@ -547,8 +769,12 @@ $(function() {
       const rutas = [...new Set(tramos.map(function(t){return t.ruta||'';}).filter(Boolean))]
         .sort(function(a,b){ return isNaN(a)&&isNaN(b)?a.localeCompare(b):isNaN(a)?1:isNaN(b)?-1:+a-+b; });
 
-      buildMultiSelect('provincia', provincias, function(sel){ filtroProvincias=sel; renderLayers(); });
-      buildMultiSelect('ruta',      rutas,      function(sel){ filtroRutas=sel;      renderLayers(); });
+      msProvince = buildMultiSelect('provincia', provincias, function(sel){
+        filtroProvincias = sel; actualizarIndicadorFiltros(); renderLayers();
+      });
+      msRuta = buildMultiSelect('ruta', rutas, function(sel){
+        filtroRutas = sel; actualizarIndicadorFiltros(); renderLayers();
+      });
 
       let i = 0;
       function chunk() {
@@ -566,10 +792,12 @@ $(function() {
       $('#error-box').show();
     });
 
+  // ── Filtros ──────────────────────────────────────────────────────────────────
   $('[data-estado]').on('click', function() {
     $('[data-estado]').removeClass('activo');
     $(this).addClass('activo');
     filtroEstado = $(this).data('estado');
+    actualizarIndicadorFiltros();
     renderLayers();
   });
 
@@ -577,15 +805,82 @@ $(function() {
     $('[data-calzada]').removeClass('activo');
     $(this).addClass('activo');
     filtroCalzada = $(this).data('calzada');
+    actualizarIndicadorFiltros();
     renderLayers();
   });
 
   $('#search').on('input', function() {
     busqueda = $(this).val().trim().toLowerCase();
+    $('#search-clear').toggleClass('on', busqueda.length > 0);
+    actualizarIndicadorFiltros();
     renderLayers();
   });
 
-  $('#pcls').on('click', function(){ $('#panel').removeClass('on'); });
+  // Limpiar búsqueda con ×
+  $('#search-clear').on('click', function() {
+    $('#search').val('').trigger('input');
+  });
+
+  // Limpiar todos los filtros
+  $('#btn-reset').on('click', function() {
+    filtroEstado = 'all';
+    $('[data-estado]').removeClass('activo');
+    $('[data-estado="all"]').addClass('activo');
+
+    filtroCalzada = 'all';
+    $('[data-calzada]').removeClass('activo');
+    $('[data-calzada="all"]').addClass('activo');
+
+    busqueda = '';
+    $('#search').val('');
+    $('#search-clear').removeClass('on');
+
+    if (msProvince) msProvince.reset();
+    if (msRuta)     msRuta.reset();
+
+    actualizarIndicadorFiltros();
+    renderLayers();
+  });
+
+  // ── Panel (event delegation para evitar acumulación de handlers) ─────────────
+  $(document).on('click', '#pcls', function() { closePanel(); });
+
+  // ── Click en el mapa: cerrar panel y sidebar ─────────────────────────────────
+  map.on('click', function() {
+    closePanel();
+    if ($(window).width() < 900) closeSidebar();
+  });
+
+  // ── Escape: cerrar todo ───────────────────────────────────────────────────────
+  $(document).on('keydown', function(e) {
+    if (e.key === 'Escape') {
+      closePanel();
+      closeSidebar();
+      $('.multi-select-dropdown').removeClass('open');
+      $('.multi-select-trigger').removeClass('open');
+    }
+  });
+
+  // ── Sidebar mobile toggle ─────────────────────────────────────────────────────
+  function closeSidebar() {
+    $('#sidebar').removeClass('open');
+    $('#sidebar-overlay').removeClass('on');
+  }
+
+  $('#hamburger').on('click', function() {
+    const opening = !$('#sidebar').hasClass('open');
+    $('#sidebar').toggleClass('open');
+    $('#sidebar-overlay').toggleClass('on');
+    // Scroll al tope al abrir
+    if (opening) $('#sidebar-body').scrollTop(0);
+  });
+
+  $('#sidebar-overlay').on('click', closeSidebar);
+
+  // Cerrar sidebar al aplicar un filtro en mobile
+  $('[data-estado], [data-calzada]').on('click', function() {
+    if ($(window).width() < 900) closeSidebar();
+  });
 });
 </script>
 </body>

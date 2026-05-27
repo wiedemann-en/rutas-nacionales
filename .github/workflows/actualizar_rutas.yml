@@ -6,7 +6,25 @@ on:
   workflow_dispatch:       # Permite correrlo manualmente desde GitHub
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.paridad.outputs.run }}
+    steps:
+      - id: paridad
+        name: Verificar si corresponde ejecutar hoy (dias impares)
+        run: |
+          DAY=$(date +%-d)
+          if (( DAY % 2 == 1 )); then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "Dia par ($DAY), se omite la ejecucion."
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+
   actualizar:
+    needs: check
+    if: needs.check.outputs.run == 'true' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
 
     steps:
