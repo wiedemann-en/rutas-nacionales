@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fecha_generacion": "2026-07-11T10:19:42.672726",
+    "fecha_generacion": "2026-07-13T12:20:11.063655",
     "total_tramos": 659,
     "sin_geometria": 1,
     "transitables": 647,
@@ -18,7 +18,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -50,7 +50,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -461,8 +461,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda en sectores. Banquinas normal. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada normal, deformada en sectores. Banquinas normal. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -486,7 +486,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Calzada normal. Banquinas normales. Respetar señalamiento. Animales sueltos. Equipos viales trabajando en repavimentación de calzada, en el acceso norte a Trelew. Desvío habilitado. Respetar señalamiento. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -513,8 +513,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda por riego con sal en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada normal, húmeda en sectores. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -537,8 +537,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con sal en sectores. Banquinas inestables, con barro y agua en sectores. Equipos de Vialidad Nacional distribuyendo sal. Animales sueltos. Viento. Bancos de niebla, visibilidad reducida en sectores. Lloviznas. Transitar con extrema precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia en sectores. Banquinas inestables, con barro en sectores. Equipos de Vialidad Nacional distribuyendo sal. Animales sueltos. Viento. Lloviznas. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 4,
       "geo": [
         [
@@ -565,8 +565,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda en sectores. Banquinas normal. Equipos de Vialidad Nacional trabajando en zona urbana de Comodoro Rivadavia. Desvío por obras en Ramón Santos. Animales sueltos. Viento. Lloviznas aisladas. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada normal, húmeda en sectores. Banquinas normal. Equipos de Vialidad Nacional trabajando en zona urbana de Comodoro Rivadavia. Desvío por obras en Ramón Santos. Animales sueltos. Viento. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 5,
       "geo": [
         [
@@ -590,7 +590,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Desde Viedma hasta la Rotonda RN 250 tener presente que es una zona de chacras con varios caminos laterales donde ingresan y egresan vehículos de gran porte. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -618,7 +618,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución .Circular respetando las velocidades máximas y los sectores de adelantamiento.  Tráfico vehicular moderado.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -642,7 +642,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Circular respetando las velocidades máximas y los sectores de adelantamiento. Sectores poceados.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 3,
       "geo": [
         [
@@ -666,7 +666,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha . Animales sueltos. Zonas de baches. Banquinas inestables .",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -690,7 +690,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha . Animales sueltos. Zonas de baches. Banquinas inestables .",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -714,7 +714,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Sectores con ahuellamiento. Banquinas inestables. Zona de baches .",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -742,7 +742,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Sectores con ahuellamiento. Banquinas inestables. Zona de baches .",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -766,7 +766,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Sectores con ahuellamiento. Banquinas inestables. Zona de baches .",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 5,
       "geo": [
         [
@@ -789,8 +789,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Sectores con ahuellamiento. Banquinas inestables. Zona de baches .",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Sectores con ahuellamiento. Banquinas inestables. Zona de baches . Visibilidad reducida por lluvia",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -813,8 +813,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Banquinas inestables. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Banquinas inestables. Zona de baches. Visibilidad reducida por lluvia",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -837,8 +837,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por sectores con escarcha. Animales sueltos. Banquinas inestables. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con extrema precaución formación de hielo y nieve en la calzada. Equipos trabajando. Animales sueltos. Banquinas inestables. Zona de baches. Visibilidad reducida por lluvia . Distribución de sal en la calzada",
+      "actualizado": "13/7/2026 09:00",
       "orden": 11,
       "geo": [
         [
@@ -861,8 +861,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución . Calzada  húmeda por riego con liquido antihielo.  Sectores con huellones. Banquina con descalce . Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con extrema precaución . Visibilidad reducida. Calzada  húmeda por lluvia y agua nieve.  Sectores con huellones. Banquina con descalce . Animales sueltos. Agentes y equipos viales trabajando en distribucion de sal",
+      "actualizado": "13/7/2026 09:00",
       "orden": 7,
       "geo": [
         [
@@ -885,8 +885,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución .  Calzada húmeda por riego con liquido antihielo. Animales sueltos.  Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución .  Calzada húmeda por llovizna. Aguanieve. Animales sueltos.  Banquinas inestables.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 7,
       "geo": [
         [
@@ -909,8 +909,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución . Calzada húmeda por riego con liquido antihielo.  Animales sueltos.  Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución calzada humeda por llovizna. Animales sueltos.  Banquinas inestables.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 12,
       "geo": [
         [
@@ -933,8 +933,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución . Calzada húmeda por riego con liquido antihielo.  Animales sueltos.  Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución calzada humeda por llovizna. Animales sueltos.  Banquinas inestables. Zona de baches. Calzada deformada. Sectores sin demarcación horizontal.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 8,
       "geo": [
         [
@@ -957,8 +957,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por escarcha matinal. Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución calzada humeda por llovizna. Animales sueltos.  Banquinas inestables. Zona de baches. Calzada deformada. Sectores sin demarcación horizontal.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 8,
       "geo": [
         [
@@ -981,8 +981,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por presencia de escarcha matinal .  Zona de baches señalizada. Banquinas inestables",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por presencia de escarcha matinal . Sectores con viento. Leve llovizna.  Zona de baches señalizada. Banquinas inestables",
+      "actualizado": "13/7/2026 09:00",
       "orden": 11,
       "geo": [
         [
@@ -1005,8 +1005,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema precaución por presencia de escarcha matinal.  Banquinas inestables. Zona de baches señalizada.  Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución por presencia de escarcha matinal.  Sectores con viento. Leve llovizna. Banquinas inestables. Zona de baches señalizada.  Animales sueltos.",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -1226,7 +1226,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1318,7 +1318,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1342,7 +1342,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -1410,7 +1410,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -1438,7 +1438,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "TRANSITABLE CON EXTREMA PRECAUCIÓN",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 2,
       "geo": [
         [
@@ -1466,7 +1466,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 3,
       "geo": [
         [
@@ -1490,7 +1490,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": null,
       "geo": [
         [
@@ -1514,7 +1514,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": null,
       "geo": [
         [
@@ -1538,7 +1538,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 5,
       "geo": [
         [
@@ -1562,7 +1562,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 6,
       "geo": [
         [
@@ -1583,10 +1583,10 @@
       "tramo_db": "TUNEL INTERNACIONAL",
       "provincia": "Mendoza",
       "calzada": "Sin Especificar",
-      "estado": "cortada",
-      "estado_raw": "CORTE TOTAL",
+      "estado": "transitable",
+      "estado_raw": "HABILITADA",
       "obs": "nevadas y fuerte viento blanco Nuevo horario de invierno de 09 a 21 hs Arg - 08 a 20 hs Chile",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 7,
       "geo": [
         [
@@ -1646,7 +1646,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución en el alteo por la laguna La Picasa, paso a velocidad reducida (80km/h vehículos livianos - 60 km/h pesados y colectivos). Tareas de bacheo y repavimentación entre La Picasa y Rufino (paso alternado de a una mano por vez en zonas de trabajos) - Transito con precaución en paso por alcantarilla en Km 414 entre Aarón Castellanos y Rufino",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1674,7 +1674,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1826,7 +1826,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1854,7 +1854,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -1878,7 +1878,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -2034,7 +2034,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -2058,7 +2058,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -2082,7 +2082,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -2110,7 +2110,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -2134,7 +2134,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 5,
       "geo": [
         [
@@ -2158,7 +2158,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 6,
       "geo": [
         [
@@ -2182,7 +2182,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 7,
       "geo": [
         [
@@ -2210,7 +2210,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 8,
       "geo": [
         [
@@ -2234,7 +2234,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 9,
       "geo": [
         [
@@ -2258,7 +2258,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": ".",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 10,
       "geo": [
         [
@@ -2286,7 +2286,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución. Cuadrilla de Conservaciòn trabjando en bacheo desde los km 1438 al km 1440. Respetar señalizacion vial,.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -2310,7 +2310,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución. Trabajos de bacheo entre Metán y Rosario de la Frontera",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -2338,7 +2338,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución, calzada irregular en sectores. Disminuya velocidad y mantenga distancia.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 3,
       "geo": [
         [
@@ -2366,7 +2366,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución por material en distintos puntos de la calzada. Máquinas trbajando en el despeje",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": null,
       "geo": [
         [
@@ -2390,7 +2390,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -2414,7 +2414,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -2438,7 +2438,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -2466,7 +2466,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -2610,7 +2610,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -2638,7 +2638,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 2,
       "geo": [
         [
@@ -2662,7 +2662,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 4,
       "geo": [
         [
@@ -2690,7 +2690,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 5,
       "geo": [
         [
@@ -2714,7 +2714,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 6,
       "geo": [
         [
@@ -2826,7 +2826,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general -  ATENCION: Trabajos de mantentimiento y demarcación en travesía urbana Granadero Baigorria con reducciones puntuales de carril.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -2854,7 +2854,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general  - Trabajos en calzada con reducción de carril y paso alternado de lunes a viernes, de 8 a18, en Puerto General San Martín con desvíos para la mano hacia el norte por América - Vucetich - Perón y paso a velocidad reducida del sentido al sur.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -2902,7 +2902,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "ATENCION: Puente Carretero habilitado para todo tipo de vehículos incluidos colectivos de doble piso - camiones limitados a la configuración de un solo eje trasero - PROHIBIDO el cruce de: camiones con balancín (doble eje trasero), semirremolques, camiones con acoplado, bateas, y toda configuración que supere un solo eje trasero - Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -2934,7 +2934,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general. Precaución en la circulación por deficiente estado de la calzada en diversos sectore entre Santa Fe, Recreo, San Justo, Gobernador Crespo, Vera, Malabrigo, Reconquista, Villa Ocampo, Límite con Chaco. En el tramo Candioti (Km 490 ) - Reconquista (Km 786) la velocidad máxima recomendada por las tareas de reparación de la ruta es de 80 KM/H en los tramos no urbanizados.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -2978,7 +2978,7 @@
       "estado": "default",
       "estado_raw": "RESTRINGIDA",
       "obs": "Niebla sobre calzada. Modalidad de tránsito asistido cada 20 minutos. Se solicita a los usuarios disminuir velocidad y respetar las indicaciones de Seguridad Vial y Gendarmería Nacional",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -4258,7 +4258,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -4282,7 +4282,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precaución altura A Matorras km 622.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -4570,7 +4570,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -4674,7 +4674,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -4698,7 +4698,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 2,
       "geo": [
         [
@@ -4722,7 +4722,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 3,
       "geo": [
         [
@@ -4750,7 +4750,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 4,
       "geo": [
         [
@@ -4774,7 +4774,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 5,
       "geo": [
         [
@@ -4925,8 +4925,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución. Calzada mojada por lluvia. Tránsito intenso",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -4949,8 +4949,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada mojada por lluvia. Visibilidad reducida por niebla en sectores. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Visibilidad reducida por niebla en sectores. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -4978,7 +4978,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.Prudencia al realizar maniobras de adelantamiento. Circular a velocidad precautoria.  Tráfico vehicular moderado. Sectores con deformaciones de calzada en la zona de Río Colorado.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -5006,7 +5006,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento ante la presencia de tramos con ondulaciones de calzada. Circular a velocidad precautoria. Tráfico vehicular moderado/alto. Sectores con deformaciones de calzada. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -5030,7 +5030,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento ante la presencia de tramos con ondulaciones de calzada. Circular respetando las velocidades de circulación.  Tráfico vehicular alto. Precaucion en zonas de obras , baja señalizacion . Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 3,
       "geo": [
         [
@@ -5058,7 +5058,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con  Precaucion.Circular Respetando las velocidades máximas. Sectores con ondulaciones de calzada.  Circular con cinturones de seguridad colocados y luces bajas encendidas.  Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -5082,7 +5082,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaucion Tener presente que en el km 115 se encuentra el desvío de ripio en la zona del arroyo Nahuel Niyeu. Circular a baja velocidad y respetar la señalización presente en el desvío. Respetar las velocidades maximas . Se recomienda no circular en horario nocturno.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -5106,7 +5106,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaucion.Transitar respetando las velocidades máximas . Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno .Portacion obligatoria de cadenas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 3,
       "geo": [
         [
@@ -5129,8 +5129,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion.Calzada humeda por lluvias .Visibilidad reducida.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 4,
       "geo": [
         [
@@ -5153,8 +5153,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion.Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con precaucion. Calzada humeda por lluvias .Visibilidad reducida.Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 5,
       "geo": [
         [
@@ -5177,8 +5177,8 @@
       "calzada": "Calzada Natural /Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno .Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion.Calzada humeda por lluvias .Visibilidad reducida.Tramo con riego de solucion salina. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno .Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 6,
       "geo": [
         [
@@ -5201,8 +5201,8 @@
       "calzada": "Calzada Natural /Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion. Sectores con  barro. T omar medidas precautorias al conducir por la zona .Desvíos por obras. Tramo con riego de solucionsalina. Tramos con serruchos, circular a baja velocidad. Tener presente que en tramo en obra con piedras sueltas. Tramo con curvas cerradas. Precaución en las transiciones de asfalto a ripio. Sectores con curvas cerradas.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion. Calzada humeda por lluvias .Visibilidad reducida.Desvíos por obras. Tramo con riego de solucion salina. Sectores con serruchos. Circular a baja velocidad. Tener presente que en tramo en obra con piedras sueltas. Tramo con curvas cerradas. Precaución en las transiciones de asfalto a ripio. Sectores con curvas cerradas.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 7,
       "geo": [
         [
@@ -5225,8 +5225,8 @@
       "calzada": "Calzada natural / Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema  Precaucion. Posible de formacion de hielo. Calzada humeda por nevadas. Tramo con riego de solucion salina. Maquinas viales trabajando en zona . Circular respetando las velocidades máximas.Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con  Precaucion. Calzada humeda por lluvias .Visibilidad reducida.Tramo con riego de solucion salina. Maquinas viales trabajando en zona . Circular respetando las velocidades máximas.Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 8,
       "geo": [
         [
@@ -5249,8 +5249,8 @@
       "calzada": "Calzada natural / Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema Precaucion. Posible de formacion de hielo. Calzada humeda por nevadas. Sectores con barro. Maquinas viales trabajando en zona. Tramo con riego de solucion salina. Desvíos irregulares con piedras sueltas. Precaución en las transiciones de asfalto a ripio. Baja adherencia por barro en zonas de ripio se recomienda tomar medidas precautorias al circular .Curvas cerradas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con  Precaucion. Calzada humeda por lluvias .Visibilidad reducida.Sectores con barro. Maquinas viales trabajando en zona. Tramo con riego de solucion salina. Desvíos irregulares con piedras sueltas. Precaución en las transiciones de asfalto a ripio. Baja adherencia por barro en zonas de ripio se recomienda tomar medidas precautorias al circular .Curvas cerradas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 9,
       "geo": [
         [
@@ -5273,8 +5273,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -5309,8 +5309,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda en sectores. Banquinas inestables. Desvíos de ripio con barro y agua en el km 258 - 260 (Circular a baja velocidad en el desvío). Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas en sectores. Desvíos de ripio con barro en el km 259 - 261 (Circular a baja velocidad en el desvío). Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -5333,8 +5333,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con sal en sectores. Calzada con deformaciones en sectores. Banquinas inestables, con barro y nieve. Equipos de Vialidad Nacional distribuyendo sal. Respetar señalamiento. Animales sueltos. Viento. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con sal en sectores. Calzada con deformaciones en sectores. Banquinas húmedas, con barro. Equipos de Vialidad Nacional distribuyendo sal. Respetar señalamiento. Animales sueltos. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -5357,8 +5357,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con sal en sectores. Calzada con deformaciones en sectores. Banquinas inestables, con nieve y barro. Equipos de Vialidad Nacional distribuyendo sal. Respetar señalamiento. Animales sueltos. Viento. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia en sectores. Calzada con deformaciones en sectores. Banquinas inestables, con nieve y barro. Equipos de Vialidad Nacional distribuyendo sal. Respetar señalamiento. Animales sueltos. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -5381,8 +5381,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal en sectores. Banquinas inestables, con barro. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Bancos de niebla, visibilidad reducida en sectores. Lloviznas aisladas. Transitar con extrema precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con sal en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -5409,8 +5409,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda por riego con sal en sectores. Tramos con deformaciones de calzada en la zona de la curva del lago. Banquinas inestables. Animales sueltos. Equipos viales distribuyendo sal. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con sal en sectores. Tramos con deformaciones de calzada en la zona de la curva del lago. Banquinas húmedas. Animales sueltos. Equipos viales distribuyendo sal. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -5578,7 +5578,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -5602,7 +5602,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -5626,7 +5626,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -5650,7 +5650,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general - Trabajos de bacheo y mantenimiento general. ATENCION: Venado Tuerto (KM 636) Interseccion con RP N°7 (acceso Aeródromo), desvío por construccion de rotonda sobre RN 33.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -5682,7 +5682,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -5710,7 +5710,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Circular con precaución entre los km 1149-1174 (empalme RN 66)-km 1196 (acceso norte a San Pedro), por obras de duplicación de calzada. Desvios de transito en km 1159, distribuidores RP 1 (km 1188), km1161, y RP 56 (km 1190).",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -5738,7 +5738,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Circular con precaución en pte. A° El Zanjón (km 1207,31), pte.Rio Negro I (km.1210,37), pte.Rio Negro II (km.1210,80), Pte Rio Negro III (km.1211,21), un vehículo por vez. Circular con extrema precaución por calzada deteriorada entre Calilegua (km 1247) y el limimite con Salta (km 1287)",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -5766,7 +5766,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -5790,7 +5790,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -5814,7 +5814,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 3,
       "geo": [
         [
@@ -5838,7 +5838,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución. Maquinas trabajando en banquina y en calzada en los km1341.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 4,
       "geo": [
         [
@@ -5866,7 +5866,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 5,
       "geo": [
         [
@@ -5890,7 +5890,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precaución.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 6,
       "geo": [
         [
@@ -5914,7 +5914,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 7,
       "geo": [
         [
@@ -5942,7 +5942,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -5966,7 +5966,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -5998,7 +5998,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "PRECAUCION: Desvíos y presencia de equipos y personal de obra en la construcción de la Autopista RN 34 entre empalme RP 13 (Ataliva) y Sunchales (RP 280S) - Velocidad de precaución para el tramo en obras 60 Km/. Se solicita a los usuario respetar las indicaciones de velocidades máximas, banderilleros y sentidos de paso señalados en los desvíos. DESVIO: ambas manos las 24 horas al norte de Monigotes en Km 314.5 por reconstrucción alcantarilla de cruce sobre la traza. - PRECAUCION: desvíos en intersección de RN 34 y RP 39 en Arrufó por construcción rotonda.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -6618,7 +6618,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 1,
       "geo": [
         [
@@ -6646,7 +6646,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 2,
       "geo": [
         [
@@ -6902,7 +6902,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -6926,7 +6926,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución en el acceso a Juan Bautista Alberdi por obras en ejecuación.  El tránsito que circula por la RN 38 sentido norte - sur se desviará por colectora a la altura de  C. Lonardi hasta la calle Ricardo Rojas de ahí continua por RN 38.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -6954,7 +6954,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 2,
       "geo": [
         [
@@ -6978,7 +6978,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 3,
       "geo": [
         [
@@ -7006,7 +7006,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 4,
       "geo": [
         [
@@ -7034,7 +7034,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 7,
       "geo": [
         [
@@ -7062,7 +7062,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 1,
       "geo": [
         [
@@ -7086,7 +7086,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 2,
       "geo": [
         [
@@ -7110,7 +7110,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 3,
       "geo": [
         [
@@ -7134,7 +7134,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 4,
       "geo": [
         [
@@ -7158,7 +7158,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 5,
       "geo": [
         [
@@ -7185,8 +7185,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda por riego con sal en sectores. Banquinas inestables, con barro. Equipos viales distribuyendo sal. Animales sueltos. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables, con barro. Equipos viales distribuyendo sal. Animales sueltos. Viento. Lloviznas. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 8,
       "geo": [
         [
@@ -7209,8 +7209,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda por riego con sal en sectores. Banquinas inestables, con barro. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables, con barro. Animales sueltos. Equipos viales trabajando. Viento. Lloviznas. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 7,
       "geo": [
         [
@@ -7233,8 +7233,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda en sectores. Banquinas inestables, con barro y nieve en sectores. Entre Facundo-Tamariscos calzada con sectores con deformaciones. Precaución en ese tramo. Equipos viales trabajando. Desvío de ripio posee humedad, con extrema precaución entre Facundo y Tamarisco. Transitar a 60 km/h. Respetar señalamiento. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con sal en sectores. Banquinas inestables, con barro y nieve en sectores. Entre Facundo-Tamariscos calzada con sectores con deformaciones. Precaución en ese tramo. Equipos viales trabajando. Desvío de ripio posee humedad, con extrema precaución entre Facundo y Tamarisco. Transitar a 60 km/h. Respetar señalamiento. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Lloviznas. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 6,
       "geo": [
         [
@@ -7257,8 +7257,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con sal en sectores. Banquinas inestables con barro y nieve en sectores. Deformaciones y baches en sectores de La Paulina hacia Gobernador Costa. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Heladas. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables con barro y nieve en sectores. Deformaciones y baches en sectores de La Paulina hacia Gobernador Costa. Animales sueltos. Equipos de Vialidad Nacional trabajando en banquinas. Viento. Lloviznas. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 5,
       "geo": [
         [
@@ -7281,8 +7281,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal en sectores. Banquinas inestables, con barro, nieve en sectores. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Heladas. Neblina. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Lloviznas. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 4,
       "geo": [
         [
@@ -7305,8 +7305,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal, con sal en sectores. Banquinas inestables, con barro y nieve en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Equipos de Vialidad Nacional distribuyendo sal. Viento. Neblina. Neviscas. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada mojada por lluvia, con agua en sectores. Banquinas inestables, con barro en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Equipos de Vialidad Nacional distribuyendo sal. Viento. Lloviendo. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -7329,8 +7329,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Sectores con deformaciones. Equipos de Vialidad Nacional realizan riego de solución salina. Viento leve. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada mojada por lluvia, con agua en sectores. Banquinas húmedas en sectores. Animales sueltos. Sectores con deformaciones. Equipos de Vialidad Nacional realizan riego de solución salina. Viento leve. Lloviendo. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -7354,7 +7354,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Circular con precaución Calzada irregular en el tramo de la ruta que se superpone con el lecho del rio Quebrada de Paicone (km 4980-km 4991)",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -7522,7 +7522,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -7546,7 +7546,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Lluvias y anegamientos, equipos trabajando, sectores con calzada de ripio / suelo natural.",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 2,
       "geo": [
         [
@@ -7570,7 +7570,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 3,
       "geo": [
         [
@@ -7594,7 +7594,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución. Posibilidad de desprendimiento de rocas en zona de Cuesta del Chiuido.",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 4,
       "geo": [
         [
@@ -7618,7 +7618,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 5,
       "geo": [
         [
@@ -7650,7 +7650,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 6,
       "geo": [
         [
@@ -7682,7 +7682,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 7,
       "geo": [
         [
@@ -7714,7 +7714,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 8,
       "geo": [
         [
@@ -7738,7 +7738,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución  . Bypass de 500 mts sobre puentes en Arroyo Chañares Sur y Arroyo Los Pozos.",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 9,
       "geo": [
         [
@@ -7762,7 +7762,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 10,
       "geo": [
         [
@@ -7785,8 +7785,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada húmeda. Lluvia en sectores Posible formación de hielo en sectores. Posible caída de piedras en el km 2.095. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Visibilidad reducida por niebla. Posible formación de hielo en sectores. Posible caída de piedras en el km 2.095. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -7809,8 +7809,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada mojada por lluvia. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -7833,8 +7833,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con extrema precaución. Calzada mojada. Neviscas / Nevando en sectores. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Visibilidad reducida por niebla. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -7857,8 +7857,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con extrema precaución. Calzada húmeda. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Visibilidad reducida por niebla. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -7881,8 +7881,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con extrema precaución. Calzada húmeda. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Tránsitar a velocidad precautoria. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas",
+      "actualizado": "13/7/2026 08:00",
       "orden": 5,
       "geo": [
         [
@@ -7905,8 +7905,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada húmeda. Viento. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Visibilidad reducida por niebla. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 6,
       "geo": [
         [
@@ -7933,8 +7933,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada húmeda. Viento. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Visibilidad reducida por niebla. Posible formación de hiel en sectores. Zona con animales sueltos. Transitar a velocidad precautoria. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 7,
       "geo": [
         [
@@ -7957,8 +7957,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada húmeda. Visibilidad reducida por bancos de niebla. Zona con animales sueltos. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada normal. Zona con animales sueltos. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 8,
       "geo": [
         [
@@ -7985,8 +7985,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada húmeda. Visibilidad reducida por bancos de niebla. Zona con animales sueltos. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada normal. Zona con animales sueltos. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 9,
       "geo": [
         [
@@ -8009,8 +8009,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema Precaucion. Formacion de hielo en zonas altas VERANADA / PAMPA DEL TORO / CAÑADON DE LA MOSCA .Bancos de niebla por sectores. Piedras sueltas en calzada por derrunbes. Maquinas viales trabajando. Banquinas inestables .Precaucion por animales sueltos. Circular a velocidad precautoria. Recorrido sinuoso con curvas cerradas. Respetar los espacios de adelantamiento. Tramo con riego de solucion salina / sal a granel .Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas. Rige alerta por lluvias SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion.Bancos de niebla por sectores. Piedras sueltas en .Calzada humeda por lluvias .Visibilidad reducida. Maquinas viales trabajando.Precaucion por animales sueltos. Circular a velocidad precautoria. Recorrido sinuoso con curvas cerradas. Respetar los espacios de adelantamiento. Tramo con riego de solucion salina .Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -8033,8 +8033,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion.Recorrido sinuoso con curvas cerradas. Bancos de niebla por sectores. Respetar los espacios de adelantamiento. Tramo con riego de solucion salina. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno .Portacion obligatoria de cadenas. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion.Calzada humeda por lluvias .Visibilidad reducida.Recorrido sinuoso con curvas cerradas. Bancos de niebla por sectores. Respetar los espacios de adelantamiento. Tramo con riego de solucion salina. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno .Portacion obligatoria de cadenas.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -8057,8 +8057,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con Precaucion. Respetar los espacios de adelantamiento y las velocidades de circulación. Tráfico vehicular moderado. Tramo con riego de solucion salina.Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 21:40",
+      "obs": "Transitable con Precaucion. Calzada humeda por lluvias .Visibilidad reducida.Respetar los espacios de adelantamiento y las velocidades de circulación. Tráfico vehicular moderado. Tramo con riego de solucion salina.Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 3,
       "geo": [
         [
@@ -8086,7 +8086,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución en zonas de badenes desde Lte. Tucumán hasta Tolombom.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -8110,7 +8110,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución Máquinas trabajan en el lugar",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -8138,7 +8138,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución. Máquinas trabajando en perfilado de Calzada entre Seclantas (Km 4470) - Rio Vallecito (km 4480)",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 3,
       "geo": [
         [
@@ -8162,7 +8162,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Maquinas trabajando. Transito con Precauciòn.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 4,
       "geo": [
         [
@@ -8186,7 +8186,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Maquinas trabajando en toda la zona.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 5,
       "geo": [
         [
@@ -8210,7 +8210,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con suma precaución.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 6,
       "geo": [
         [
@@ -8234,7 +8234,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precauciòn.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 7,
       "geo": [
         [
@@ -8262,7 +8262,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 0,
       "geo": [
         [
@@ -8286,7 +8286,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -8310,7 +8310,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable MAXIMA PRECAUCIONE NE ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 2,
       "geo": [
         [
@@ -8342,7 +8342,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable, MAXIMA PRECAUCION EN ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 3,
       "geo": [
         [
@@ -8366,7 +8366,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 4,
       "geo": [
         [
@@ -8390,7 +8390,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 5,
       "geo": [
         [
@@ -8418,7 +8418,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable MAXIMA PRECAUCION",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 6,
       "geo": [
         [
@@ -8442,7 +8442,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable, maxima PRECAUCION EN ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 7,
       "geo": [
         [
@@ -8465,8 +8465,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por presencia de escarcha matinal. Banquinas inestables.  Animales sueltos",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por presencia de escarcha matinal. Sectores con viento. Leve llovizna. Banquinas inestables.  Animales sueltos",
+      "actualizado": "13/7/2026 09:00",
       "orden": 25,
       "geo": [
         [
@@ -8489,8 +8489,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución.Calzada húmeda. Animales sueltos",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución sectores con nieve leve. Calzada húmeda por riego con liquido antihielo. Animales sueltos, Banquinas inestables",
+      "actualizado": "13/7/2026 09:00",
       "orden": 24,
       "geo": [
         [
@@ -8514,7 +8514,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Calzada de ripio. Transitable con precaución.  Sectores pesados por barro. Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 23,
       "geo": [
         [
@@ -8542,7 +8542,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Calzada de ripio. Transitable con precaución.  Sectores pesados por barro. Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 22,
       "geo": [
         [
@@ -8565,8 +8565,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos. Distribucion de sal",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 21,
       "geo": [
         [
@@ -8589,8 +8589,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos. Distribucion de sal",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 17,
       "geo": [
         [
@@ -8613,8 +8613,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución por presencia de escarcha . Zona de baches . Animales sueltos. Tapi Aika- Cancha Carrera nevando.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 17,
       "geo": [
         [
@@ -8638,7 +8638,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con  precaución. Probabilidad  de escarcha.  Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 16,
       "geo": [
         [
@@ -8665,8 +8665,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución. Probabilidad  de escarcha.  Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con extrema precaución. Nevando.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 15,
       "geo": [
         [
@@ -8689,8 +8689,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución. Probabilidad  de escarcha.  Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con extrema precaución. Nevando.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 14,
       "geo": [
         [
@@ -8717,8 +8717,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución. Probabilidad  de escarcha.  Animales sueltos.  Calzada húmeda.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con extrema precaución formación de hielo y nieve en la calzada. Equipos trabajando.",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8735,14 +8735,14 @@
     },
     {
       "ruta": "40",
-      "tramo": "Tres Lagos -Gdor. Gregores",
+      "tramo": "Tres Lagos- Gobernador Gregores",
       "tramo_db": "TRES LAGOS - GOBERNADOR GREGORES",
       "provincia": "Santa Cruz",
       "calzada": "Ripio / Pavimento",
-      "estado": "transitable",
-      "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución sectores con presencia de  escarcha. Animales sueltos. Emp.R.P.N°29  - E.A La Siberia: calzada con huellones y presencia de escarcha . Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "estado": "cortada",
+      "estado_raw": "CORTE TOTAL",
+      "obs": "Circulación restringida para todo tipo de vehiculos desde las 22:00 horas hasta las 09:00 horas del lunes 13 de julio de 2026, por bajas temperaturas y formación de hielo sobre la calzada.",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8755,7 +8755,7 @@
         ]
       ],
       "fuente_geo": "waypoints",
-      "match_score": 1.0
+      "match_score": 2.0
     },
     {
       "ruta": "40",
@@ -8765,8 +8765,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución sectores con presencia de  escarcha. Animales sueltos. Emp.R.P.N°29  - E.A La Siberia: calzada con huellones y presencia de escarcha . Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución sectores con presencia de escarcha. Animales sueltos. Visibilidad reducida por lluvia.",
+      "actualizado": "13/7/2026 09:00",
       "orden": 8,
       "geo": [
         [
@@ -8789,8 +8789,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución sectores con presencia de  escarcha. Animales sueltos. Emp.R.P.N°29  - E.A La Siberia: calzada con huellones y presencia de escarcha . Animales sueltos.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con precaución sectores con presencia de escarcha. Animales sueltos. Visibilidad reducida por lluvia.",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8814,7 +8814,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución,calzada humeda por riego antihielo. Zona de baches. Animales sueltos. Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8838,7 +8838,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución . Sectores con presencia de escarcha.Zona de baches. Animales sueltos. Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8861,8 +8861,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución por sectores con escarcha. Zona de baches. Animales sueltos. Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución por sectores con escarcha. Zona de baches. Animales sueltos. Banquinas inestables. Distribución de sal",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8886,7 +8886,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución calzada húmeda por riego antihielo. Animales sueltos. Zona de baches . Banquinas inestables.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8909,8 +8909,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con  precaución. Calzada humeda por riego con liquido antihielo. Banquinas inestables. Animales sueltos. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "obs": "Transitable con  precaución. Calzada humeda por riego con liquido antihielo. Banquinas inestables. Animales sueltos. Zona de baches. Distribución de sal",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -8934,7 +8934,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -8958,7 +8958,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución en la zona de badenes.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -8982,7 +8982,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -9006,7 +9006,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -9030,7 +9030,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precaución altura Rio Pescado (km 42). Tránsito guiado por personal vial. Máquinas trabajando.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -9054,7 +9054,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transito con precaución",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -9082,7 +9082,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precaución",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 2,
       "geo": [
         [
@@ -9106,7 +9106,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución maquinas trabjando en badenes con material",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 3,
       "geo": [
         [
@@ -9134,7 +9134,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -9158,7 +9158,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Circular con extrema precaución por calzada deteriorada en Cuesta de Lipan. En paraje Ronqui Angosto (km 50) desvío del tránsito permanente para todo tipo de vehículos.",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -9182,7 +9182,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -9206,7 +9206,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -9230,7 +9230,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 1,
       "geo": [
         [
@@ -9254,7 +9254,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 2,
       "geo": [
         [
@@ -9278,7 +9278,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 3,
       "geo": [
         [
@@ -9302,7 +9302,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 4,
       "geo": [
         [
@@ -9326,7 +9326,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 5,
       "geo": [
         [
@@ -9350,7 +9350,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 6,
       "geo": [
         [
@@ -9374,7 +9374,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 7,
       "geo": [
         [
@@ -9398,7 +9398,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "El Paso de San Francisco estará HABILITADO para todo tipo de vehículos entre las 09:00 y 18:00 horas. Se permitirá el paso del último vehículo por el puesto migratorio de origen hasta las 16:30 (Argentina) y 15:30 (Chile)",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 8,
       "geo": [
         [
@@ -9550,7 +9550,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 1,
       "geo": [
         [
@@ -9686,7 +9686,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Circular con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 2,
       "geo": [
         [
@@ -9710,7 +9710,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -9734,7 +9734,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -9758,7 +9758,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -9782,7 +9782,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -9806,7 +9806,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precaución por crecida de arroyos altura La Yasera (km 28). Máquinas trabajando en lugar. Evitar cruce de rios y arroyos crecidos. Atender indicaciones del personal vial.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": null,
       "geo": [
         [
@@ -9830,7 +9830,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": null,
       "geo": [
         [
@@ -10702,7 +10702,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -10942,7 +10942,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsito con precauciòn.",
-      "actualizado": "8/7/2026 08:30",
+      "actualizado": "13/7/2026 08:30",
       "orden": 1,
       "geo": [
         [
@@ -11290,7 +11290,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -11318,7 +11318,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -11346,7 +11346,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -11370,7 +11370,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -11394,7 +11394,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -12294,7 +12294,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Habilitada solo de 7 a 19hs",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -12318,7 +12318,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": null,
       "geo": [
         [
@@ -12462,7 +12462,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -12486,7 +12486,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 2,
       "geo": [
         [
@@ -12510,7 +12510,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsitable con extrema precaución RN 143, En el tramo comprendido entre la calle Guillermo Rawson y el Chañaral del Toledano  se realizarán desvíos por calles 20 de junio y, Santiago Germanó,",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 3,
       "geo": [
         [
@@ -12534,7 +12534,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con extrema precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -12562,7 +12562,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Tránsitable con extrema precaución",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 2,
       "geo": [
         [
@@ -12586,7 +12586,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con extrema precaución. Posibilidad de animales sueltos sobre calzada (trashumancia).",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -12611,10 +12611,10 @@
       "tramo_db": "LAS LOICAS - CAJON GRANDE",
       "provincia": "Mendoza",
       "calzada": "Pavimento Flexible",
-      "estado": "transitable",
-      "estado_raw": "HABILITADA",
-      "obs": "Transitable con Extrema Precaución. Posibilidad de animales sueltos sobre calzada (trashumancia).",
-      "actualizado": "10/7/2026 07:33",
+      "estado": "cortada",
+      "estado_raw": "CORTE TOTAL",
+      "obs": "Posibilidad de animales sueltos sobre calzada (trashumancia).",
+      "actualizado": "13/7/2026 07:33",
       "orden": 2,
       "geo": [
         [
@@ -12635,10 +12635,10 @@
       "tramo_db": "CAJON GRANDE - LIMITE INTERNACIONAL",
       "provincia": "Mendoza",
       "calzada": "Pavimento Flexible",
-      "estado": "transitable",
-      "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema precaución",
-      "actualizado": "10/7/2026 07:33",
+      "estado": "cortada",
+      "estado_raw": "CORTE TOTAL",
+      "obs": "",
+      "actualizado": "13/7/2026 07:33",
       "orden": 3,
       "geo": [
         [
@@ -12662,7 +12662,7 @@
       "estado": "cortada",
       "estado_raw": "CORTE TOTAL",
       "obs": "nevadas y fuerte viento blanco",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 4,
       "geo": [
         [
@@ -12686,7 +12686,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": null,
       "geo": [
         [
@@ -12710,7 +12710,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -12842,7 +12842,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución. lluvias ( Equipos trabajando en la zona) Sectores con calzada de ripio / suelo natural.",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -12866,7 +12866,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable, maxima PRECAUCION POR LLUVIAS Y AGUA EN CALZADA",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -12894,7 +12894,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable MAXIMA PRECAUCION EN ZONA DE BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 2,
       "geo": [
         [
@@ -12926,7 +12926,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable PRECAUCION ZONA BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 3,
       "geo": [
         [
@@ -12950,7 +12950,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 4,
       "geo": [
         [
@@ -12998,7 +12998,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -13022,7 +13022,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 2,
       "geo": [
         [
@@ -13046,7 +13046,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 3,
       "geo": [
         [
@@ -13070,7 +13070,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 4,
       "geo": [
         [
@@ -13094,7 +13094,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 5,
       "geo": [
         [
@@ -13118,7 +13118,7 @@
       "estado": "cortada",
       "estado_raw": "CORTE TOTAL",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 6,
       "geo": [
         [
@@ -13142,7 +13142,7 @@
       "estado": "cortada",
       "estado_raw": "CORTE TOTAL",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 7,
       "geo": [
         [
@@ -13262,7 +13262,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por presencia de tramos con calzada deteriorada. Tráfico vehicular intenso. Circular a baja velocidad. Precaución al realizar maniobras de adelantamiento. Tramos con ahuellamiento de calzada. Sectores irregulares con descalce de banquinas. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -13438,7 +13438,7 @@
       "estado": "default",
       "estado_raw": "RESTRINGIDA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": null,
       "geo": [
         [
@@ -13462,7 +13462,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "transitable PRECAUCION ZONA BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -13486,7 +13486,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable precaucion ZONA BADENES",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 2,
       "geo": [
         [
@@ -13510,7 +13510,7 @@
       "estado": "default",
       "estado_raw": "RESTRINGIDA",
       "obs": "A Barreal, departamento Calingasta, únicamente por RN 149.",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 3,
       "geo": [
         [
@@ -13606,7 +13606,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 08:34",
+      "actualizado": "13/7/2026 08:34",
       "orden": 1,
       "geo": [
         [
@@ -13686,7 +13686,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitar con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -13714,7 +13714,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -13738,7 +13738,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -13762,7 +13762,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 3,
       "geo": [
         [
@@ -13886,7 +13886,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -13910,7 +13910,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "ALERTA: (INTRANSITABLE DÍAS DE LLUVIA E INMEDIATOS POSTERIORES)",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -13958,7 +13958,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -13982,7 +13982,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -14006,7 +14006,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -14034,7 +14034,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -14058,7 +14058,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento - TRABAJOS DE BACHEO: Tareas sobre calzada con reparaciones entre Villa Eloísa y RN 9 y entre RN 9 y Las Rosas. Reducciones de carril durante las intevenciones, con paso alternado. Circulación con precaución por calzada en reparación en el tramo Acceso Villa Eloísa - RN 1V09. Entre Villa Eloísa (Km 146) y Las Rosas (Km 205) la velocidad máxima recomendada por tareas de reparación de la ruta es de 80 KM/H en los tramos no urbanizados.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -14082,7 +14082,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14106,7 +14106,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14130,7 +14130,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14250,7 +14250,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 07:33",
+      "actualizado": "13/7/2026 07:33",
       "orden": 1,
       "geo": [
         [
@@ -14302,7 +14302,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -14326,7 +14326,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14350,7 +14350,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14374,7 +14374,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -14398,7 +14398,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -14430,7 +14430,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -14557,8 +14557,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada mojada por lluvia. Posible formación de hielo en sectores. Bajas temperaturas. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Bajas temperaturas. Zona con animales sueltos. Personal y equipos de Vialidad Nacional operando. Tránsitar a velocidad precautoria. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -14579,10 +14579,10 @@
       "tramo_db": "ADUANA - LIMITE CON CHILE",
       "provincia": "Neuquen",
       "calzada": "Pavimento Flexible",
-      "estado": "cortada",
-      "estado_raw": "CORTE TOTAL",
-      "obs": "Paso Cerrado",
-      "actualizado": "10/7/2026 20:00",
+      "estado": "transitable",
+      "estado_raw": "HABILITADA",
+      "obs": "Transitable con precaución para todo tipo de vehículos. Calzada mojada por lluvia. Pronóstico de aguanieve / nieve ligera en cotas altas. Posible formación de hielo. Baja adherencia. Mantenga las distancias de frenado y evite maniobras de sobrepasó. Personal de Vialidad Nacional operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:40",
       "orden": 2,
       "geo": [
         [
@@ -14654,7 +14654,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Animales sueltos. Sectores irregulares con descalce de banquinas. Respetar las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -14677,8 +14677,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada mojada por lluvia / aguanieve / nieve en sectores. Zona con posibles caidas de rocas. Zona con animales sueltos. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Zona con posibles caidas de rocas. Zona con animales sueltos. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -14701,8 +14701,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaucion. Calzada mojada por lluvia. Bancos de niebla en sectores. Posible formación de hielo en sectores. Zona con animales sueltos. Portación obligatoria de cadenas. Equipos realizan riego con solución salina.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaucion. Calzada despejada. Posible formación de hielo en sectores. Zona con animales sueltos. Portación obligatoria de cadenas. Equipos realizan riego con solución salina.",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -14725,8 +14725,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con extrema precaucion. Calzada con acumulación de nieve entre Piedra del Aguila y Huayquimil. Baja adherencia. Posible formación de hielo en sectores. Zona con animales sueltos. Posibles caidas de piedras en KM 1441 y km 1550. Equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaucion. Calzada húmeda. Visibilidad muy reducida por niebla espesa. Posible formación de hielo en sectores. Zona con animales sueltos. Posibles caidas de piedras en KM 1441 y km 1550. Equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -14749,8 +14749,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con extrema precaución. Calzada mojada por lluvia. Neviscas. Posible formación de hielo en sectores. Posible caída de piedras. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible formación de hielo en sectores. Posible caída de piedras. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -14777,8 +14777,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Tránsito restringido para transporte de cargas entre las 20:00 hs y las 8:00 hs. Transitable con precaución. Calzada mojada por lluvia de variada intensidad. Visibilidad reducida por bancos de niebla. Zona con animales sueltos. Portación obligatoria de cadenas.",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Zona con animales sueltos. Portación obligatoria de cadenas.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -14799,10 +14799,10 @@
       "tramo_db": "LAS LAJAS - ADUANA",
       "provincia": "Neuquen",
       "calzada": "Pavimento Flexible",
-      "estado": "cortada",
-      "estado_raw": "CORTE TOTAL",
-      "obs": "Intransitable a partir de las 16:30 y por el resto de la jornada. Calzada con acumulación de  nieve. Nevando. Viento, Zona con animales sueltos. Posible caída de piedras en el km 48. Equipos operando",
-      "actualizado": "10/7/2026 20:00",
+      "estado": "transitable",
+      "estado_raw": "HABILITADA",
+      "obs": "Transitable con precaución para todo tipo de vehículos. Calzada mojada, sectores con hielo. Zona con animales sueltos. Posible caída de rocas en el km 48. Portación obligatoria de cadenas. Equipos operando.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -14854,7 +14854,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Respetar velocidades máximas y los espacios de adelantamiento. Animales sueltos. Zona de Animales salvajes. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -14882,7 +14882,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Circular respetando las velocidades máximas y mínimas. Animales sueltos. Zona de animales salvajes. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -14910,7 +14910,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.Circular respetando las velocidades máximas y los espacios de adelantamiento. Animales sueltos. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 3,
       "geo": [
         [
@@ -14934,7 +14934,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Respetar velocidades máximas y los espacios de adelantamiento. Precaución. Llevar luces bajas encendidas y cinturón de seguridad correctamente colocado. Respetar los espacios de adelantamiento.",
-      "actualizado": "10/7/2026 21:40",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -14958,7 +14958,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Circular respetando las velocidades máximas y mínimas. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -15029,8 +15029,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal. Banquinas inestables, con barro, nieve en sectores. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada mojada por lluvia, con agua en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviendo. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -15053,8 +15053,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda por riego con sal. Banquinas inestables, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional distribuyendo sal. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada mojada por lluvia, con agua en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviendo. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -15077,8 +15077,8 @@
       "calzada": "Ripio",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada con barro y agua en sectores. Banquinas con nieve y barro. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con barro en sectores. Banquinas con barro. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando. Viento. Lloviendo. Neblina. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -15105,8 +15105,8 @@
       "calzada": "Ripio",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda con escarcha en sectores. Banquinas normales, húmedas en sectores. Sectores en obra entre los km 59 y 82. Animales sueltos. Viento. Transitar con precaución entre Lago Blanco y Paso Huemules, por deformaciones de calzada en sectores. Equipos viales trabajando en mantenimiento de calzada. Respetar señalamiento existente. Transitar con precaución.",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda con barro en sectores. Banquinas húmedas. Sectores en obra entre los km 59 y 82. Animales sueltos. Viento. Lloviendo. Neblina. Transitar con precaución entre Lago Blanco y Paso Huemules, por deformaciones de calzada en sectores. Equipos viales trabajando en mantenimiento de calzada. Respetar señalamiento existente. Transitar con precaución.",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -15130,7 +15130,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución sectores con presencia de escarcha . Banquinas inestables.Animales sueltos. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -15154,7 +15154,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha.Banquinas inestables.Animales sueltos. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -15178,7 +15178,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución por sectores con escarcha.Banquinas inestables.Animales sueltos. Zona de baches.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -15202,7 +15202,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Ripio . Sectores con barro y huellones.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -15226,7 +15226,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Calzada de ripio.Transitable con precaución.  Sectores pesados por barro.",
-      "actualizado": "10/7/2026 11:30",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15273,8 +15273,8 @@
       "calzada": "Ripio",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con barro en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con barro en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas. Neblina. Transitar con precaución",
+      "actualizado": "13/7/2026 08:00",
       "orden": 3,
       "geo": [
         [
@@ -15297,8 +15297,8 @@
       "calzada": "Pavimento Flexible",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Viento.  Transitar con precaución",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda,mojada por lluvia. Banquinas húmedas. Animales sueltos. Viento. Lloviznas. Neblina. Transitar con precaución",
+      "actualizado": "13/7/2026 08:00",
       "orden": 2,
       "geo": [
         [
@@ -15321,8 +15321,8 @@
       "calzada": "Ripio",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Calzada húmeda, con barro en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Neblina. Transitar con precaución",
-      "actualizado": "10/7/2026 21:00",
+      "obs": "Calzada húmeda, con barro en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas. Neblina. Transitar con precaución",
+      "actualizado": "13/7/2026 08:00",
       "orden": 1,
       "geo": [
         [
@@ -15349,8 +15349,8 @@
       "calzada": "Calzada Natural",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrerma Precaucion . Baja adherencia por  nieve y barro. Recorrido sin banquinas. Tramos poceados con piedras sueltas. Recorrido con curvas cerradas y calzada angosta. Sectores irregulares.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 07:54",
+      "obs": "Transitable con Precaucion .Calzada humeda por lluvias .Visibilidad reducida. Baja adherencia por barro. Recorrido sin banquinas. Tramos poceados con piedras sueltas. Recorrido con curvas cerradas y calzada angosta. Sectores irregulares.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Rige alerta por nevadas SMN.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -15377,8 +15377,8 @@
       "calzada": "Calzada Natural",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con extrema Precaucion. Baja adherencia por barro y nieve . Sectores con con banquinas inestables. Calzada angosta con curvas cerradas. Circular a baja velocidad. Tramos con serruchos y piedras sueltas de Ñorquinco hacia el sur. Circular a baja velocidad. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Rige alerta por nevadas SMN.",
-      "actualizado": "10/7/2026 07:54",
+      "obs": "Transitable con extrema Precaucion. Calzada humeda por lluvias .Visibilidad reducida. Baja adherencia por barro . Sectores con con banquinas inestables. Calzada angosta con curvas cerradas. Circular a baja velocidad. Tramos con serruchos y piedras sueltas de Ñorquinco hacia el sur. Circular a baja velocidad. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.Rige alerta por nevadas SMN.",
+      "actualizado": "13/7/2026 06:15",
       "orden": 2,
       "geo": [
         [
@@ -15434,7 +15434,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con Precaución.    Rama de acceso a J.B. Alberdi  por camino vecinal Cerrrado.   El ingreso y egreso a la ruta nacional 1V38 desde Alberdi, deberá realizarse a través del distribuidor ubicado en la RN 38 km 703.23 (en proximidades del río Marapa).",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -15462,7 +15462,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 2,
       "geo": [
         [
@@ -15486,7 +15486,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 3,
       "geo": [
         [
@@ -15514,7 +15514,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 4,
       "geo": [
         [
@@ -15542,7 +15542,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -15566,7 +15566,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15594,7 +15594,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada -ATENCION: Corte total entre Carcarañá y Correa, para todo tipo de vehículos y peatones. Se realizan desvíos hacia Autopista Rosario - Córdoba en Carcarañá y en Correa.",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -15630,7 +15630,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -15658,7 +15658,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -15710,7 +15710,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -15738,7 +15738,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15762,7 +15762,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -15786,7 +15786,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15810,7 +15810,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Trabajos de mantenimiento",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15834,7 +15834,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -15862,7 +15862,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "10/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -15894,7 +15894,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable",
-      "actualizado": "11/7/2026 07:00",
+      "actualizado": "13/7/2026 07:00",
       "orden": 1,
       "geo": [
         [
@@ -15946,7 +15946,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -15970,7 +15970,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -16026,7 +16026,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución.Circular respetando las velocidades máximas . Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -16054,7 +16054,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable con precaución. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
-      "actualizado": "10/7/2026 07:54",
+      "actualizado": "13/7/2026 06:15",
       "orden": 1,
       "geo": [
         [
@@ -16082,7 +16082,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": null,
       "geo": [
         [
@@ -16106,7 +16106,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -16206,7 +16206,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 1,
       "geo": [
         [
@@ -16234,7 +16234,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16258,7 +16258,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16282,7 +16282,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16306,7 +16306,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16330,7 +16330,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16354,7 +16354,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": null,
       "geo": [
         [
@@ -16506,7 +16506,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 1,
       "geo": [
         [
@@ -16530,7 +16530,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "Transitable.",
-      "actualizado": "9/7/2026 10:00",
+      "actualizado": "13/7/2026 08:46",
       "orden": 2,
       "geo": [
         [
@@ -16554,7 +16554,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 2,
       "geo": [
         [
@@ -16578,7 +16578,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 3,
       "geo": [
         [
@@ -16602,7 +16602,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 5,
       "geo": [
         [
@@ -16626,7 +16626,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 6,
       "geo": [
         [
@@ -16650,7 +16650,7 @@
       "estado": "transitable",
       "estado_raw": "HABILITADA",
       "obs": "",
-      "actualizado": "8/7/2026 09:00",
+      "actualizado": "13/7/2026 09:00",
       "orden": 4,
       "geo": [
         [
@@ -16753,8 +16753,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución. Calzada mojada por lluvia. Tránsito intenso",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
@@ -16777,8 +16777,8 @@
       "calzada": "Pavimento",
       "estado": "transitable",
       "estado_raw": "HABILITADA",
-      "obs": "Transitable con precaución. Calzada mojada por lluvia. Tránsito intenso",
-      "actualizado": "10/7/2026 20:00",
+      "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
+      "actualizado": "13/7/2026 08:00",
       "orden": null,
       "geo": [
         [
