@@ -234,6 +234,7 @@
   .c-tier  { background:#2e1065; color:#c4b5fd; }
   .c-otro  { background:#1e293b; color:#94a3b8; }
   .det-box { margin-top:8px; padding:8px; background:#0f172a; border-radius:7px; font-size:.72rem; color:#94a3b8; line-height:1.5; }
+  .det-box.det-empty { color:#64748b; font-style:italic; }
 
   /* Botón "Ver en mapa" dentro del panel */
   #btn-ver-mapa {
@@ -661,7 +662,8 @@ function abrirPanel(t, layer) {
     '</span></div>' +
     '<div class="irow"><span class="ikey">Calzada</span><span class="ival">' + calzadaBadge(t.calzada) + '</span></div>' +
     (t.actualizado ? '<div class="irow"><span class="ikey">Actualizado</span><span class="ival">' + t.actualizado + '</span></div>' : '') +
-    (t.obs ? '<div class="det-box">📝 ' + t.obs + '</div>' : '') +
+    (t.obs ? '<div class="det-box">📝 ' + t.obs + '</div>'
+           : '<div class="det-box det-empty">Sin observaciones registradas para este tramo.</div>') +
     '<button id="btn-ver-mapa">🎯 Ver en mapa</button>'
   );
   $('#btn-ver-mapa').on('click', function() {
@@ -756,7 +758,7 @@ function agregarTramo(t) {
 
 // ── Carga ─────────────────────────────────────────────────────────────────────
 $(function() {
-  $.getJSON('json/tramos.json')
+  $.getJSON('json/tramos.json?v=' + Date.now())
     .done(function(data) {
       const tramos = data.tramos || [];
       const meta   = data.metadata || {};
