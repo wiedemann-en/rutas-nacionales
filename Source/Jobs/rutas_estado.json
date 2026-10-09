@@ -1,11 +1,11 @@
 {
   "metadata": {
     "fuente": "https://www.argentina.gob.ar/transporte/vialidad-nacional/estado-de-rutas",
-    "fecha_scrape": "2026-10-07T16:12:37.593604",
+    "fecha_scrape": "2026-10-09T15:56:57.071647",
     "total_rutas": 134,
     "total_tramos": 663,
-    "transitables": 644,
-    "precaucion": 4,
+    "transitables": 645,
+    "precaucion": 3,
     "cortadas": 12,
     "sin_estado": 3
   },
@@ -22,7 +22,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -35,7 +35,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -46,7 +46,7 @@
         "km": "54",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -57,7 +57,7 @@
         "km": "41",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -68,7 +68,7 @@
         "km": "47",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -79,7 +79,7 @@
         "km": "44",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -90,7 +90,7 @@
         "km": "100",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -101,7 +101,7 @@
         "km": "58",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -112,7 +112,7 @@
         "km": "18",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -123,7 +123,7 @@
         "km": "7",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -134,7 +134,7 @@
         "km": "5",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -145,7 +145,7 @@
         "km": "2",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -156,7 +156,7 @@
         "km": "12",
         "obs": "Restricción de peso para la circulación sobre el puente ubicado en el kilómetro 692 de la Ruta Nacional 3 SENTIDO DESCENDENTE (sobre el puente de hormigón existente): Peso máximo de 40 Tn y una carga máxima por eje de 11 Tn. Desvío obligatorio desde el sur: en El Cholo (RN 3 y RN 33) por RN 33, circunvalación Atilio Freut y RN 229 hasta retomar RN 3 en Grumbein. SENTIDO ASCENDENTE (sobre el puente Bailey): Peso máximo de 45 toneladas. Desvío obligatorio desde el norte: en Grumbein por RN 229, circunvalación Atilio Freut y RN 33 hasta RN 3 en El Cholo.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -167,7 +167,7 @@
         "km": "21",
         "obs": "Restricción de peso para la circulación sobre el puente ubicado en el kilómetro 692 de la Ruta Nacional 3 SENTIDO DESCENDENTE (sobre el puente de hormigón existente): Peso máximo de 40 Tn y una carga máxima por eje de 11 Tn. Desvío obligatorio desde el sur: en El Cholo (RN 3 y RN 33) por RN 33, circunvalación Atilio Freut y RN 229 hasta retomar RN 3 en Grumbein. SENTIDO ASCENDENTE (sobre el puente Bailey): Peso máximo de 45 toneladas. Desvío obligatorio desde el norte: en Grumbein por RN 229, circunvalación Atilio Freut y RN 33 hasta RN 3 en El Cholo.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -178,7 +178,7 @@
         "km": "37",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -189,7 +189,7 @@
         "km": "52",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -200,7 +200,7 @@
         "km": "73",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -211,7 +211,7 @@
         "km": "82",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -222,7 +222,7 @@
         "km": "92,82",
         "obs": "Calzada normal, deformada en sectores. Banquinas normales. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -233,7 +233,7 @@
         "km": "62,87",
         "obs": "Calzada normal. Banquinas normales. Respetar señalamiento. Animales sueltos. Equipos viales trabajando en repavimentación de calzada, en el acceso norte a Trelew. Desvío habilitado. Respetar señalamiento. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -244,7 +244,7 @@
         "km": "198,00",
         "obs": "Calzada normal, deformada en sectores. Banquinas normales. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -253,9 +253,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "178,00",
-        "obs": "Calzada normal, deformada en sectores. Baches sobre calzada en sectores. Banquinas inestables, con barro y agua en sectores. Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Transitar con precaución",
+        "obs": "Calzada normal, deformada en sectores. Baches sobre calzada en sectores entre Malaspina y Salamanca. Banquinas inestables, con barro y agua en sectores. Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -266,7 +266,7 @@
         "km": "17,31",
         "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Equipos al servicio de Vialidad Nacional trabajando en zona urbana de Comodoro Rivadavia. Desvío por obras en Ramón Santos. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Río Negro",
@@ -277,7 +277,7 @@
         "km": "185,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores. Desde Viedma hasta la Rotonda RN 250 tener presente que es una zona de chacras con varios caminos laterales donde ingresan y egresan vehículos de gran porte. Animales sueltos. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -288,7 +288,7 @@
         "km": "125,00",
         "obs": "Transitable con precaución.Calzada humeda por sectores. Circular respetando las velocidades máximas y los sectores de adelantamiento.  Tráfico vehicular moderado.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -299,18 +299,18 @@
         "km": "40,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores.Circular respetando las velocidades máximas y los sectores de adelantamiento. Sectores poceados.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Santa Cruz",
         "tramo": "Lte. Con Chubut - Caleta Olivia",
-        "estado": "precaucion",
-        "estado_raw": "CORTE PARCIAL",
+        "estado": "cortada",
+        "estado_raw": "CORTE TOTAL",
         "calzada": "PAVIMENTO",
         "km": "58,12",
         "obs": "Corte total y desvío entre los km 1872 y 1877. Equipos trabajando en cercanías a La Lobería por socavación.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -319,9 +319,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "76,00",
-        "obs": "Transitable con precaución por lluvia.",
+        "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -330,9 +330,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "134,00",
-        "obs": "Transitable con  precaución por lluvia.  Baches . Animales sueltos.",
+        "obs": "Transitable con  precaución .  Baches . Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -341,9 +341,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "66,5",
-        "obs": "Transitable con  precaución.Calzada deformada.Animales sueltos. Banquinas inestables. Lluvia",
+        "obs": "Transitable con  precaución.Calzada deformada.Animales sueltos. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -354,7 +354,7 @@
         "km": "69,5",
         "obs": "Transitable con precaución .  Calzada con deformaciones. Animales sueltos. Banquinas inestables.  Equipos viales realizando perfilado de banquinas.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -365,7 +365,7 @@
         "km": "129,00",
         "obs": "Transitable con precaución .  Calzada con deformaciones. Animales sueltos. Banquinas inestables. Baches.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -376,7 +376,7 @@
         "km": "",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -385,9 +385,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución . Calzada con deformaciones. Animales sueltos. Banquina inestable. Lluvia",
+        "obs": "Transitable con precaución . Calzada con deformaciones. Animales sueltos. Banquina inestable.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -396,9 +396,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia .  Animales sueltos. Precaución por sectores con deformación de calzada y falta de señalización horizontal. Banquinas con descalce.",
+        "obs": "Transitable con precaución  .  Animales sueltos. Precaución por sectores con deformación de calzada y falta de señalización horizontal. Banquinas con descalce.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -407,9 +407,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia.  Animales sueltos. Banquinas inestables.  Zona de baches (puentes Rio Coyle)",
+        "obs": "Transitable con precaución .  Animales sueltos. Banquinas inestables.  Zona de baches (puentes Rio Coyle)",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -418,9 +418,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia  Animales sueltos. Banquinas inestables.  Sectores con huellones, deformación de calzada .Baches .",
+        "obs": "Transitable con precaución  Animales sueltos. Banquinas inestables.  Sectores con huellones, deformación de calzada .Baches .",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -429,9 +429,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia. Animales sueltos. Banquinas inestables.  Sectores con huellones, deformación de calzada .Baches",
+        "obs": "Transitable con precaución por reducción de calzada debido a los trabajos de bacheo sobre la calzada, de 11 a 16 hs. Animales sueltos. Banquinas inestables.  Sectores con huellones, deformación de calzada .Baches",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -440,9 +440,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia. Animales sueltos. Banquinas inestables. Sectores con huellones, deformación de calzada .Baches",
+        "obs": "Transitable con precaución . Animales sueltos. Banquinas inestables. Sectores con huellones, deformación de calzada .Baches",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -451,9 +451,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia Se circula por banquinas.",
+        "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -462,9 +462,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvias. Se circula por banquinas.",
+        "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -475,7 +475,7 @@
         "km": "87,77",
         "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores poceados. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -486,7 +486,7 @@
         "km": "79,44",
         "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: señalamiento vertical: armado y colocación. - Observaciones: Tramo comprendido progresivas km 2785 - km 2790 sectores con baches.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -495,9 +495,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "83,85",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: señalamiento vertical: armado y colocación. - Observaciones: Tramo comprendido progresivas km 2880 - km 2910 sectores con baches.",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Reducida por neblina.Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: señalamiento vertical: armado y colocación. - Observaciones: Tramo comprendido progresivas km 2880 - km 2910 sectores con baches.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -506,9 +506,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "16,20",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: señalamiento vertical: armado y colocación. -",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Reducida por neblina.Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: señalamiento vertical: armado y colocación. -",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -517,9 +517,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "56,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: Reparación de alcantarilla - Observaciones: Tramo comprendido progresivas km 2950 - km 2974 sectores con baches.",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Reducida por neblina.Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: Tramo comprendido progresivas km 2950 - km 2974 sectores con baches.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -530,7 +530,7 @@
         "km": "11,00",
         "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: Camino de montaña riesgo de caida y/o desprendimientos de hielo y roca. Atención: Calzada con ondulaciones, provocadas por el deshielo.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -541,7 +541,7 @@
         "km": "43,45",
         "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Seca Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: Tramo comprendido progresivas km 3023 - km 3027 sectores con baches.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       },
       {
         "provincia": "Tierra del Fuego, Antártida e Islas del Atlántico Sur",
@@ -550,9 +550,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "18,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: perfilado de calzada. - Maquinas Trabajando - Atención: Transito de peatones.",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Atención: Transito de peatones.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "5": [
@@ -567,7 +567,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "La Pampa",
@@ -604,7 +604,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -617,7 +617,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Córdoba",
@@ -736,7 +736,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       },
       {
         "provincia": "Santa Fe",
@@ -747,7 +747,7 @@
         "km": "56,13",
         "obs": "Precaución en el alteo por la laguna La Picasa, paso a velocidad reducida (80km/h vehículos livianos - 60 km/h pesados y colectivos). Tareas de bacheo y repavimentación entre La Picasa y Rufino (paso alternado de a una mano por vez en zonas de trabajos) - Transito con precaución en paso por alcantarilla en Km 414 entre Aarón Castellanos y Rufino",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "8": [
@@ -762,7 +762,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Córdoba",
@@ -819,7 +819,7 @@
         "km": "33,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       },
       {
         "provincia": "Santa Fe",
@@ -832,7 +832,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "9": [
@@ -847,7 +847,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -860,7 +860,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Córdoba",
@@ -932,7 +932,7 @@
         "km": "13,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -943,7 +943,7 @@
         "km": "9,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -954,7 +954,7 @@
         "km": "23,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -965,7 +965,7 @@
         "km": "14,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -976,7 +976,7 @@
         "km": "31,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -987,7 +987,7 @@
         "km": "20,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -998,7 +998,7 @@
         "km": "40,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -1009,7 +1009,7 @@
         "km": "50,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -1020,7 +1020,7 @@
         "km": "60,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -1033,7 +1033,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Salta",
@@ -1044,7 +1044,7 @@
         "km": "182,00",
         "obs": "Transitar con precaución. Cuadrilla de Conservaciòn trabjando en bacheo desde los km 1438 al km 1440. Respetar señalizacion vial,.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -1057,7 +1057,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -1068,7 +1068,7 @@
         "km": "48,00",
         "obs": "Transitar con precaución, calzada irregular en sectores. Disminuya velocidad y mantenga distancia.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -1079,7 +1079,7 @@
         "km": "37,50",
         "obs": "Transitar con precaución por material en distintos puntos de la calzada. Máquinas trbajando en el despeje",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Santa Fe",
@@ -1092,7 +1092,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1103,7 +1103,7 @@
         "km": "9,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1114,7 +1114,7 @@
         "km": "39,63",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1127,7 +1127,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -1195,7 +1195,7 @@
         "km": "61,35",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -1206,7 +1206,7 @@
         "km": "3,80",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -1217,7 +1217,7 @@
         "km": "12,00",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -1228,7 +1228,7 @@
         "km": "13,21",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -1241,22 +1241,22 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "12": [
       {
         "provincia": "Buenos Aires",
         "tramo": "Zarate - Lte. Entre Rios",
-        "estado": "precaucion",
-        "estado_raw": "CORTE PARCIAL",
+        "estado": "transitable",
+        "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "32",
-        "obs": "Desvíos en la rotonda de RN12 y RP6 (Zárate) durante lunes 5/10 y martes 6/10. Se solicita respetar las señales preventivas, disminuir la velocidad y estimar mayores tiempos de viaje",
+        "obs": "",
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Corrientes",
@@ -1589,7 +1589,7 @@
         "km": "14",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1600,7 +1600,7 @@
         "km": "60",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1611,7 +1611,7 @@
         "km": "59",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "La Pampa",
@@ -1633,7 +1633,7 @@
         "km": "23,52",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -1644,7 +1644,7 @@
         "km": "136,40",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Río Negro",
@@ -1655,7 +1655,7 @@
         "km": "193,00",
         "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento. Circular a velocidad precautoria.  Tráfico vehicular moderado. Sectores con deformaciones de calzada en la zona de Río Colorado.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "25/8/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -1664,9 +1664,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "146,00",
-        "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento. Circular a velocidad precautoria. Tráfico vehicular moderado/alto. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
+        "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento. Calzada deformada. Circular a velocidad precautoria. Tráfico vehicular moderado/alto. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "25/8/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -1675,9 +1675,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "355,00",
-        "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento.  Circular respetando las velocidades de circulación.  Tráfico vehicular alto. Precaucion en zonas de obra. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
+        "obs": "Transitable con precaución. Prudencia al realizar maniobras de adelantamiento. Clazada en regular estado. Circular respetando las velocidades de circulación.  Tráfico vehicular alto. Precaucion en zonas de obra. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "25/8/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "33": [
@@ -1690,7 +1690,7 @@
         "km": "8.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1701,7 +1701,7 @@
         "km": "16.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1712,7 +1712,7 @@
         "km": "45.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1723,7 +1723,7 @@
         "km": "58.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1734,7 +1734,7 @@
         "km": "65.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1745,7 +1745,7 @@
         "km": "124.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1756,7 +1756,7 @@
         "km": "117.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1767,7 +1767,7 @@
         "km": "76.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1778,7 +1778,7 @@
         "km": "22,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1791,7 +1791,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -1802,7 +1802,7 @@
         "km": "19,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "35": [
@@ -1815,7 +1815,7 @@
         "km": "30.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1826,7 +1826,7 @@
         "km": "43.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -1837,7 +1837,7 @@
         "km": "44.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Córdoba",
@@ -2004,7 +2004,7 @@
         "km": "74.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2017,7 +2017,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2028,7 +2028,7 @@
         "km": "243.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "La Pampa",
@@ -2105,7 +2105,7 @@
         "km": "127,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "193": [
@@ -2118,7 +2118,7 @@
         "km": "32.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "205": [
@@ -2131,7 +2131,7 @@
         "km": "116.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2142,7 +2142,7 @@
         "km": "128.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2155,7 +2155,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "226": [
@@ -2170,7 +2170,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2181,7 +2181,7 @@
         "km": "325.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "228": [
@@ -2194,7 +2194,7 @@
         "km": "55.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2205,7 +2205,7 @@
         "km": "70.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2216,7 +2216,7 @@
         "km": "15.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "229": [
@@ -2229,7 +2229,7 @@
         "km": "15.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "249": [
@@ -2242,7 +2242,7 @@
         "km": "20.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "252": [
@@ -2255,7 +2255,7 @@
         "km": "6.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2266,7 +2266,7 @@
         "km": "2.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "1V03": [
@@ -2279,7 +2279,7 @@
         "km": "304.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A-001": [
@@ -2292,7 +2292,7 @@
         "km": "16.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A-017": [
@@ -2305,7 +2305,7 @@
         "km": "17.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2316,7 +2316,7 @@
         "km": "15.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2327,7 +2327,7 @@
         "km": "15.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "Au. Ezeiza Cañuelas": [
@@ -2342,7 +2342,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "Au. Riccheri": [
@@ -2357,7 +2357,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "Av. Jorge Newbery": [
@@ -2370,7 +2370,7 @@
         "km": "3.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "Puentes Riachuelo": [
@@ -2383,7 +2383,7 @@
         "km": "1.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2394,7 +2394,7 @@
         "km": "1.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2405,7 +2405,7 @@
         "km": "1.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2416,7 +2416,7 @@
         "km": "1.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Buenos Aires",
@@ -2427,7 +2427,7 @@
         "km": "1.00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "38": [
@@ -2440,7 +2440,7 @@
         "km": "80",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -2451,7 +2451,7 @@
         "km": "66",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Córdoba",
@@ -2506,7 +2506,7 @@
         "km": "77,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2517,7 +2517,7 @@
         "km": "67,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2528,7 +2528,7 @@
         "km": "67,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2539,7 +2539,7 @@
         "km": "5,00",
         "obs": "Transitable con precaución. ZONA URBANA. Personal se encuentra realizando limpieza de alcantarillas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2550,7 +2550,7 @@
         "km": "84,00",
         "obs": "Transitable con precaución. CEBOLLAR. Personal se encuentra realizando tareas de bacheo en frio.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Tucumán",
@@ -2561,7 +2561,7 @@
         "km": "49,61",
         "obs": "Transitable con precaución en  Rumi Punco ( km 663), personal vial trabaja en la zona de camino (armado y hormigonado de plateo de alcantarillas).   /// Colocación de señales verticales en el tramo: Rumi Punco - La Cocha.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -2572,7 +2572,7 @@
         "km": "17,31",
         "obs": "Transitable con precaución en el acceso a Juan Bautista Alberdi por obras en ejecuación.  El tránsito que circula por la RN 38 sentido norte - sur se desviará por colectora a la altura de  C. Lonardi hasta la calle Ricardo Rojas de ahí continua por RN 38.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -2583,7 +2583,7 @@
         "km": "9,47",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -2594,7 +2594,7 @@
         "km": "24,62",
         "obs": "Transitable con precaución. Personal vial reliza bacheo de calzada entre los kilometros en el acceso sur a Monteros (km 759)",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -2603,9 +2603,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "15,65",
-        "obs": "Transitable con precaución.  Peronal vial realia el menmalezamiento manual de barandas.",
+        "obs": "Transitable con precaución.  Peronal vial trabaja en el desmalezamiento de la zona de caminos en todo el tramo.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -2616,7 +2616,7 @@
         "km": "31,00",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "40": [
@@ -2629,7 +2629,7 @@
         "km": "87",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -2640,7 +2640,7 @@
         "km": "11",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -2651,7 +2651,7 @@
         "km": "36",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -2662,7 +2662,7 @@
         "km": "88",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -2673,7 +2673,7 @@
         "km": "14",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Chubut",
@@ -2682,9 +2682,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "37,30",
-        "obs": "Calzada normal, deformada en sectores. Calzada con baches y deformaciones en sectores. Banquinas húmedas en sectores. Equipos viales trabajando. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Calzada con baches y deformaciones en sectores. Banquinas normales, húmedas en sectores. Equipos viales trabajando. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2693,9 +2693,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "53,40",
-        "obs": "Calzada normal. Calzada con deformaciones y baches en sectores. Banquinas húmedas en sectores. Equipos viales trabajando. Animales sueltos. Viento.  Transitar con precaución.",
+        "obs": "Calzada normal. Calzada con deformaciones y baches en sectores. Banquinas normales. Equipos viales trabajando. Animales sueltos. Viento.  Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2704,9 +2704,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "178,00",
-        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas en sectores. Entre Facundo-Tamariscos calzada con deformaciones. Precaución en ese tramo. Equipos viales trabajando. Desvío de ripio con humedad en sectores, con extrema precaución entre Facundo y Tamarisco. Transitar a 60 km/h. Respetar señalamiento. Animales sueltos. Viento. Precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Entre Facundo-Tamariscos calzada con deformaciones. Precaución en ese tramo. Equipos viales trabajando. Desvío de ripio con humedad en sectores, con extrema precaución entre Facundo y Tamarisco. Transitar a 60 km/h. Respetar señalamiento. Animales sueltos. Viento. Precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2717,7 +2717,7 @@
         "km": "83,70",
         "obs": "Calzada normal, húmeda en tramos. Calzada con baches y deformada en sectores. Banquinas inestables en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2726,9 +2726,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "84,40",
-        "obs": "Calzada húmeda. Banquinas húmedas, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2737,9 +2737,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "105,00",
-        "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables, con barro y agua en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Equipos de Vialidad Nacional trabajando. Viento. Bancos de niebla. Lloviznas. Transitar con precaución.",
+        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -2748,9 +2748,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "47,30",
-        "obs": "Calzada húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -2761,7 +2761,7 @@
         "km": "408,00",
         "obs": "Circular con precaución Calzada irregular en el tramo de la ruta que se superpone con el lecho del rio Quebrada de Paicone (km 4980-km 4991)",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "La Rioja",
@@ -2772,7 +2772,7 @@
         "km": "53,00",
         "obs": "Transitable con precaución. LA CHILCA - SANTA CLARA. Personal se encuentra realizando tareas de desmalezado manual.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2783,7 +2783,7 @@
         "km": "49,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 12:30"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2794,7 +2794,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 12:30"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2805,7 +2805,7 @@
         "km": "24,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 12:30"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2816,7 +2816,7 @@
         "km": "163,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Mendoza",
@@ -2935,9 +2935,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "68,46",
-        "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible caída de piedras en el km 2.095. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
+        "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible caída de piedras en el km 2.095. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -2946,9 +2946,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "43,77",
-        "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
+        "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -2957,9 +2957,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "43,16",
-        "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
+        "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -2968,9 +2968,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "66,01",
-        "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible caida de rocas. Posible formación de hielo en sectores. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas",
+        "obs": "Transitable con precaución. Calzada húmeda. LloviznasPosible caida de rocas. Posible formación de hielo en sectores. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -2979,9 +2979,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "35,45",
-        "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible formación de hielo en sectores. Posible caida de rocas. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
+        "obs": "Transitable con precaución. Calzada húmeda. Posible formación de hielo en sectores. Posible caida de rocas. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -2992,7 +2992,7 @@
         "km": "120,32",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -3003,7 +3003,7 @@
         "km": "49,01",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -3014,7 +3014,7 @@
         "km": "142,27",
         "obs": "Transitable con precaución. Calzada normal. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -3025,7 +3025,7 @@
         "km": "116,21",
         "obs": "Transitable con precaución. Calzada normal. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Río Negro",
@@ -3034,9 +3034,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "90,00",
-        "obs": "Transitable con precaucion. Calzada humeda por sectores. Bancos de nieblas dispersas. Tramos en regular estado. Trayecto con curvas cerradas. Animales sueltos. Piedras en la calzada por derrumbes ocasionales. Respetar las distancias de frenado. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda evitar circular en horaro nocturno.",
+        "obs": "Transitable con precaucion. Tramos en regular estado. Trayecto con curvas cerradas. Calzada humeda por sectores. Animales sueltos. Piedras en la calzada por derrumbes ocasionales. Respetar las distancias de frenado. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda evitar circular en horaro nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -3047,7 +3047,7 @@
         "km": "28,80",
         "obs": "Transitable con Precaucion. Calzada humeda por sectores.   Respetar los espacios de adelantamiento y las velocidades de circulación. Tráfico vehicular moderado / alto.Circular con cinturones de seguridad colocados y luces bajas encendidas.Se recomienda evitar circular en horario nocturno. Portacion obligatoria de cadenas fisicas. Alerta amarilla por nevadas SMN.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -3058,7 +3058,7 @@
         "km": "25,00",
         "obs": "Transitable con Precaucion. Calzada humeda por sectores.   Respetar los espacios de adelantamiento y las velocidades de circulación. Tráfico vehicular moderado / alto.Circular con cinturones de seguridad colocados y luces bajas encendidas.Se recomienda evitar circular en horario nocturno. Portacion obligatoria de cadenas fisicas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Salta",
@@ -3069,7 +3069,7 @@
         "km": "57,00",
         "obs": "Transitable con precaución en zonas de badenes desde Lte. Tucumán hasta Tolombom.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3080,7 +3080,7 @@
         "km": "105,00",
         "obs": "Transitar con precaución Máquinas trabajan en el lugar",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3091,7 +3091,7 @@
         "km": "29,00",
         "obs": "Transitar con precaución. Máquinas trabajando en perfilado de Calzada entre Seclantas (Km 4470) - Rio Vallecito (km 4480)",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3102,7 +3102,7 @@
         "km": "52,12",
         "obs": "Maquinas trabajando. Transito con Precauciòn.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3113,7 +3113,7 @@
         "km": "197,00",
         "obs": "Maquinas trabajando en toda la zona.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3124,7 +3124,7 @@
         "km": "35,00",
         "obs": "Tránsito con suma precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3135,7 +3135,7 @@
         "km": "27,76",
         "obs": "Tránsito con precauciòn.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "San Juan",
@@ -3146,7 +3146,7 @@
         "km": "33,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3157,7 +3157,7 @@
         "km": "51,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3168,7 +3168,7 @@
         "km": "16,00",
         "obs": "Transitable MAXIMA PRECAUCIONE NE ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3179,7 +3179,7 @@
         "km": "35,00",
         "obs": "Transitable, MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3190,7 +3190,7 @@
         "km": "57,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3201,7 +3201,7 @@
         "km": "34,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3212,7 +3212,7 @@
         "km": "40,00",
         "obs": "Transitable MAXIMA PRECAUCION",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3223,7 +3223,7 @@
         "km": "62,00",
         "obs": "Transitable, maxima PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3232,9 +3232,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por lluvia. Banquinas inestables.  Animales sueltos.",
+        "obs": "Transitable con precaución  Banquinas inestables.  Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3243,9 +3243,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "85,00",
-        "obs": "Transitable con precaución por lluvia. Animales sueltos. Banquinas inestables.",
+        "obs": "Transitable con precaución . Animales sueltos. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3254,9 +3254,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "78,00",
-        "obs": "Transitable con precaución por lluvia. Sectores con barro y huellones .Banquinas inestables. Animales sueltos.",
+        "obs": "Transitable con precaución . Sectores con barro y huellones .Banquinas inestables. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3265,9 +3265,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "80,00",
-        "obs": "Transitable con precaución por escarcha. Sectores con barro y huellones .Banquinas inestables. Animales sueltos.",
+        "obs": "Transitable con precaución. Sectores con barro y huellones .Banquinas inestables. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3276,9 +3276,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por escarchaa.Calzada con presencia de escarcha.Sectores con baches.",
+        "obs": "Transitable con precaución. Calzada con presencia de escarcha.Sectores con baches.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3287,9 +3287,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por escarcha. Calzada con presencia de escarcha.Sectores con baches.",
+        "obs": "Transitable con precaución. Calzada con presencia de escarcha.Sectores con baches. Equipos trabajando en el perfilado de banquinas.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3298,9 +3298,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "",
-        "obs": "Transitable con precaución por escarcha .Calzada con presencia de escarcha.Sectores con baches.",
+        "obs": "Transitable con precaución .Calzada con presencia de escarcha.Sectores con baches. Equipos trabajando.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3309,9 +3309,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "69,00",
-        "obs": "Transitable con precaución por escarcha. Calzada con presencia de escarcha.Animales sueltos.",
+        "obs": "Transitable con precaución. Calzada con presencia de escarcha.Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3320,9 +3320,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "35,00",
-        "obs": "Transitable con precacución por sectores con escarcha. Animales sueltos.",
+        "obs": "Transitable con precacución. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3333,7 +3333,7 @@
         "km": "28,00",
         "obs": "Transitable con precacución. Presencia de escarcha. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3344,7 +3344,7 @@
         "km": "130,00",
         "obs": "Transitable con  precacución. Presencia de escarcha. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3355,7 +3355,7 @@
         "km": "173,00",
         "obs": "Circulación restringida para todo tipo de vehículos por barro y agua sobre la calzada.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3366,7 +3366,7 @@
         "km": "",
         "obs": "Circulación restringida para todo tipo de vehículos por barro y agua sobre la calzada.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3377,7 +3377,7 @@
         "km": "",
         "obs": "Circulación restringida para todo tipo de vehículos por barro y agua sobre la calzada.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3388,7 +3388,7 @@
         "km": "64",
         "obs": "Circulación restringida para todo tipo de vehículos por barro y agua sobre la calzada.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3399,7 +3399,7 @@
         "km": "",
         "obs": "Transitable con precaución. Trabajos de reposicion y colocación de señalamiento vertical.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3410,7 +3410,7 @@
         "km": "45",
         "obs": "Transitable con precaución,. Trabajos de reposicion y colocación de señalamiento vertical.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3421,7 +3421,7 @@
         "km": "75",
         "obs": "Transitable con precaución. Animales sueltos. Baches. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3432,7 +3432,7 @@
         "km": "25",
         "obs": "Transitable con precaución. Animales sueltos. Baches. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3443,7 +3443,7 @@
         "km": "46",
         "obs": "Transitable con precaución. Animales sueltos. Baches. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3454,7 +3454,7 @@
         "km": "74",
         "obs": "Transitable con precaución. Animales sueltos. Baches. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3465,7 +3465,7 @@
         "km": "84",
         "obs": "Transitable con precaución. Animales sueltos. Baches. Banquinas inestables.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Tucumán",
@@ -3476,7 +3476,7 @@
         "km": "14",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -3487,7 +3487,7 @@
         "km": "15,00",
         "obs": "Transitable con precaución.  Equipos viales trabajan en la limpieza en la zona de badenes ( km4305)",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -3498,7 +3498,7 @@
         "km": "8,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "60": [
@@ -3511,7 +3511,7 @@
         "km": "9",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3522,7 +3522,7 @@
         "km": "109",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3533,7 +3533,7 @@
         "km": "60",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3544,7 +3544,7 @@
         "km": "42",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3555,7 +3555,7 @@
         "km": "70",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3566,7 +3566,7 @@
         "km": "46",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3577,7 +3577,7 @@
         "km": "94",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Catamarca",
@@ -3590,7 +3590,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Córdoba",
@@ -3634,7 +3634,7 @@
         "km": "31,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -3645,7 +3645,7 @@
         "km": "45,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "64": [
@@ -3658,7 +3658,7 @@
         "km": "56",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -3715,7 +3715,7 @@
         "km": "92",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:05"
+        "actualizado": "9/10/2026 00:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -3748,18 +3748,18 @@
         "km": "47,71",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
         "tramo": "Monteagudo - Simoca",
-        "estado": "cortada",
-        "estado_raw": "CORTE TOTAL",
+        "estado": "precaucion",
+        "estado_raw": "CORTE PARCIAL",
         "calzada": "PAVIMENTO",
         "km": "30,26",
-        "obs": "Transitable con precaución en la travesía urbana de Lamadrid. Desvío en el km 1159 por readecuación de alcantarillas.  Se solicita respetar la señalización transitoria de obras y la indicacón de los banderilleros.",
+        "obs": "Transitable con precaución en la travesía urbana de Lamadrid. Desvío en el km 1159 por readecuación de alcantarillas.  Se solicita respetar la señalización transitoria de obras y la indicacón de los banderilleros.  /// Personal vial trabaja en la colocación de señales viales y delineadores verticales en el km 1176 (Balanza de Monteagudo)",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -3770,7 +3770,7 @@
         "km": "26,32",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -3781,7 +3781,7 @@
         "km": "18,62",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "11": [
@@ -3794,7 +3794,7 @@
         "km": "77",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3805,7 +3805,7 @@
         "km": "95",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Formosa",
@@ -3829,7 +3829,7 @@
         "km": "17,26",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3840,7 +3840,7 @@
         "km": "86,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3851,7 +3851,7 @@
         "km": "52,00",
         "obs": "ATENCION: Puente Carretero habilitado para todo tipo de vehículos incluidos colectivos de doble piso - camiones limitados a la configuración de un solo eje trasero - PROHIBIDO el cruce de: camiones con balancín (doble eje trasero), semirremolques, camiones con acoplado, bateas, y toda configuración que supere un solo eje trasero - ATENCION entre Santo Tomé y Santa Fe desvíos y restricciones por obra construcción nuevo puente. Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -3864,7 +3864,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "16": [
@@ -3879,7 +3879,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3892,7 +3892,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3903,7 +3903,7 @@
         "km": "80",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3914,7 +3914,7 @@
         "km": "52",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3925,7 +3925,7 @@
         "km": "18",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Salta",
@@ -3936,7 +3936,7 @@
         "km": "71,50",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -3947,7 +3947,7 @@
         "km": "129,00",
         "obs": "Tránsito con precaución altura A Matorras km 622.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Santiago del Estero",
@@ -3982,7 +3982,7 @@
         "km": "87",
         "obs": "Circular con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -3993,7 +3993,7 @@
         "km": "48",
         "obs": "Circular con extrema precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Santiago del Estero",
@@ -4039,7 +4039,7 @@
         "km": "158",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -4050,7 +4050,7 @@
         "km": "67",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -4061,7 +4061,7 @@
         "km": "116",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Chaco",
@@ -4072,7 +4072,7 @@
         "km": "10",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 12:30"
       },
       {
         "provincia": "Formosa",
@@ -4116,7 +4116,7 @@
         "km": "81,28",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -4127,7 +4127,7 @@
         "km": "71,30",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -4138,7 +4138,7 @@
         "km": "164,50",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "25": [
@@ -4151,7 +4151,7 @@
         "km": "205,00",
         "obs": "Calzada normal, deformada en sectores. Banquinas normales. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4162,7 +4162,7 @@
         "km": "103,00",
         "obs": "Calzada normal, deformada en sectores. Banquinas normales, húmedas en sectores. Desvío de ripio con barro y agua en el km 259 - 261 (Circular a baja velocidad en el desvío. Máxima 40 km/h). Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Transitar con precaució",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4171,9 +4171,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "57,00",
-        "obs": "Calzada normal, deformada en sectores. Calzada con deformaciones y baches en sectores. Banquinas normales, húmedas en sectores. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Calzada con deformaciones y baches en sectores. Banquinas normales. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4182,9 +4182,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "164,00",
-        "obs": "Calzada normal, húmeda en sectores. Calzada con deformaciones y baches en sectores. Banquinas humedas. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Calzada con deformaciones y baches en sectores. Banquinas normales, humedas en sectores. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "26": [
@@ -4197,7 +4197,7 @@
         "km": "138,00",
         "obs": "Calzada normal. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4206,9 +4206,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "72,70",
-        "obs": "Calzada normal. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución",
+        "obs": "Calzada normal. Banquinas normales. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "259": [
@@ -4219,9 +4219,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "13,60",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada normal. Banquinas normales, húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4230,9 +4230,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "21,63",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4241,11 +4241,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "39,95",
-        "obs": "Calzada húmeda. Banquinas húmedas. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
+        "obs": "Calzada húmeda en sectores. Banquinas húmedas. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "260": [
@@ -4260,7 +4260,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "1S40": [
@@ -4271,9 +4271,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "7,00",
-        "obs": "Calzada húmeda. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4282,9 +4282,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "12,20",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal. Banquinas normales, húmedas en sectores. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Chubut",
@@ -4293,9 +4293,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "19,60",
-        "obs": "Calzada húmeda. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
+        "obs": "Calzada húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Río Negro",
@@ -4306,7 +4306,7 @@
         "km": "80,00",
         "obs": "Transitable con Precaucion . Recorrido sin banquinas. Tramos poceados con piedras sueltas. Recorrido con curvas cerradas y calzada angosta. Sectores irregulares.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Portacion obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -4317,7 +4317,7 @@
         "km": "149,00",
         "obs": "Sectores con con banquinas inestables. Calzada angosta con curvas cerradas. Circular a baja velocidad. Tramos con serruchos y piedras sueltas de Ñorquinco hacia el sur. Circular a baja velocidad. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "14": [
@@ -4815,7 +4815,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "20": [
@@ -4861,7 +4861,7 @@
         "km": "56,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4872,7 +4872,7 @@
         "km": "60,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4883,7 +4883,7 @@
         "km": "26,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4894,7 +4894,7 @@
         "km": "22,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4905,7 +4905,7 @@
         "km": "4,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -4916,7 +4916,7 @@
         "km": "198,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "36": [
@@ -5144,7 +5144,7 @@
         "km": "2,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A015": [
@@ -5258,7 +5258,7 @@
         "km": "182,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       }
     ],
     "86": [
@@ -5359,7 +5359,7 @@
         "km": "33,80",
         "obs": "Tránsito con precauciòn.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       }
     ],
     "11-AO11": [
@@ -5385,7 +5385,7 @@
         "km": "37,00",
         "obs": "Circular con precaución entre los km 1149-1174 (empalme RN 66)-km 1196 (acceso norte a San Pedro), por obras de duplicación de calzada. Desvios de transito en km 1159, distribuidores RP 1 (km 1188), km1161, y RP 56 (km 1190).",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -5396,7 +5396,7 @@
         "km": "91,00",
         "obs": "Circular con precaución en pte. A° El Zanjón (km 1207,31), pte.Rio Negro I (km.1210,37), pte.Rio Negro II (km.1210,80), Pte Rio Negro III (km.1211,21), un vehículo por vez. Circular con extrema precaución por desvio de transito en sentido norte-sur, km 1227, y por calzada deteriorada entre Calilegua (km 1247) y el limimite con Salta (km 1287)",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Salta",
@@ -5407,7 +5407,7 @@
         "km": "67,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5418,7 +5418,7 @@
         "km": "20,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5429,7 +5429,7 @@
         "km": "40,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5440,7 +5440,7 @@
         "km": "19,90",
         "obs": "Transitar con precaución. Maquinas trabajando en banquina y en calzada en los km1341.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5451,7 +5451,7 @@
         "km": "79,50",
         "obs": "Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5462,7 +5462,7 @@
         "km": "10,00",
         "obs": "Tránsito con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -5475,7 +5475,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Santa Fe",
@@ -5486,7 +5486,7 @@
         "km": "16,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -5497,7 +5497,7 @@
         "km": "206,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -5510,7 +5510,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -5580,7 +5580,7 @@
         "km": "3,50",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -5591,7 +5591,7 @@
         "km": "59,00",
         "obs": ".Circular con extrema precaución por calzada deteriorada en Cuesta de Lipan. En paraje Ronqui Angosto (km 50) desvío del tránsito permanente para todo tipo de vehículos.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -5602,7 +5602,7 @@
         "km": "89,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -5615,7 +5615,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "66": [
@@ -5628,7 +5628,7 @@
         "km": "4,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Jujuy",
@@ -5639,7 +5639,7 @@
         "km": "34,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "IV66": [
@@ -5652,7 +5652,7 @@
         "km": "11,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "143": [
@@ -5812,7 +5812,7 @@
         "km": "147,00",
         "obs": "Transitable con precaución por presencia de tramos con calzada deteriorada. Calzada con ondulaciones y desniveles .Tráfico vehicular intenso. Circular a baja velocidad. Calzada humeda por lluvias. Baja visibilidad. Precaución al realizar maniobras de adelantamiento. Tramos con ahuellamiento de calzada. Sectores irregulares con descalce de banquinas. Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "25/8/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "152": [
@@ -5950,7 +5950,7 @@
         "km": "40,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores. Baja visibilidad. Animales sueltos. Sectores irregulares con descalce de banquinas. Respetar las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "73": [
@@ -5963,7 +5963,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -5974,7 +5974,7 @@
         "km": "8,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "74": [
@@ -5987,7 +5987,7 @@
         "km": "33,00",
         "obs": "Transitable con precaución. Personal de señalamiento se encuentra realizando retiro de señales en mal estado.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -5998,7 +5998,7 @@
         "km": "80,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "75": [
@@ -6011,7 +6011,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6022,7 +6022,7 @@
         "km": "14,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6033,7 +6033,7 @@
         "km": "15,00",
         "obs": "Transitable con precaución. SANAGASTA-HUACO. Personal realiza tareas de desmalezado manual.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6044,7 +6044,7 @@
         "km": "41,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6055,7 +6055,7 @@
         "km": "35,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "76": [
@@ -6068,7 +6068,7 @@
         "km": "58,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6079,7 +6079,7 @@
         "km": "29,00",
         "obs": "Transitable con precaución. Personal vial realiza relleno de erosiones en banquinas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6090,7 +6090,7 @@
         "km": "25,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6101,7 +6101,7 @@
         "km": "68,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6112,7 +6112,7 @@
         "km": "30,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6123,7 +6123,7 @@
         "km": "35,00",
         "obs": "Transitable con precaución. EL PEÑON - LAGUNA BRAVA. Personal realiza despeje de nieve en zona de calzada.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6134,7 +6134,7 @@
         "km": "88,00",
         "obs": "Transitable con precaución. EL PEÑON - LAGUNA BRAVA. Personal realiza despeje de nieve en zona de calzada.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6147,7 +6147,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "77": [
@@ -6160,7 +6160,7 @@
         "km": "77,00",
         "obs": "Transitrable con precaución. DESIDERIO TELLO-LOS TELLOS. Personal se encuentra realizando tareas de corte y maleza con tractor.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "78": [
@@ -6173,7 +6173,7 @@
         "km": "9,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6184,7 +6184,7 @@
         "km": "49,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6195,7 +6195,7 @@
         "km": "20,00",
         "obs": "Transitable con maxima precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "79": [
@@ -6208,7 +6208,7 @@
         "km": "85,00",
         "obs": "Transitable con maxima precaución. LTE SAN LUIS-ULAPES. Personal vial se encuentra realizando tareas de limpieza y perfilado de camino.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6219,7 +6219,7 @@
         "km": "45,00",
         "obs": "Transitable con maxima precaución. DESIDERIO TELLO - CATUNA. Personal se encuentra realizando tareas de corte de pasto y maleza con tractor.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6230,7 +6230,7 @@
         "km": "72,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6241,7 +6241,7 @@
         "km": "126,00",
         "obs": "Transitrable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -6252,7 +6252,7 @@
         "km": "40,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "141": [
@@ -6265,7 +6265,7 @@
         "km": "80,00",
         "obs": "Transitable con precaución. Personal se encuentra realizando tareas de aporte de material R.A.P en sectores deteriorados.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6276,7 +6276,7 @@
         "km": "58,00",
         "obs": "Habilitada solo de 7 a 19hs",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "150": [
@@ -6289,7 +6289,7 @@
         "km": "86,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6300,7 +6300,7 @@
         "km": "21,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6311,7 +6311,7 @@
         "km": "85,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6322,7 +6322,7 @@
         "km": "13,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6333,7 +6333,7 @@
         "km": "40,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6344,7 +6344,7 @@
         "km": "23,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6355,7 +6355,7 @@
         "km": "37,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6368,7 +6368,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "142": [
@@ -6490,7 +6490,7 @@
         "km": "120,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       },
       {
         "provincia": "San Luis",
@@ -6501,7 +6501,7 @@
         "km": "93,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "153": [
@@ -6525,7 +6525,7 @@
         "km": "38,00",
         "obs": "transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6536,7 +6536,7 @@
         "km": "20,00",
         "obs": "Transitable precaucion ZONA BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6547,7 +6547,7 @@
         "km": "42.00",
         "obs": "A Barreal, departamento Calingasta, únicamente por RN 149.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "149": [
@@ -6571,7 +6571,7 @@
         "km": "91,00",
         "obs": "Transitable, maxima PRECAUCION POR LLUVIAS Y AGUA EN CALZADA",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6582,7 +6582,7 @@
         "km": "42,00",
         "obs": "Transitable MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6593,7 +6593,7 @@
         "km": "50,00",
         "obs": "Transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6604,7 +6604,7 @@
         "km": "102,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "101": [
@@ -6713,7 +6713,7 @@
         "km": "14,94",
         "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando en el despeje. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -6722,11 +6722,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "16,53",
-        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada despejada y mojada. Pronóstico de lluvia / lloviznas intermitentes. Mantener distancias de frenado, evitar maniobras de sobrepaso. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas físicas.",
+        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada despejada y húmeda. Pronóstico de lloviznas. Mantener distancias de frenado, evitar maniobras de sobrepaso. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas físicas.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       }
     ],
     "234": [
@@ -6737,9 +6737,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "57,44",
-        "obs": "Transitable con precaución. Calzada húmeda. Llovizna. Zona con animales sueltos. Posibles desprendimientos de rocas. Equipos operando. Portacion obligatoria de cadenas.",
+        "obs": "Transitable con precaución. Calzada húmeda. Zona con animales sueltos. Posibles desprendimientos de rocas. Equipos operando. Portacion obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       }
     ],
     "237": [
@@ -6752,7 +6752,7 @@
         "km": "174,43",
         "obs": "Transitable con precaucion. Calzada despejada. Posible formación de hielo en sectores. Zona con animales sueltos. Portación obligatoria de cadenas. Equipos operando.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -6763,7 +6763,7 @@
         "km": "118,79",
         "obs": "Transitable con precaución. Calzada despejada. Posible formación de hielo en sectores. Posible caída de piedras. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -6772,9 +6772,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "67,36",
-        "obs": "Transitable con precaución. Calzada húmeda. Lluvia. Posible formación de hielo en sectores. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando en el despeje. Portación obligatoria de cadenas",
+        "obs": "Transitable con precaución. Calzada húmeda. Lloviznas. Posible formación de hielo en sectores. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando en el despeje. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       }
     ],
     "242": [
@@ -6787,7 +6787,7 @@
         "km": "51,63",
         "obs": "Transitable con precaución. Calzada húmeda. Zona con animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -6796,11 +6796,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "7,21",
-        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada mojada. Visibilidad reducida por neblina. Zona con animales sueltos. Posible caída de rocas en el km 48. Portación obligatoria de cadenas físicas. Equipos operando.",
+        "obs": "Transitable con precaución para todo tipo de vehículos a partir de las 9:00 hs. Calzada mojada. Viento. Neviscando. Zona con animales sueltos. Posible caída de rocas en el km 48. Portación obligatoria de cadenas físicas. Equipos operando.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       }
     ],
     "Vº RN 22": [
@@ -6813,7 +6813,7 @@
         "km": "6,86",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       },
       {
         "provincia": "Neuquén",
@@ -6824,7 +6824,7 @@
         "km": "23,67",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "7/10/2026 07:25"
+        "actualizado": "9/10/2026 07:45"
       }
     ],
     "23": [
@@ -6837,7 +6837,7 @@
         "km": "78,00",
         "obs": "Transitable con  Precaucion. Sectores con ondulaciones de calzada.  Circular con cinturones de seguridad colocados y luces bajas encendidas.  Se recomienda no circular en horario nocturno. Condiciones normales de transitabilidad en gran parte del recorrido.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6848,7 +6848,7 @@
         "km": "104,00",
         "obs": "Transitable con Precaucion. Tener presente que en el km 115 se encuentra el desvío de ripio en la zona del arroyo Nahuel Niyeu. Circular a baja velocidad y respetar la señalización presente en el desvío. Respetar las velocidades maximas . Se recomienda no circular en horario nocturno.  Circular con cinturones de seguridad colocados y luces bajas encendidas.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6859,7 +6859,7 @@
         "km": "89,00",
         "obs": "Transitable con Precaucion. Transitar respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda evitar circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6870,7 +6870,7 @@
         "km": "71,00",
         "obs": "Transitable con  Precaucion. Calzada en regular estado. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Portacion obligatoria de cadenas. Se recomienda evitar circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6881,7 +6881,7 @@
         "km": "69,00",
         "obs": "Transitable con precaucion. Calzada en regular estado. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda evitar circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6892,7 +6892,7 @@
         "km": "47,00",
         "obs": "Transitable con precaucion. Animales sueltos. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Portacion obligatoria de cadenas. Se recomienda evitar circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6903,7 +6903,7 @@
         "km": "41,00",
         "obs": "Transitable con  Precaucion. Sectores con serruchos. Circular a baja velocidad. Tener presente que en tramo en obra con piedras sueltas. Precaución en las transiciones de asfalto a ripio. Sectores con curvas cerradas.  Circular con cinturones de seguridad colocados y luces bajas encendidas. Portacion obligatoria de cadenas. Se recomienda evitar circular en horaro nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6914,7 +6914,7 @@
         "km": "56,00",
         "obs": "Transitable con Precaucion. Tramo con curvas cerradas. Precaución en las transiciones de asfalto a ripio. Piedras sueltas. Polvo en suspension. Sectores con curvas cerradas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Portacion obligatoria de cadenas. Se recomienda evitar circular en horaro nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6925,7 +6925,7 @@
         "km": "64,00",
         "obs": "Transitable con Precaucion. Sectores con barro . Desvíos por obras . Circular a baja velocidad. Piedras sueltas. Tramos con curvas cerradas. Precaución en las transiciones de asfalto a ripio. Sectores con serruchos. Circular con cinturones de seguridad colocados y luces bajas encendidas.Portacion obligatoria de cadenas. Se recomienda evitar circular en horaro nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "250": [
@@ -6938,7 +6938,7 @@
         "km": "112,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores.Respetar velocidades máximas y los espacios de adelantamiento. Animales sueltos. Zona de Animales salvajes. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Condiciones normales de transitabilidad en gran parte del recorrido.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6949,7 +6949,7 @@
         "km": "145,00",
         "obs": "Transitable con precaución. Calzada humeda por tramos. Circular respetando las velocidades máximas y mínimas. Animales sueltos. Zona de animales salvajes. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6960,7 +6960,7 @@
         "km": "28,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores. Circular respetando las velocidades máximas y los espacios de adelantamiento. Animales sueltos. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.Condiciones normales de transitabilidad en gran parte del recorrido.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "251": [
@@ -6973,7 +6973,7 @@
         "km": "119,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores.Respetar velocidades máximas y los espacios de adelantamiento. Precaución. Llevar luces bajas encendidas y cinturón de seguridad correctamente colocado. Respetar los espacios de adelantamiento.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       },
       {
         "provincia": "Río Negro",
@@ -6984,7 +6984,7 @@
         "km": "84,00",
         "obs": "Transitable con precaución. Calzada humeda por sectores.Circular respetando las velocidades máximas y mínimas. Respetar los espacios de adelantamiento. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno. Condiciones normales de transitabilidad en gran parte del recorrido.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "A025": [
@@ -6997,7 +6997,7 @@
         "km": "28,00",
         "obs": "Transitable con precaución. Calzada humeda por lluvias. Circular respetando las velocidades máximas . Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "A026": [
@@ -7010,7 +7010,7 @@
         "km": "8,70",
         "obs": "Transitable con precaución. Calzada humeda por lluvias. Circular respetando las velocidades máximas. Circular con cinturones de seguridad colocados y luces bajas encendidas. Se recomienda no circular en horario nocturno.",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "50": [
@@ -7023,7 +7023,7 @@
         "km": "28,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -7036,7 +7036,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       }
     ],
     "51": [
@@ -7049,7 +7049,7 @@
         "km": "22,00",
         "obs": "Transito con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -7060,7 +7060,7 @@
         "km": "134,00",
         "obs": "Tránsito con precaución",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -7073,7 +7073,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       }
     ],
     "68": [
@@ -7086,7 +7086,7 @@
         "km": "94,50",
         "obs": "Tránsito con precaución por crecida de arroyos altura La Yasera (km 28). Máquinas trabajando en lugar. Evitar cruce de rios y arroyos crecidos. Atender indicaciones del personal vial.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       },
       {
         "provincia": "Salta",
@@ -7097,7 +7097,7 @@
         "km": "61,40",
         "obs": "Transitar con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:30"
+        "actualizado": "9/10/2026 08:30"
       }
     ],
     "A014": [
@@ -7110,7 +7110,7 @@
         "km": "15,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "7/10/2026 07:00"
+        "actualizado": "9/10/2026 07:00"
       }
     ],
     "147": [
@@ -7123,7 +7123,7 @@
         "km": "118,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "V146": [
@@ -7136,7 +7136,7 @@
         "km": "9,87",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:45"
+        "actualizado": "9/10/2026 09:45"
       }
     ],
     "281": [
@@ -7149,7 +7149,7 @@
         "km": "125,00",
         "obs": "Transitable con precaución solo para 4x4. Barro sobre la calzada .  Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "288": [
@@ -7162,7 +7162,7 @@
         "km": "41,00",
         "obs": "Transitable con  precaución. Calzada deformada.Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -7173,7 +7173,7 @@
         "km": "77,40",
         "obs": "Transitable con  precaución. Calzada deformada.Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -7182,9 +7182,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "144,00",
-        "obs": "Transitable solo para 4x4. Animales sueltos.",
+        "obs": "Transitable con precaución.  Calzada con huellones. Animales sueltos.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "293": [
@@ -7197,7 +7197,7 @@
         "km": "9,94",
         "obs": "Transitable con precaución. Sectores con barro y huellones .Banquinas inestables. Animales sueltos.  Equipos trabajando.",
         "iconos": [],
-        "actualizado": "6/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "98": [
@@ -7210,7 +7210,7 @@
         "km": "155,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7221,7 +7221,7 @@
         "km": "70,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santiago del Estero",
@@ -7256,7 +7256,7 @@
         "km": "17,00",
         "obs": "Precaución corte de pasto en banquinas y zona de camino - bacheo de transitabilidad - mantenimiento general",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "173": [
@@ -7269,7 +7269,7 @@
         "km": "5,68",
         "obs": "ALERTA: (INTRANSITABLE DÍAS DE LLUVIA E INMEDIATOS POSTERIORES)",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "175": [
@@ -7282,7 +7282,7 @@
         "km": "3,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "178": [
@@ -7295,7 +7295,7 @@
         "km": "69,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7306,7 +7306,7 @@
         "km": "30,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7317,7 +7317,7 @@
         "km": "58,00",
         "obs": "Trabajos de mantenimiento - TRABAJOS DE BACHEO: Tareas sobre calzada con reparaciones entre Villa Eloísa y RN 9 y entre RN 9 y Las Rosas. Reducciones de carril durante las intevenciones, con paso alternado. Circulación con precaución por calzada en reparación en el tramo Acceso Villa Eloísa - RN 1V09. Entre Villa Eloísa (Km 146) y Las Rosas (Km 205) la velocidad máxima recomendada por tareas de reparación de la ruta es de 80 KM/H en los tramos no urbanizados.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "1v09": [
@@ -7330,7 +7330,7 @@
         "km": "16,00",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7341,7 +7341,7 @@
         "km": "69,00",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7352,7 +7352,7 @@
         "km": "22,50",
         "obs": "Precaución trabajos de mantenimiento general - posibles reducciones de carril puntuales por tareas en calzada",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A007": [
@@ -7365,7 +7365,7 @@
         "km": "4,50",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7376,7 +7376,7 @@
         "km": "2,70",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A008": [
@@ -7389,7 +7389,7 @@
         "km": "21,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7400,7 +7400,7 @@
         "km": "8,19",
         "obs": "",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A009": [
@@ -7413,7 +7413,7 @@
         "km": "12,00",
         "obs": "Trabajos de mantenimiento",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "A012": [
@@ -7426,7 +7426,7 @@
         "km": "42,00",
         "obs": "Se realizan trabajos de reparación de calzada en el intercambiador de la RN AO12 y la Autopista Rosario–Buenos Aires. Durante las tareas se efectuarán cortes progresivos en distintos sectores, de acuerdo con el avance de la obra. Los puestos estarán señalizados con banderilleros de la empresa y cartelería indicativa. Se recomienda prever demoras en la circulación y respetar las indicaciones del personal vial que trabaja en el lugar.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       },
       {
         "provincia": "Santa Fe",
@@ -7437,7 +7437,7 @@
         "km": "25,00",
         "obs": "Corte total en la intersección con RN 34 por mantenimiento vial entre Ricardone y Roldán. Desvíos: -Vecinos del barrio al norte de A012, acceso por el camino alternativo paralelo a la A012 (sólo vehículos livianos). -Vecinos del barrio al sur de A012, ingreso y egreso por la banquina habilitada sobre la A012 (solo vehículos livianos). Para el tránsito pesado, solo podrá acceder al Parque Industrial de Roldán por A012 y RN1 V 09. Se prohíbe la circulación de camiones en la A012 entre RN1 V 09 y RN 34 (excepto los que se dirigen al Parque Industrial de Roldán). El tránsito liviano podrá circular desde la RN1V 09 hasta el final del Parque Industrial de Roldán.",
         "iconos": [],
-        "actualizado": "7/10/2026 09:00"
+        "actualizado": "9/10/2026 09:00"
       }
     ],
     "Compl A": [
@@ -7448,9 +7448,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "66,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Mojada con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Requisitos particulares: Preferentemente pick-up / vehículos 4x4. Personal y equipos trabajando en: perfilado de calzada. - Maquinas Trabajando -",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Requisitos particulares: Preferentemente pick-up / vehículos 4x4.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "Compl B": [
@@ -7461,11 +7461,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "70,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Mojada con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno.",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "Compl I": [
@@ -7476,9 +7476,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "11,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Mojada con sectores poceados. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: Presencia de baches y sectores de ripio. (Velocidad Máx 40 km/hs)",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores poceados. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Personal y equipos trabajando en: bacheo con mezcla asfáltica en caliente. - (ATENCION: Tarea con transito dirigido) Observaciones: Presencia de baches y sectores de ripio. (Velocidad Máx 40 km/hs)",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "Compl J": [
@@ -7489,9 +7489,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "91,00",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Mojada con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno.",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores con barro y huellones. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar c/extrema precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno.",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "Compl K": [
@@ -7502,9 +7502,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "",
-        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Mojada con sectores poceados. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: En zona urbana (Velocidad Máx 40 km/hs)",
+        "obs": "Estado del camino: Habilitado al transito con precaución.Visibilidad: Moderada. Condición de la calzada: Húmeda con sectores poceados. Estado de la banquina: Identica condición que la calzada. Clima: Sin alertas. Recomendaciones: Transitar con precaución. Requisitos generales: Vehículos pesados: portación obligatoria de cadenas. Vehículos livianos: Recomendación uso de cubiertas de invierno. Observaciones: En zona urbana (Velocidad Máx 40 km/hs)",
         "iconos": [],
-        "actualizado": "7/10/2026 08:00"
+        "actualizado": "9/10/2026 08:00"
       }
     ],
     "Región XII - Chile": [
@@ -7554,7 +7554,7 @@
         "km": "3,00",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "65": [
@@ -7567,7 +7567,7 @@
         "km": "18,33",
         "obs": "Transitable.  Personal vial realiza la colocación de señales verticales.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7578,7 +7578,7 @@
         "km": "21,67",
         "obs": "Transitable con precaución, equipos viales trabajan en el perfilado  de la calzada.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7589,7 +7589,7 @@
         "km": "7,10",
         "obs": "Transitable con precaución. Desmalezamiento con equipo de la zona de camino.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "1V38": [
@@ -7602,7 +7602,7 @@
         "km": "21,00",
         "obs": "Transitable con Precaución.    Personal vial realiza el desmalezamiento de barandas con equipo articulado.  /// Rama de acceso a J.B. Alberdi  por camino vecinal Cerrrado.   El ingreso y egreso a la ruta nacional 1V38 desde Alberdi, deberá realizarse a través del distribuidor ubicado en la RN 38 km 703.23 (en proximidades del río Marapa).",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7613,7 +7613,7 @@
         "km": "6,00",
         "obs": "Transitable con precaución.  Personal vial realiza desmalezamiento con equipos de barandas.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7624,7 +7624,7 @@
         "km": "24,00",
         "obs": "Transitable con precaución.   Personal vial realiza el desmalezamiento manual de barandas.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7635,7 +7635,7 @@
         "km": "19,00",
         "obs": "Transitable con preacución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "A016": [
@@ -7648,7 +7648,7 @@
         "km": "2,07",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7659,7 +7659,7 @@
         "km": "4,68",
         "obs": "Transitable.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "4V09": [
@@ -7672,7 +7672,7 @@
         "km": "",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "Ex 34": [
@@ -7685,7 +7685,7 @@
         "km": "39,00",
         "obs": "Transitable con precaución, personal vial realiza la limpieza y desmonte de la zona de camino.  ///  Perfilado de calzada en todo tramo.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       },
       {
         "provincia": "Tucumán",
@@ -7696,7 +7696,7 @@
         "km": "28,00",
         "obs": "Transitable.  Equipos y personal vial realiza tareas de llimpieza y desmonte con equipos de la zona de caminos.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ],
     "Ex 9": [
@@ -7709,7 +7709,7 @@
         "km": "1,3",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "7/10/2026 10:00"
+        "actualizado": "9/10/2026 07:50"
       }
     ]
   }
