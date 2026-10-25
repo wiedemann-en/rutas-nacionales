@@ -1,12 +1,12 @@
 {
   "metadata": {
     "fuente": "https://www.argentina.gob.ar/transporte/vialidad-nacional/estado-de-rutas",
-    "fecha_scrape": "2026-10-23T14:09:55.598798",
+    "fecha_scrape": "2026-10-25T13:39:22.389938",
     "total_rutas": 134,
     "total_tramos": 663,
-    "transitables": 647,
-    "precaucion": 6,
-    "cortadas": 7,
+    "transitables": 649,
+    "precaucion": 5,
+    "cortadas": 6,
     "sin_estado": 3
   },
   "rutas": {
@@ -220,9 +220,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "92,82",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas. Animales sueltos. Equipos viales trabajando. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -231,9 +231,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "62,87",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas, con barro en sectores. Respetar señalamiento. Animales sueltos. Equipos viales trabajando en repavimentación de calzada, en el acceso norte a Trelew. Desvío habilitado. Respetar señalamiento. Viento. Transitar con precaución.",
+        "obs": "Calzada normal. Banquinas húmedas, con barro en sectores. Respetar señalamiento. Animales sueltos. Equipos viales trabajando en repavimentación de calzada, en el acceso norte a Trelew. Desvío habilitado. Respetar señalamiento. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -242,9 +242,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "198,00",
-        "obs": "Calzada húmeda, mojada por lluvia. Banquinas inestables, con agua y barro. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Neblina. Transitar con precaución.",
+        "obs": "Calzada normal, húmeda en sectores. Banquinas inestables, con barro. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -253,9 +253,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "178,00",
-        "obs": "Calzada húmeda, mojada por lluvia en sectores. Baches sobre calzada en sectores entre Malaspina y Salamanca. Banquinas inestables, con barro y agua en sectores. Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Lloviznas. Neblina. Transitar con precaución.",
+        "obs": "Calzada húmeda en sectores. Baches sobre calzada en sectores entre Malaspina y Salamanca. Banquinas inestables, con barro y agua en sectores. Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -264,9 +264,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "17,31",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas, con barro en sectores. Equipos al servicio de Vialidad Nacional trabajando en zona urbana de Comodoro Rivadavia. Desvío por obras en Ramón Santos. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas, con barro en sectores. Equipos al servicio de Vialidad Nacional trabajando en zona urbana de Comodoro Rivadavia. Desvío por obras en Ramón Santos. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Río Negro",
@@ -1491,7 +1491,7 @@
         "km": "13,20",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1502,7 +1502,7 @@
         "km": "17,50",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1515,18 +1515,18 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
         "tramo": "Santa Ana - Eldorado",
-        "estado": "precaucion",
-        "estado_raw": "CORTE PARCIAL",
+        "estado": "transitable",
+        "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "161,00",
-        "obs": "Tras constatar la baja del nivel del agua y realizar las evaluaciones técnicas y de seguridad pertinentes, se habilita el tránsito sobre los puentes de los arroyos Paranay Guazú (km 1.502, El Alcázar) y Piray Guazú (puente \"Banana\", km 1.533, entre Puerto Piray y Eldorado) bajo las siguientes condiciones: Solo vehículos livianos y camiones de hasta 20 toneladas. Cruce de a un vehículo por vez.  Camiones de más de 20 t: deben continuar por el desvío. En El Alcázar tomar la RP 11 hasta la RN 14, seguir hasta San Pedro y desde allí la RP 20 hasta la RP 17, que llega a Eldorado. En sentido norte–sur, recorrido inverso saliendo por avenida Los Fundadores de Eldorado. Circular con precaución, esperar el turno de cruce, no sobrepasar en la zona de los puentes y respetar las indicaciones del personal en el lugar.",
+        "obs": "Circular con precuación. Presencia de agua sobre calzada",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1539,7 +1539,7 @@
         "iconos": [
           "Tarifa del peaje"
         ],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1550,7 +1550,7 @@
         "km": "14,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1563,7 +1563,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -1576,7 +1576,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       }
     ],
     "22": [
@@ -1633,7 +1633,7 @@
         "km": "23,52",
         "obs": "Transitable con precaución. Calzada mojada. Tránsito intenso",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -1644,7 +1644,7 @@
         "km": "136,40",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Río Negro",
@@ -2684,7 +2684,7 @@
         "km": "37,30",
         "obs": "Calzada normal. Calzada con baches y deformaciones en sectores. Banquinas inestables. Equipos viales trabajando. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2695,7 +2695,7 @@
         "km": "53,40",
         "obs": "Calzada normal. Calzada con deformaciones y baches en sectores. Banquinas inestables. Equipos viales trabajando. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2706,7 +2706,7 @@
         "km": "178,00",
         "obs": "Calzada normal, deformada en sectores. Banquinas húmedas. Entre Facundo-Tamariscos calzada con deformaciones. Precaución en ese tramo. Equipos viales trabajando. Desvío de ripio con humedad en sectores, con extrema precaución entre Facundo y Tamarisco. Transitar a 60 km/h. Respetar señalamiento. Animales sueltos. Viento. Precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2717,7 +2717,7 @@
         "km": "83,70",
         "obs": "Calzada normal, deformada en tramos. Calzada con baches en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2728,7 +2728,7 @@
         "km": "84,40",
         "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2737,9 +2737,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "105,00",
-        "obs": "Calzada húmeda, deformada en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas, con barro en sectores. Animales sueltos. Sectores con deformaciones entre Leleque y arroyo Madera. Bache sobre el puente del arroyo Lepá, en kilómetro 1813. Está señalizado. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -2748,9 +2748,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "47,30",
-        "obs": "Calzada húmeda. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Jujuy",
@@ -2937,7 +2937,7 @@
         "km": "68,46",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Visibilidad muy reducida por niebla. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -2948,7 +2948,7 @@
         "km": "43,77",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -2959,7 +2959,7 @@
         "km": "43,16",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -2970,7 +2970,7 @@
         "km": "66,01",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -2981,7 +2981,7 @@
         "km": "35,45",
         "obs": "Transitable con extrema precaución. Calzada mojada. Lluvia. Sectores con erosiones por las precipitaciones. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -2992,7 +2992,7 @@
         "km": "120,32",
         "obs": "Transitable con extrema precaución. Calzada erosionada en sectores, con sedimentos. Lluvia. Animales sueltos.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -3003,7 +3003,7 @@
         "km": "49,01",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -3014,7 +3014,7 @@
         "km": "142,27",
         "obs": "Transitable con extrema precaución. Calzada mojada, sectores con sedimentos. Visibilidad reducida por niebla espesa. Lloviznas. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -3025,7 +3025,7 @@
         "km": "116,21",
         "obs": "Transitable con extrema precaución. Calzada mojada, sectores con sedimentos. Visibilidad reducida por niebla espesa. Lloviznas. Tránsitar a velocidad precautoria. Personal y equipos operando. Animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Río Negro",
@@ -3146,7 +3146,7 @@
         "km": "33,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3157,7 +3157,7 @@
         "km": "51,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3168,7 +3168,7 @@
         "km": "16,00",
         "obs": "Transitable MAXIMA PRECAUCIONE NE ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3179,7 +3179,7 @@
         "km": "35,00",
         "obs": "Transitable, MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3190,7 +3190,7 @@
         "km": "57,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3201,7 +3201,7 @@
         "km": "34,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3212,7 +3212,7 @@
         "km": "40,00",
         "obs": "Transitable MAXIMA PRECAUCION",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3223,7 +3223,7 @@
         "km": "62,00",
         "obs": "Transitable, maxima PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -4149,9 +4149,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "205,00",
-        "obs": "Calzada húmeda, deformada en sectores. Banquinas inestables, con barro. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas, con barro. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4160,9 +4160,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "103,00",
-        "obs": "Calzada húmeda, deformada en sectores. Banquinas inestables, con barro en sectores. Desvío de ripio con barro y agua en el km 259 - 261 (Circular a baja velocidad en el desvío. Máxima 40 km/h). Equipos de Vialidad Nacional trabajando en km 204. Animales sueltos. Viento. Transitar con precaución",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas, con barro en sectores. Desvío de ripio con barro y agua en el km 259 - 261 (Circular a baja velocidad en el desvío. Máxima 40 km/h). Equipos de Vialidad Nacional trabajando. Animales sueltos. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4171,9 +4171,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "57,00",
-        "obs": "Calzada húmeda. Calzada con deformaciones y baches en sectores. Banquinas inestables con barro. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal. Calzada con deformaciones y baches en sectores. Banquinas inestables con barro. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4182,9 +4182,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "164,00",
-        "obs": "Calzada húmeda. Calzada con deformaciones y baches en sectores. Banquinas inestables. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, húmeda en sectores. Calzada con deformaciones y baches en sectores. Banquinas húmedas con barro en sectores. Equipos de Vialidad Nacional trabajando. Respetar señalamiento. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       }
     ],
     "26": [
@@ -4197,7 +4197,7 @@
         "km": "138,00",
         "obs": "Calzada normal, húmeda en sectores. Banquinas inestables, con barro en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4208,7 +4208,7 @@
         "km": "72,70",
         "obs": "Calzada normal. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       }
     ],
     "259": [
@@ -4219,9 +4219,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "13,60",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4230,9 +4230,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "21,63",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
+        "obs": "Calzada normal, deformada en sectores. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4241,11 +4241,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "39,95",
-        "obs": "Calzada húmeda. Banquinas húmedas. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada húmeda. Banquinas húmedas. Respetar señalamiento. Animales sueltos. Maquinaria de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       }
     ],
     "260": [
@@ -4260,7 +4260,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       }
     ],
     "1S40": [
@@ -4271,9 +4271,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "7,00",
-        "obs": "Calzada húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada húmeda en sectores. Banquinas húmedas en sectores. Animales sueltos. Equipos de Vialidad Nacional trabajando. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4282,9 +4282,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "12,20",
-        "obs": "Calzada normal, húmeda en sectores. Banquinas húmedas. Animales sueltos. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada normal. Banquinas húmedas. Animales sueltos. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Chubut",
@@ -4293,9 +4293,9 @@
         "estado_raw": "HABILITADA",
         "calzada": "RIPIO",
         "km": "19,60",
-        "obs": "Calzada húmeda. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Lloviznas aisladas. Transitar con precaución.",
+        "obs": "Calzada húmeda. Banquinas húmedas. Animales sueltos. Equipos de Vialidad Nacional trabajando en mantenimiento de calzada. Viento. Transitar con precaución.",
         "iconos": [],
-        "actualizado": "23/10/2026 09:00"
+        "actualizado": "24/10/2026 13:00"
       },
       {
         "provincia": "Río Negro",
@@ -4422,7 +4422,7 @@
         "km": "7,30",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4433,18 +4433,18 @@
         "km": "77,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
         "tramo": "Oberá - Campo Grande",
-        "estado": "cortada",
-        "estado_raw": "CORTE TOTAL",
+        "estado": "transitable",
+        "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "40,00",
-        "obs": "Tránsito cortado por obra en alcantarilla. Los vehículos se desvían por calles del ejido urbano. Transitar con precaución.",
+        "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4455,7 +4455,7 @@
         "km": "61,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4466,7 +4466,7 @@
         "km": "74,60",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4477,7 +4477,7 @@
         "km": "35,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4488,7 +4488,7 @@
         "km": "21,50",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -4499,7 +4499,7 @@
         "km": "11,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       }
     ],
     "117": [
@@ -4861,7 +4861,7 @@
         "km": "56,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4872,7 +4872,7 @@
         "km": "60,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4883,7 +4883,7 @@
         "km": "26,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4894,7 +4894,7 @@
         "km": "22,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4905,7 +4905,7 @@
         "km": "4,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -6276,7 +6276,7 @@
         "km": "58,00",
         "obs": "Habilitada solo de 7 a 19hs",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       }
     ],
     "150": [
@@ -6300,7 +6300,7 @@
         "km": "21,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6311,7 +6311,7 @@
         "km": "85,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6322,7 +6322,7 @@
         "km": "13,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6333,7 +6333,7 @@
         "km": "40,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6344,7 +6344,7 @@
         "km": "23,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6355,7 +6355,7 @@
         "km": "37,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6368,7 +6368,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       }
     ],
     "142": [
@@ -6525,7 +6525,7 @@
         "km": "38,00",
         "obs": "transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6536,7 +6536,7 @@
         "km": "20,00",
         "obs": "Transitable precaucion ZONA BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6547,7 +6547,7 @@
         "km": "42.00",
         "obs": "A Barreal, departamento Calingasta, únicamente por RN 149.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       }
     ],
     "149": [
@@ -6571,7 +6571,7 @@
         "km": "91,00",
         "obs": "Transitable, maxima PRECAUCION POR LLUVIAS Y AGUA EN CALZADA",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6582,7 +6582,7 @@
         "km": "42,00",
         "obs": "Transitable MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6593,7 +6593,7 @@
         "km": "50,00",
         "obs": "Transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6604,7 +6604,7 @@
         "km": "102,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       }
     ],
     "101": [
@@ -6617,7 +6617,7 @@
         "km": "32,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -6628,7 +6628,7 @@
         "km": "27,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -6639,7 +6639,7 @@
         "km": "29,70",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -6650,7 +6650,7 @@
         "km": "11,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -6661,7 +6661,7 @@
         "km": "32,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       },
       {
         "provincia": "Misiones",
@@ -6672,7 +6672,7 @@
         "km": "6,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       }
     ],
     "105": [
@@ -6685,7 +6685,7 @@
         "km": "35,00",
         "obs": "",
         "iconos": [],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       }
     ],
     "S/N": [
@@ -6700,7 +6700,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "16/10/2026 09:00"
+        "actualizado": "23/10/2026 09:00"
       }
     ],
     "231": [
@@ -6713,7 +6713,7 @@
         "km": "14,94",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -6722,11 +6722,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "16,53",
-        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada despejada y mojads. Nublado. Pronóstico de lluvia /aguanieve. Mantener distancias de frenado, evitar maniobras de sobrepaso. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas físicas.",
+        "obs": "Transitable con precaución para todo tipo de vehículos. Calzada despejada y húmeda. Pronóstico de lluvias débiles para la tarde. Mantener distancias de frenado, evitar maniobras de sobrepaso. Personal y equipos de Vialidad Nacional operando. Portación obligatoria de cadenas físicas.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "22/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       }
     ],
     "234": [
@@ -6739,7 +6739,7 @@
         "km": "57,44",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Zona con animales sueltos. Posibles desprendimientos de rocas. Equipos operando. Portacion obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       }
     ],
     "237": [
@@ -6752,7 +6752,7 @@
         "km": "174,43",
         "obs": "Transitable con precaucion. Calzada mojada. Lluvia.  Zona con animales sueltos. Portación obligatoria de cadenas. Equipos operando.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -6763,7 +6763,7 @@
         "km": "118,79",
         "obs": "Transitable con extrema precaución. Calzada mojada, lluvia. Sectores con erosiones por las precipitaciones. Posible caída de piedras. Zona con animales sueltos. Equipos operando. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -6774,7 +6774,7 @@
         "km": "67,36",
         "obs": "Transitable con precaución. Calzada mojada. Lluvia. Visibilidad muy reducida por niebla. Posible caída de piedras. Zona con animales sueltos. Personal y equipos operando en el despeje. Portación obligatoria de cadenas",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       }
     ],
     "242": [
@@ -6787,7 +6787,7 @@
         "km": "51,63",
         "obs": "Transitable con precaución. Calzada mojada. Zona con animales sueltos. Portación obligatoria de cadenas.",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -6796,11 +6796,11 @@
         "estado_raw": "HABILITADA",
         "calzada": "PAVIMENTO",
         "km": "7,21",
-        "obs": "Transitable con precaución para todo tipo de vehículos a partir de las 9:30 hs. Calzada mojada. Cielo cubierto, inestable. Zona con animales sueltos. Posible caída de rocas en el km 48. Portación obligatoria de cadenas físicas. Equipos operando.",
+        "obs": "Transitable con precaución para todo tipo de vehículos.Calzada mojada, sectores con hielo. Zona con animales sueltos. Posible caída de rocas en el km 48. Portación obligatoria de cadenas físicas. Equipos operando.",
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "23/10/2026 09:20"
+        "actualizado": "24/10/2026 07:20"
       }
     ],
     "Vº RN 22": [
@@ -6813,7 +6813,7 @@
         "km": "6,86",
         "obs": "Transitable con precaución. Calzada mojada. Tránsito intenso",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       },
       {
         "provincia": "Neuquén",
@@ -6824,7 +6824,7 @@
         "km": "23,67",
         "obs": "Transitable con precaución. Calzada mojada. Tránsito intenso",
         "iconos": [],
-        "actualizado": "23/10/2026 07:20"
+        "actualizado": "24/10/2026 07:20"
       }
     ],
     "23": [
@@ -7110,7 +7110,7 @@
         "km": "15,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "23/10/2026 07:00"
+        "actualizado": "25/10/2026 07:00"
       }
     ],
     "147": [
