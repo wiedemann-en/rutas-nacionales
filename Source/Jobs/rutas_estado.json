@@ -1,7 +1,7 @@
 {
   "metadata": {
     "fuente": "https://www.argentina.gob.ar/transporte/vialidad-nacional/estado-de-rutas",
-    "fecha_scrape": "2026-11-13T17:02:47.265656",
+    "fecha_scrape": "2026-11-15T16:10:27.777164",
     "total_rutas": 134,
     "total_tramos": 663,
     "transitables": 645,
@@ -1633,7 +1633,7 @@
         "km": "23,52",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -1644,7 +1644,7 @@
         "km": "136,40",
         "obs": "Transitable con precaución. Calzada normal. Tránsitar a velocidad precautoria. Animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Río Negro",
@@ -2506,7 +2506,7 @@
         "km": "77,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2517,7 +2517,7 @@
         "km": "67,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2528,7 +2528,7 @@
         "km": "67,00",
         "obs": "Transitable con precaución. LA RIOJA - TALAMUYUNA. Personal se encuentra realizando tareas de corte de pasto y maleza con tractor.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2539,7 +2539,7 @@
         "km": "5,00",
         "obs": "Transitable con precaución. ZONA URBANA. Personal se encuentra realizando limpieza de alcantarillas.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2550,7 +2550,7 @@
         "km": "84,00",
         "obs": "Transitable con precaución. CEBOLLAR -  LTE CATAMARCA. Personal se encuentra realizando tareas de bacheo en zonas deterioradas.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "Tucumán",
@@ -2772,7 +2772,7 @@
         "km": "53,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -2783,7 +2783,7 @@
         "km": "49,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 12:30"
+        "actualizado": "13/11/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2794,7 +2794,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 12:30"
+        "actualizado": "13/11/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2805,7 +2805,7 @@
         "km": "24,00",
         "obs": "Transitable con precaución. NONOGASTA - CHILECITO. Personal se encuentra realizando tareas de acondicionamiento de new jersey (barreras de hormigón).",
         "iconos": [],
-        "actualizado": "12/11/2026 12:30"
+        "actualizado": "13/11/2026 12:30"
       },
       {
         "provincia": "La Rioja",
@@ -2816,7 +2816,7 @@
         "km": "163,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "Mendoza",
@@ -2937,7 +2937,7 @@
         "km": "68,46",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2948,7 +2948,7 @@
         "km": "43,77",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2959,7 +2959,7 @@
         "km": "43,16",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2970,7 +2970,7 @@
         "km": "66,01",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2981,7 +2981,7 @@
         "km": "35,45",
         "obs": "Transitable con extrema precaución. Calzada despejada. Sectores con erosiones. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -2992,7 +2992,7 @@
         "km": "120,32",
         "obs": "Transitable con extrema precaución. Calzada despejada. Sectores con erosiones. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -3003,7 +3003,7 @@
         "km": "49,01",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -3014,7 +3014,7 @@
         "km": "142,27",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -3025,7 +3025,7 @@
         "km": "116,21",
         "obs": "Transitable con precaución. Calzada despejada. Tránsitar a velocidad precautoria. Animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Río Negro",
@@ -3146,7 +3146,7 @@
         "km": "33,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3157,7 +3157,7 @@
         "km": "51,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3168,7 +3168,7 @@
         "km": "16,00",
         "obs": "Transitable MAXIMA PRECAUCIONE NE ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3179,7 +3179,7 @@
         "km": "35,00",
         "obs": "Transitable, MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3190,7 +3190,7 @@
         "km": "57,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3201,7 +3201,7 @@
         "km": "34,00",
         "obs": "Transitable,MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3212,7 +3212,7 @@
         "km": "40,00",
         "obs": "Transitable MAXIMA PRECAUCION",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -3223,7 +3223,7 @@
         "km": "62,00",
         "obs": "Transitable, maxima PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "Santa Cruz",
@@ -3634,7 +3634,7 @@
         "km": "31,00",
         "obs": "Transitable con precaución",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -3645,7 +3645,7 @@
         "km": "45,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "64": [
@@ -4861,7 +4861,7 @@
         "km": "56,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4872,7 +4872,7 @@
         "km": "60,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4883,7 +4883,7 @@
         "km": "26,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4894,7 +4894,7 @@
         "km": "22,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -4905,7 +4905,7 @@
         "km": "4,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -5963,7 +5963,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -5974,7 +5974,7 @@
         "km": "8,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "74": [
@@ -5987,7 +5987,7 @@
         "km": "33,00",
         "obs": "Transitable con precaución. LOS COLORADOS. Personal de señalamiento se encuentra armando y colocando señales verticales.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -5998,7 +5998,7 @@
         "km": "80,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "75": [
@@ -6011,7 +6011,7 @@
         "km": "18,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6022,7 +6022,7 @@
         "km": "14,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6033,7 +6033,7 @@
         "km": "15,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6044,7 +6044,7 @@
         "km": "41,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6055,7 +6055,7 @@
         "km": "35,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "76": [
@@ -6068,7 +6068,7 @@
         "km": "58,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6079,7 +6079,7 @@
         "km": "29,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6090,7 +6090,7 @@
         "km": "25,00",
         "obs": "Transitable con precaución. Personal de conservación se encuentra realizando aporte de material R.A.P en sectores deteriorados.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6101,7 +6101,7 @@
         "km": "68,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6112,7 +6112,7 @@
         "km": "30,00",
         "obs": "Transitable con precaución. VINCHINA-LAS CHACRITAS. Personal se encuntra realizando tareas de limpieza, perfilado de camino y relleno de erosiones.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6123,7 +6123,7 @@
         "km": "35,00",
         "obs": "Transitable con precaución. VINCHINA-LAS CHACRITAS. Personal se encuntra realizando tareas de limpieza, perfilado de camino y relleno de erosiones.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6134,7 +6134,7 @@
         "km": "88,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6147,7 +6147,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "77": [
@@ -6160,7 +6160,7 @@
         "km": "77,00",
         "obs": "Transitrable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "78": [
@@ -6173,7 +6173,7 @@
         "km": "9,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6184,7 +6184,7 @@
         "km": "49,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6195,7 +6195,7 @@
         "km": "20,00",
         "obs": "Transitable con maxima precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       }
     ],
     "79": [
@@ -6208,7 +6208,7 @@
         "km": "85,00",
         "obs": "Transitable con maxima precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6219,7 +6219,7 @@
         "km": "45,00",
         "obs": "Transitable con precaución. CATUNA-CHAMICAL. Personal se encuentra realizando tareas de corte de pasto y maleza con tractor.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6230,7 +6230,7 @@
         "km": "72,00",
         "obs": "Transitable con precaución. CATUNA-OLTA. Personal se encuentra realizando tareas de desmalezado manual.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "La Rioja",
@@ -6241,7 +6241,7 @@
         "km": "126,00",
         "obs": "Transitrable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "San Luis",
@@ -6265,7 +6265,7 @@
         "km": "80,00",
         "obs": "Transitable con precaución. CHEPES - CASCASIN. Personal se encuentra realizando tareas de aporte de material R.A.P en sectores deteriorados.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6276,7 +6276,7 @@
         "km": "58,00",
         "obs": "Habilitada solo de 7 a 19hs",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       }
     ],
     "150": [
@@ -6289,7 +6289,7 @@
         "km": "86,00",
         "obs": "Transitable con precaución.",
         "iconos": [],
-        "actualizado": "12/11/2026 07:00"
+        "actualizado": "13/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6300,7 +6300,7 @@
         "km": "21,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6311,7 +6311,7 @@
         "km": "85,00",
         "obs": "transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6322,7 +6322,7 @@
         "km": "13,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6333,7 +6333,7 @@
         "km": "40,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6344,7 +6344,7 @@
         "km": "23,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6355,7 +6355,7 @@
         "km": "37,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6368,7 +6368,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       }
     ],
     "142": [
@@ -6525,7 +6525,7 @@
         "km": "38,00",
         "obs": "transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6536,7 +6536,7 @@
         "km": "20,00",
         "obs": "Transitable precaucion ZONA BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6547,7 +6547,7 @@
         "km": "42.00",
         "obs": "A Barreal, departamento Calingasta, únicamente por RN 149.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       }
     ],
     "149": [
@@ -6571,7 +6571,7 @@
         "km": "91,00",
         "obs": "Transitable, maxima PRECAUCION POR LLUVIAS Y AGUA EN CALZADA",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6582,7 +6582,7 @@
         "km": "42,00",
         "obs": "Transitable MAXIMA PRECAUCION EN ZONA DE BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6593,7 +6593,7 @@
         "km": "50,00",
         "obs": "Transitable PRECAUCION ZONA BADENES",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       },
       {
         "provincia": "San Juan",
@@ -6604,7 +6604,7 @@
         "km": "102,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       }
     ],
     "101": [
@@ -6713,7 +6713,7 @@
         "km": "14,94",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -6726,7 +6726,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       }
     ],
     "234": [
@@ -6739,7 +6739,7 @@
         "km": "57,44",
         "obs": "Transitable con precaución. Calzada despejada. Zona con animales sueltos. Posibles desprendimientos de rocas.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       }
     ],
     "237": [
@@ -6752,7 +6752,7 @@
         "km": "174,43",
         "obs": "Transitable con precaucion. Calzada despejada.  Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -6763,7 +6763,7 @@
         "km": "118,79",
         "obs": "Transitable con precaución. Calzada despejada. Sectores con erosiones entre el km 1481 y 1495 Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -6774,7 +6774,7 @@
         "km": "67,36",
         "obs": "Transitable con precaución. Calzada despejada. Posible caída de piedras. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       }
     ],
     "242": [
@@ -6787,7 +6787,7 @@
         "km": "51,63",
         "obs": "Transitable con precaución. Calzada húmeda. Zona con animales sueltos.",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -6800,7 +6800,7 @@
         "iconos": [
           "Estado del paso internacional"
         ],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       }
     ],
     "Vº RN 22": [
@@ -6813,7 +6813,7 @@
         "km": "6,86",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       },
       {
         "provincia": "Neuquén",
@@ -6824,7 +6824,7 @@
         "km": "23,67",
         "obs": "Transitable con precaución. Calzada normal. Tránsito intenso",
         "iconos": [],
-        "actualizado": "13/11/2026 07:30"
+        "actualizado": "15/11/2026 07:30"
       }
     ],
     "23": [
@@ -7110,7 +7110,7 @@
         "km": "15,00",
         "obs": "Transitable",
         "iconos": [],
-        "actualizado": "13/11/2026 07:00"
+        "actualizado": "15/11/2026 07:00"
       }
     ],
     "147": [
